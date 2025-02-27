@@ -1,0 +1,256 @@
+:root {
+  --primary-green: #16a34a;
+  --primary-green-dark: #15803d;
+  --primary-green-light: #dcfce7;
+  --text-dark: #333333;
+  --text-gray: #666666;
+  --white: #ffffff;
+  --gray-light: #f9fafb;
+  --gray-medium: #e5e7eb;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: var(--text-dark);
+  background-color: var(--white);
+  line-height: 1.6;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+nav {
+  background-color: var(--primary-green);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.nav-logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.nav-links a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: var(--primary-green-light);
+}
+
+.mobile-menu-button {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--white);
+  cursor: pointer;
+}
+
+main {
+  min-height: calc(100vh - 64px - 80px); 
+  padding: 2rem 0;
+}
+
+.hero-section {
+  max-width: 48rem;
+  margin: 0 auto 3rem;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.hero-section h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--text-dark);
+}
+
+.hero-section p {
+  font-size: 1.125rem;
+  color: var(--text-gray);
+}
+
+.recipe-section {
+  margin-bottom: 4rem;
+}
+
+.recipe-section h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--text-dark);
+}
+
+.carousel-container {
+  position: relative;
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.carousel-nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background-color: var(--primary-green);
+  color: var(--white);
+  border: none;
+  border-radius: 50%;
+  padding: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.carousel-nav-button:hover {
+  background-color: var(--primary-green-dark);
+}
+
+.carousel-nav-button.prev {
+  left: 0;
+}
+
+.carousel-nav-button.next {
+  right: 0;
+}
+
+.carousel-slide {
+  width: 100%;
+  max-width: 32rem;
+  background-color: var(--gray-light);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.carousel-slide:hover {
+  transform: scale(1.05);
+}
+
+.carousel-slide-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .carousel-slide-content {
+    flex-direction: row;
+  }
+}
+
+.carousel-image {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--white);
+}
+
+.carousel-text {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .carousel-text {
+    text-align: left;
+  }
+}
+
+.carousel-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--primary-green);
+}
+
+.carousel-description {
+  color: var(--text-gray);
+  margin-bottom: 1rem;
+}
+
+.view-recipe-tag {
+  display: inline-block;
+  background-color: var(--primary-green-light);
+  color: var(--primary-green-dark);
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  gap: 0.5rem;
+}
+
+.carousel-indicator {
+  height: 0.75rem;
+  width: 0.75rem;
+  border-radius: 50%;
+  background-color: var(--gray-medium);
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.carousel-indicator.active {
+  background-color: var(--primary-green);
+}
+
+footer {
+  background-color: var(--gray-light);
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+footer p {
+  color: var(--text-gray);
+  font-size: 0.875rem;
+}
+
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .mobile-menu-button {
+    display: block;
+  }
+  
+  .hero-section h1 {
+    font-size: 1.75rem;
+  }
+  
+  .hero-section p {
+    font-size: 1rem;
+  }
+}
