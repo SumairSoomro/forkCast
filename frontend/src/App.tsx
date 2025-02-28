@@ -31,6 +31,7 @@ const App = () => {
     navigate('/homepage');
   };
 
+
   const rotateCarousel = (direction: 'prev' | 'next'): void => {
     if (direction === 'next') {
       setActiveRecipe((prev) => (prev + 1) % popularRecipes.length);
@@ -143,9 +144,11 @@ const App = () => {
         </div>
         
         <div className="flex justify-center">
+
           <button className="bg-green-600 text-white p-2 rounded-full shadow-lg hover:bg-green-700" onClick={toHomepage}>
-            <h1 className="text-xl font-bold">Get Started</h1>
+            <h1 className="text-xl font-bold">Homepage</h1>
           </button>
+
         </div>
       </main>
       
