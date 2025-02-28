@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Menu, Github, ChevronLeft, ChevronRight } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import './App.css';
 
 interface Recipe {
@@ -11,6 +12,7 @@ interface Recipe {
 
 const App = () => {
   const [activeRecipe, setActiveRecipe] = useState<number>(0);
+  const navigate = useNavigate();
   
   const popularRecipes: Recipe[] = [
     { id: 1, name: "Garlic Butter Pasta", image: "/api/placeholder/200/200", description: "A simple, delicious pasta dish with garlic butter sauce." },
@@ -24,6 +26,11 @@ const App = () => {
     alert("Redirecting to signup/login page");
   };
   
+  
+  const toHomepage = (): void => {
+    navigate('/homepage');
+  };
+
   const rotateCarousel = (direction: 'prev' | 'next'): void => {
     if (direction === 'next') {
       setActiveRecipe((prev) => (prev + 1) % popularRecipes.length);
@@ -133,6 +140,12 @@ const App = () => {
               </div>
             </div>
           </section>
+        </div>
+        
+        <div className="flex justify-center">
+          <button className="bg-green-600 text-white p-2 rounded-full shadow-lg hover:bg-green-700" onClick={toHomepage}>
+            <h1 className="text-xl font-bold">Get Started</h1>
+          </button>
         </div>
       </main>
       
