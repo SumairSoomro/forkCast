@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Favorites.css';
 const Favorites: React.FC = () => {
   return (
     <div className="container mx-auto p-4">
