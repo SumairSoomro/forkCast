@@ -6,6 +6,13 @@ import { getPopularRecipes, recipes, Recipe } from '../../data/recipes';
 import './Homepage.css';
 
 const HomePage: React.FC = () => {
+
+  const navItems = [
+    { label: 'Profile', path: '/profile' },
+    { label: 'Calendar', path: '/calendar' },
+    { label: 'Favorites', path: '/favorites' }
+  ];
+
   const handleSearch = (query: string) => {
     console.log('Searching for:', query);
   };
@@ -16,12 +23,6 @@ const HomePage: React.FC = () => {
 
   const favoriteRecipes = recipes.slice(0, 15);
   const popularRecipes = getPopularRecipes().slice(0, 15);
-
-  const navItems = [
-    { label: 'Calendar', path: '/calendar' },
-    { label: 'Favorites', path: '/favorites' },
-    { label: 'Profile', path: '/profile' }
-  ];
 
   return (
     <div className="homepage">

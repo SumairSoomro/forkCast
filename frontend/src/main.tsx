@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './index.css';
 import App from './App.tsx';
 import HomePage from './pages/homepage/Homepage.tsx'; 
-import Calendar from './pages/calendar/calendar.tsx';
+import Calendar from './pages/calendar/Calendar.tsx';
 import Favorites from './pages/favorites/Favorites.tsx';
 import Profile from './pages/profile/Profile.tsx';
 
