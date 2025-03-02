@@ -1,0 +1,29 @@
+.recipe-list {
+    text-align: center;
+    margin: 20px;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .recipe-list h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .recipe-grid {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 20px 0;
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+  }
+  
+  .recipe-grid::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .recipe-grid > div:last-child {
+    padding-right: 20px;
+  }
+  
