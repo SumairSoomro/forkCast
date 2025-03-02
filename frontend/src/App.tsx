@@ -3,11 +3,10 @@ import RecipeList from './components/RecipeList/RecipeList';
 import { getPopularRecipes, Recipe } from './data/recipes';
 import './App.css';
 
-const App = () => {
+export const App = () => {
   const popularRecipes = getPopularRecipes();
   
   const handleRecipeClick = (recipe: Recipe): void => {
-
     alert("Redirecting to recipe page for " + recipe.title);
   };
 
@@ -51,5 +50,3 @@ const App = () => {
     </div>
   );
 };
-
-export default App;
