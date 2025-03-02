@@ -1,6 +1,6 @@
 import { Heading, Container, Box, Text, Image} from "@chakra-ui/react";
 
-import SumairPic from "../../assets/output.png";
+import SumairPic from "../assets/output.png";
 import { Link } from "react-router-dom";
 
 const Contact = () => {
