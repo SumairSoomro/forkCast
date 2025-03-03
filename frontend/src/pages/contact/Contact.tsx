@@ -1,6 +1,7 @@
 import { Heading, Container, Box, Text, Image} from "@chakra-ui/react";
 
-import SumairPic from "../../assets/output.png";
+import SumairPic from "../../assets/Sumair.png";
+import JamesPic from '../../assets/James.png';
 import { Link } from "react-router-dom";
 
 const Contact = () => {
@@ -77,7 +78,7 @@ const Contact = () => {
         >
         <Box flex="1">
             <Text fontSize={{ base: "xl", md: "2xl" }} fontWeight="bold" mb="4">
-            Name: James Mcgillicudy
+            Name: James McGillicuddy
             </Text>
             <Text fontSize={{ base: "md", md: "lg" }} mb="4">
             Email: jmcgillicudd@umass.edu
@@ -87,7 +88,7 @@ const Contact = () => {
             </Text>
         </Box>
         <Image
-            src={SumairPic}
+            src={JamesPic}
             borderRadius="full"
             boxSize={{ base: "80px", md: "120px" }} 
             objectFit="cover"

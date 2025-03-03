@@ -10,11 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "lucide-react": "^0.476.0",
     "@chakra-ui/react": "^2.10.6",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
     "framer-motion": "^12.4.7",
+    "lucide-react": "^0.476.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.2.0"
