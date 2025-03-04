@@ -3,6 +3,7 @@ import { Heading, Container, Box, Text, Image} from "@chakra-ui/react";
 import SumairPic from "../../assets/Sumair.png";
 import JamesPic from '../../assets/James.png';
 import LoickPic from '../../assets/Loick.png';
+import AhmadPic from '../../assets/Ahmad.png';
 import { Link } from "react-router-dom";
 
 const Contact = () => {
@@ -125,7 +126,7 @@ const Contact = () => {
             </Text>
         </Box>
         <Image
-            src={SumairPic}
+            src={AhmadPic}
             borderRadius="full"
             boxSize={{ base: "80px", md: "120px" }} 
             objectFit="cover"
