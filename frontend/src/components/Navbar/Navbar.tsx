@@ -1,7 +1,8 @@
 import React from 'react';
-import { Menu } from 'lucide-react';
+
 import { useNavigate } from 'react-router-dom';
 import './Navbar.css';
+import  githubIcon  from '../../assets/github-mark.png';
 
 interface NavItem {
   label: string;
@@ -20,8 +21,6 @@ const Navbar: React.FC<NavbarProps> = ({ brand, items }) => {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-brand">{brand}</div>
-
-        {/* Desktop Navigation */}
         <div className="navbar-links">
           {items.map((item) => (
             <button 
@@ -32,14 +31,18 @@ const Navbar: React.FC<NavbarProps> = ({ brand, items }) => {
               {item.label}
             </button>
           ))}
+
+          <a 
+            href="https://github.com/SumairSoomro/forkCast" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="github-link"
+          >
+            <img src={githubIcon} alt="GitHub" className="github-icon" />
+          </a>
+
         </div>
 
-        {/* Mobile Menu Button */}
-        <div className="navbar-mobile">
-          <button className="navbar-mobile-button">
-            <Menu size={28} />
-          </button>
-        </div>
       </div>
     </nav>
   );

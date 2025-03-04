@@ -52,6 +52,18 @@
   padding: 0.5rem;
 }
 
+
+.github-link {
+  display: flex;
+  align-items: center;
+  margin-left: 10px; /* Space between Contact Us and GitHub icon */
+}
+
+.github-icon {
+  width: 32px; /* Adjust size */
+  height: 32px;
+  transition: transform 0.3s ease-in-out;
+}
 /* Media query for desktop view */
 @media (min-width: 768px) {
   .navbar-links {
