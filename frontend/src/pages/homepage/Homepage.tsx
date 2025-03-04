@@ -14,11 +14,11 @@ const HomePage: React.FC = () => {
   ];
 
   const handleSearch = (query: string) => {
-    console.log('Searching for:', query);
+    alert('Searching for: ' + query);
   };
 
   const handleRecipeClick = (recipe: Recipe) => {
-    console.log('Clicked recipe:', recipe);
+    console.log('Clicked recipe:', recipe.title);
   };
 
   const favoriteRecipes = recipes.slice(0, 15);

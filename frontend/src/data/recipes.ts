@@ -50,7 +50,8 @@ export const recipes: Recipe[] = [
       "Bake for 12-15 minutes",
       "Top with fresh basil"
     ],
-    imageUrl: "https://example.com/margherita-pizza.jpg",
+    //Eventually change this image url to backend, mock for now
+    imageUrl: "https://imgs.search.brave.com/xwcQR81vQpr7eo9e0ZMDwDXdneWKLzdUkN_6OEMz58A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jb29r/aWVhbmRrYXRlLmNv/bS9pbWFnZXMvMjAy/MS8wNy9tYXJnaGVy/aXRhLXBpenphLXJl/Y2lwZS0xLTIuanBn",
     tags: ["pizza", "italian", "vegetarian", "classic"],
     nutritionalInfo: {
       calories: 250,
