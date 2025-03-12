@@ -91,7 +91,7 @@ export const recipes: Recipe[] = [
       "Combine chicken and sauce",
       "Simmer until thick"
     ],
-    imageUrl: "https://example.com/tikka-masala.jpg",
+    imageUrl: "https://imgs.search.brave.com/lhenkq_NUddS6MTMwdpAzmeSNY07TsS30Uprv6Z9RwE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aW5kaWFuaGVhbHRo/eXJlY2lwZXMuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIy/LzA2L2NoaWNrZW4t/dGlra2EtbWFzYWxh/LXJlY2lwZS53ZWJw",
     tags: ["indian", "curry", "chicken", "spicy"],
     nutritionalInfo: {
       calories: 320,
@@ -245,7 +245,7 @@ export const recipes: Recipe[] = [
       "Shape croissants",
       "Proof and bake"
     ],
-    imageUrl: "https://example.com/croissants.jpg",
+    imageUrl: "https://imgs.search.brave.com/hNL3DH6RKTu6eYf5vDDQ4ZNFotPyOka2kfXql_xSg4Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAwLzU5LzMyLzE2/LzM2MF9GXzU5MzIx/NjY2X0xwUExVNHBF/dld0SHZuV080THh0/VUJtWjdGbTljaDlv/LmpwZw",
     tags: ["french", "pastry", "breakfast", "baking"],
     nutritionalInfo: {
       calories: 280,
@@ -285,7 +285,7 @@ export const recipes: Recipe[] = [
       "Combine and toss",
       "Garnish and serve"
     ],
-    imageUrl: "https://example.com/pad-thai.jpg",
+    imageUrl: "https://imgs.search.brave.com/k2AeFSykB6aYAuPKnp6S4HlOrHA88UDtnTkegMdxEo8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vYXRobGV0/ZWx1bmNoYm94LmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/NC8wMi9EU0NGNTEx/Ni0xLmpwZz9yZXNp/emU9NjgzLDEwMjQm/c3NsPTE",
     tags: ["thai", "noodles", "spicy", "stir-fry"],
     nutritionalInfo: {
       calories: 380,
@@ -364,7 +364,7 @@ export const recipes: Recipe[] = [
       "Assemble burger",
       "Serve hot"
     ],
-    imageUrl: "https://example.com/burger.jpg",
+    imageUrl: "https://imgs.search.brave.com/-kykFc1PB2jgbg-SyEiBsde6xZekzEpACMWj7COZReM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yZWFs/Zm9vZC50ZXNjby5j/b20vbWVkaWEvaW1h/Z2VzL0J1cmdlci0z/MUxHSC1hMjk2YTM1/Ni0wMjBjLTQ5Njkt/ODZlOC1kOGMyNjEz/OWY4M2YtMC0xNDAw/eDkxOS5qcGc",
     tags: ["american", "beef", "grilling", "classic"],
     nutritionalInfo: {
       calories: 450,
@@ -485,7 +485,7 @@ export const recipes: Recipe[] = [
       "Assemble bowls",
       "Serve hot"
     ],
-    imageUrl: "https://example.com/pho.jpg",
+    imageUrl: "https://imgs.search.brave.com/6Io7YDH3j16cZT2hnBiX4HX_GVi3kUU68Uvh5ArNTyE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTQ2/MjM1MjM1MS9waG90/by9waG8uanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPVRhTmVV/Y1F5YXp1Ym9MMmc2/c0NfRU16dUY5WnZX/OXhQdkRMNkZaZ1dL/Vk09",
     tags: ["vietnamese", "soup", "beef", "noodles"],
     nutritionalInfo: {
       calories: 320,
@@ -525,7 +525,7 @@ export const recipes: Recipe[] = [
       "Add seafood",
       "Create socarrat"
     ],
-    imageUrl: "https://example.com/paella.jpg",
+    imageUrl: "https://imgs.search.brave.com/wRDYWs56Qyi-nxb0hLcn3fEaJ2hyA_cwybZZXMHh5CY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTgx/ODkxNDAyL3Bob3Rv/L3NlYWZvb2QtcGFl/bGxhLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz04WlVCc25j/ZE1zU0FLT20teFRJ/eUhUNko1cElJc2tl/TXN3MHZLNjRLeUtR/PQ",
     tags: ["spanish", "rice", "seafood", "one-pot"],
     nutritionalInfo: {
       calories: 460,
@@ -564,7 +564,7 @@ export const recipes: Recipe[] = [
       "Bake until edges set",
       "Serve immediately"
     ],
-    imageUrl: "https://example.com/lava-cake.jpg",
+    imageUrl: "https://imgs.search.brave.com/X2OUMnMc5aNkgWYj_P-CAt4jGdqmcmUTEX7P_70_WYc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzEyLzg4Lzk1LzU4/LzM2MF9GXzEyODg5/NTU4ODlfanpraUlw/bzNpbENqWk12QkFD/QUtQT25LRzQ3Ulk4/SHYuanBn",
     tags: ["dessert", "chocolate", "french", "baking"],
     nutritionalInfo: {
       calories: 380,
@@ -603,7 +603,7 @@ export const recipes: Recipe[] = [
       "Chop toppings",
       "Assemble tacos"
     ],
-    imageUrl: "https://example.com/tacos.jpg",
+    imageUrl: "https://imgs.search.brave.com/778GL1XlICCwv1rRIhCU0ZR50-wafRb1_ul3ovbrYws/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9nbGVu/ZGFlbWJyZWUuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIy/LzA4L01leGljYW4t/U3RyZWV0LVRhY29z/LTMtaG9sZGVyLXYt/Yi02ODN4MTAyNC5q/cGc",
     tags: ["mexican", "street-food", "beef", "quick"],
     nutritionalInfo: {
       calories: 280,
@@ -721,7 +721,7 @@ export const recipes: Recipe[] = [
       "Encase in pastry",
       "Bake until golden"
     ],
-    imageUrl: "https://example.com/wellington.jpg",
+    imageUrl: "https://imgs.search.brave.com/5ItdXxS4-T_mPpVQ8ug3_2cCP7ZaphyHejaLDxJrjSM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzEyLzYxLzMwLzA2/LzM2MF9GXzEyNjEz/MDA2MDhfOU5uU1hr/TXlQdzN4YmNHdkZQ/T0l3ZkFWZHZhaFd0/T3IuanBn",
     tags: ["british", "beef", "special-occasion", "elegant"],
     nutritionalInfo: {
       calories: 580,
@@ -761,7 +761,7 @@ export const recipes: Recipe[] = [
       "Cook noodles",
       "Assemble bowls"
     ],
-    imageUrl: "https://example.com/ramen.jpg",
+    imageUrl: "https://imgs.search.brave.com/dbvo2GDSx-uMU7BonEJ7j7ja-gn5ATqZ7cDXTpiNp6g/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuaW1tZWRpYXRl/LmNvLnVrL3Byb2R1/Y3Rpb24vdm9sYXRp/bGUvc2l0ZXMvMzAv/MjAyMC8wOC9taXNv/LXJhbWVuLTUxNGUy/Y2EuanBnP3F1YWxp/dHk9OTAmcmVzaXpl/PTQ0MCw0MDA",
     tags: ["japanese", "soup", "noodles", "comfort-food"],
     nutritionalInfo: {
       calories: 520,
@@ -801,7 +801,7 @@ export const recipes: Recipe[] = [
       "Cool completely",
       "Top with berries"
     ],
-    imageUrl: "https://example.com/cheesecake.jpg",
+    imageUrl: "https://imgs.search.brave.com/DoRkwui_gxwPx0mptLMEuLJHxeRjWe92scgrJddt2wg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Z2lhbGxvemFmZmVy/YW5vLmNvbS9pbWFn/ZXMvMjU1LTI1NTMw/L1dpbGQtYmVycnkt/Y2hlZXNlY2FrZV8x/MjAweDgwMC5qcGc",
     tags: ["dessert", "baking", "cheesecake", "berries"],
     nutritionalInfo: {
       calories: 420,

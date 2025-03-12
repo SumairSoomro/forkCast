@@ -1,5 +1,5 @@
 import React from "react";
-import SearchBar from '../../components/SearchBar';
+import SearchBar from '../../components/SearchBar/SearchBar';
 import RecipeList from '../../components/RecipeList/RecipeList';
 import Navbar from '../../components/Navbar/Navbar';
 import { getPopularRecipes, recipes, Recipe } from '../../data/recipes';
@@ -21,7 +21,7 @@ const HomePage: React.FC = () => {
     console.log('Clicked recipe:', recipe.title);
   };
 
-  const favoriteRecipes = recipes.slice(0, 15);
+  const favoriteRecipes = recipes.slice(6, 12);
   const popularRecipes = getPopularRecipes().slice(0, 15);
 
   return (
