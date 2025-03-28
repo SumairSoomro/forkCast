@@ -1,16 +1,22 @@
 import React from "react";
 import SearchBar from '../../components/SearchBar/SearchBar';
 import RecipeList from '../../components/RecipeList/RecipeList';
+
 import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer';
+
 import { getPopularRecipes, recipes, Recipe } from '../../data/recipes';
+
 import './Homepage.css';
 
 const HomePage: React.FC = () => {
 
   const navItems = [
-    { label: 'Profile', path: '/profile' },
-    { label: 'Calendar', path: '/calendar' },
-    { label: 'Favorites', path: '/favorites' }
+    { label: 'Homepage', path: '/homepage' },
+    { label: "Profile", path: "/profile" },
+    { label: "Calendar", path: "/calendar" },
+    { label: "Favorites", path: "/favorites" },
+    { label: 'Contact Us', path: '/contact' }
   ];
 
   const handleSearch = (query: string) => {
@@ -56,14 +62,7 @@ const HomePage: React.FC = () => {
           </div>
         </div>
       </main>
-
-      {/* Footer */}
-      <footer className="footer">
-        <div className="footer-container">
-          <h1 className="footer-title">Welcome to Forkcast!</h1>
-          <p className="footer-text">Discover and organize your favorite recipes.</p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };
