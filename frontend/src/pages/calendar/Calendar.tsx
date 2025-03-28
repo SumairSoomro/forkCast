@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Calendar from "../../components/Calendar/Calendar";
+import Footer from "../../components/Footer/Footer";
 import "./Calendar.css";
 
 const CalendarPage: React.FC = () => {
@@ -30,13 +31,8 @@ const CalendarPage: React.FC = () => {
         </div>
       </main>
 
-      {/* Footer */}
-      <footer className="footer">
-        <div className="footer-container">
-          <h1 className="footer-title">Welcome to Forkcast!</h1>
-          <p className="footer-text">Plan and prep your meals with ease.</p>
-        </div>
-      </footer>
+      <Footer />
+
     </div>
   );
 };

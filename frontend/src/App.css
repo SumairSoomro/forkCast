@@ -226,17 +226,6 @@ main {
   background-color: var(--primary-green);
 }
 
-footer {
-  background-color: var(--gray-light);
-  padding: 1.5rem 0;
-  text-align: center;
-}
-
-footer p {
-  color: var(--text-gray);
-  font-size: 0.875rem;
-}
-
 @media (max-width: 767px) {
   .nav-links {
     display: none;
