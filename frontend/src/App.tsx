@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar/Navbar';
 import RecipeList from './components/RecipeList/RecipeList';
+import Footer from './components/Footer/Footer';
 import { getPopularRecipes, Recipe } from './data/recipes';
 import './App.css';
 
@@ -42,11 +43,7 @@ export const App = () => {
         </div>
       </main>
       
-      <footer className="bg-gray-100 py-6">
-        <div className="container mx-auto px-4 text-center text-gray-600">
-          <p>© 2025 Forkcast. All rights reserved.</p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };

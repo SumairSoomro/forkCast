@@ -1,0 +1,91 @@
+/* Calendar Container */
+.calendar-container {
+    max-width: 1024px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+  }
+  
+  /* Calendar Title */
+  .calendar-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #16a34a;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Calendar Grid */
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.5rem;
+  }
+  
+  /* Day Headers */
+  .calendar-day-header {
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5rem 0;
+    background-color: #16a34a;
+    color: white;
+    border-radius: 8px;
+  }
+  
+  /* Calendar Day */
+  .calendar-day {
+    padding: 0.75rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .calendar-day.empty {
+    border: none;
+    background: transparent;
+  }
+  
+  /* Calendar Date */
+  .calendar-date {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #16a34a;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Calendar Task */
+  .calendar-task {
+    font-size: 0.875rem;
+    color: #374151;
+    margin: 0.25rem 0;
+    padding: 0.25rem 0.5rem;
+    background: #f3f4f6;
+    border-radius: 4px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .calendar-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  
+    .calendar-title {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .calendar-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .calendar-title {
+      font-size: 1.25rem;
+    }
+  }
+  

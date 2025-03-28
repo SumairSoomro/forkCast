@@ -55,29 +55,6 @@ body {
   margin-bottom: 1.5rem;
 }
 
-.footer {
-  background-color: white;
-  padding: 2rem 0;
-  border-top: 1px solid var(--gray-medium);
-}
-
-.footer-container {
-  max-width: 1024px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.footer-title {
-  font-size: 1.875rem;
-  font-weight: bold;
-  margin-bottom: 0.75rem;
-}
-
-.footer-text {
-  color: var(--text-gray);
-  font-size: 1.125rem;
-}
-
 .container {
   max-width: 100%; 
   width: 100%;
