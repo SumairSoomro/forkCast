@@ -1,5 +1,5 @@
 import React from "react";
-import "./RecipeCard.css"; // Import external CSS
+import "./RecipeCard.css"; 
 import { Recipe } from "../../data/recipes";
 
 interface RecipeProps {
