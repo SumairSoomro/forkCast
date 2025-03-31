@@ -1,20 +1,8 @@
 import React from "react";
 import "./Calendar.css";
+import { CalendarProps } from "../../mocks/mockTypes";
 
-interface MealTask {
-  time: string;
-  recipe: string;
-}
 
-interface DaySchedule {
-  day: number;
-  schedule: MealTask[];
-}
-
-interface CalendarProps {
-  month: string;
-  days: DaySchedule[];
-}
 
 const daysOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 

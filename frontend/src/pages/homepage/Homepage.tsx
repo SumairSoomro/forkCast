@@ -1,15 +1,33 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import SearchBar from '../../components/SearchBar/SearchBar';
 import RecipeList from '../../components/RecipeList/RecipeList';
-
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
-
-import { getPopularRecipes, recipes, Recipe } from '../../data/recipes';
-
+import { fetchRecipes } from "../../mocks/mockAPI";
+import { Recipe } from "../../mocks/mockTypes";
 import './Homepage.css';
 
+
 const HomePage: React.FC = () => {
+  const [recipes, setRecipes] = useState<Recipe[]>([]);
+  const [loading, setLoading] = useState<boolean>(true);
+
+  useEffect(() => {
+    const getRecipes = async () => {
+      setLoading(true);
+      const data = await fetchRecipes();
+      setRecipes(data);
+      setLoading(false);
+    };
+
+    getRecipes();
+  }, []);
+
+  const getPopularRecipes = () => {
+    return recipes
+      .sort((a, b) => b.views - a.views)
+      .slice(0, 6);
+  };
 
   const navItems = [
     { label: 'Homepage', path: '/homepage' },
@@ -34,32 +52,34 @@ const HomePage: React.FC = () => {
     <div className="homepage">
       <Navbar brand="Forkcast" items={navItems} />
 
-      {/* Main Content */}
       <main className="main-content">
         <div className="content-container">
-          {/* Search Section */}
-          <div className="section">
-            <h2 className="section-title">Search Recipes</h2>
-            <SearchBar onSearch={handleSearch} />
-          </div>
+          {loading ? (
+            <div className="loading-message">Loading...</div>
+          ) : (
+            <>
+              <div className="section">
+                <h2 className="section-title">Search Recipes</h2>
+                <SearchBar onSearch={handleSearch} />
+              </div>
 
-          {/* Popular Recipes */}
-          <div className="section">
-            <RecipeList 
-              recipes={popularRecipes}
-              title="Popular Recipes"
-              onRecipeClick={handleRecipeClick}
-            />
-          </div>
+              <div className="section">
+                <RecipeList 
+                  recipes={popularRecipes}
+                  title="Popular Recipes"
+                  onRecipeClick={handleRecipeClick}
+                />
+              </div>
 
-          {/* Favorite Recipes */}
-          <div className="section">
-            <RecipeList 
-              recipes={favoriteRecipes}
-              title="Your Favorites"
-              onRecipeClick={handleRecipeClick}
-            />
-          </div>
+              <div className="section">
+                <RecipeList 
+                  recipes={favoriteRecipes}
+                  title="Your Favorites"
+                  onRecipeClick={handleRecipeClick}
+                />
+              </div>
+            </>
+          )}
         </div>
       </main>
       <Footer />
