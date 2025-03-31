@@ -1,10 +1,27 @@
+import { useEffect, useState } from 'react';
+import { fetchRecipes } from './mocks/mockAPI';
 import Navbar from './components/Navbar/Navbar';
 import RecipeList from './components/RecipeList/RecipeList';
 import Footer from './components/Footer/Footer';
-import { getPopularRecipes, Recipe } from './data/recipes';
+import { Recipe } from './mocks/mockTypes';
 import './App.css';
 
 export const App = () => {
+  const [recipes, setRecipes] = useState<Recipe[]>([]);
+  useEffect(() => {
+      const getRecipes = async () => {
+        const data = await fetchRecipes();
+        setRecipes(data);
+      };
+  
+      getRecipes();
+    }, []);
+  
+  const getPopularRecipes = () => {
+    return recipes
+      .sort((a, b) => b.views - a.views)
+      .slice(0, 6);
+  };
   const popularRecipes = getPopularRecipes();
   
   const handleRecipeClick = (recipe: Recipe): void => {

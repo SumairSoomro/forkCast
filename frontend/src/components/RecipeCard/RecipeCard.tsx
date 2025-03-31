@@ -1,6 +1,6 @@
 import React from "react";
 import "./RecipeCard.css"; // Import external CSS
-import { Recipe } from "../../data/recipes";
+import { Recipe } from "../../mocks/mockTypes";
 
 interface RecipeProps {
   recipe: Recipe;
