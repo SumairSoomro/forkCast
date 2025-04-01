@@ -1,38 +1,48 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Calendar from "../../components/Calendar/Calendar";
 import Footer from "../../components/Footer/Footer";
+import { fetchMealPlan } from "../../mocks/mockAPI";
+import { DaySchedule } from "../../mocks/mockTypes";
 import "./Calendar.css";
 
+
+
 const CalendarPage: React.FC = () => {
+  const [days, setDays] = useState<DaySchedule[]>([]);
+
+  useEffect(() => {
+    const getMealPlan = async () => {
+      const data = await fetchMealPlan();
+      setDays(data);
+    };
+
+    getMealPlan();
+  }, [])
+
   const navItems = [
-    { label: 'Homepage', path: '/homepage' },
+    { label: "Homepage", path: "/homepage" },
     { label: "Profile", path: "/profile" },
     { label: "Calendar", path: "/calendar" },
     { label: "Favorites", path: "/favorites" },
-    { label: 'Contact Us', path: '/contact' }
-  ];
-
-  const mealPlan = [
-    { day: 1, schedule: [{ time: "08:00 AM", recipe: "Avocado Toast" }] },
-    { day: 5, schedule: [{ time: "12:00 PM", recipe: "Grilled Chicken Salad" }] },
-    { day: 12, schedule: [{ time: "06:00 PM", recipe: "Pasta Primavera" }] },
-    { day: 20, schedule: [{ time: "07:00 PM", recipe: "Salmon & Veggies" }] },
+    { label: "Contact Us", path: "/contact" },
   ];
 
   return (
     <div className="calendar-page">
       <Navbar brand="Forkcast" items={navItems} />
 
-      {/* Main Content */}
       <main className="main-content">
         <div className="content-container">
-          <Calendar month="2025-04" days={mealPlan} />
+          {days.length > 0 ? (
+            <Calendar month="2025-04" days={days} />
+          ) : (
+            <p>Loading meal plan...</p>
+          )}
         </div>
       </main>
 
       <Footer />
-
     </div>
   );
 };
