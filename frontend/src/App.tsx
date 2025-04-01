@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { fetchRecipes } from './mocks/mockAPI';
 import Navbar from './components/Navbar/Navbar';
 import RecipeList from './components/RecipeList/RecipeList';
-import Footer from './components/Footer/Footer';
 import { Recipe } from './mocks/mockTypes';
 import './App.css';
 
@@ -48,7 +47,7 @@ export const App = () => {
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
               Transform your ingredients into extraordinary meals. Get personalized recipes, 
-              smart cooking timelines, and chef-inspired recommendations powered by AI.
+              smart cooking timelines, and chef-inspired recommendations.
             </p>
             <a href="/signup" className="cta-button">
               Start Cooking Now
