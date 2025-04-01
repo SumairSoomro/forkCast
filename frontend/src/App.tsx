@@ -28,10 +28,11 @@ export const App = () => {
   };
 
   const navItems = [
-    { label: 'Home', path: '/' },
-    { label: 'Recipes', path: '/recipes' },
-    { label: 'About', path: '/about' },
-    { label: 'Contact', path: '/contact' }
+    { label: 'Homepage', path: '/homepage' },
+    { label: 'Calendar', path: '/signup' },
+    { label: 'Login', path: '/login' },
+    { label: 'Sign Up', path: '/signup' },
+    { label: 'Contact Us', path: '/contact' }
   ];
   
   return (
