@@ -30,9 +30,8 @@ export const App = () => {
   const navItems = [
     { label: 'Homepage', path: '/homepage' },
     { label: 'Calendar', path: '/signup' },
-    { label: 'Login', path: '/login' },
-    { label: 'Sign Up', path: '/signup' },
-    { label: 'Contact Us', path: '/contact' }
+    { label: 'Contact Us', path: '/contact' },
+    { label: 'Login', path: '/login' }
   ];
   
   return (

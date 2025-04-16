@@ -10,6 +10,7 @@ import Profile from './pages/profile/Profile.tsx';
 import Contact from './pages/contact/Contact.tsx';
 import { Signup, Login } from "./pages/login/Login.tsx";
 import './index.css';
+import PrivateRoute from './components/PrivateRoute.tsx';
 
 const AuthWrapper = ({ Component }: { Component: typeof Login | typeof Signup }) => {
   const navigate = useNavigate();
@@ -22,11 +23,31 @@ createRoot(document.getElementById('root')!).render(
       <Router>
         <Routes>
           <Route path="/" element={<App />} />
-          <Route path="/homepage" element={<HomePage />} />
-          <Route path="/calendar" element={<Calendar />} />
-          <Route path="/favorites" element={<Favorites />} />
-          <Route path="/profile" element={<Profile />} /> 
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/homepage" element={
+            <PrivateRoute>
+              <HomePage />
+            </PrivateRoute>
+          } />
+          <Route path="/calendar" element={
+            <PrivateRoute>
+              <Calendar />
+            </PrivateRoute>
+          } />
+          <Route path="/favorites" element={
+            <PrivateRoute>
+              <Favorites />
+            </PrivateRoute>
+          } />
+          <Route path="/profile" element={
+            <PrivateRoute>
+              <Profile />
+            </PrivateRoute>
+          } />
+          <Route path="/contact" element={
+            <PrivateRoute>
+              <Contact />
+            </PrivateRoute>
+          } />
           <Route path="/signup" element={<AuthWrapper Component={Signup} />} />
           <Route path="/login" element={<AuthWrapper Component={Login} />} />
         </Routes>

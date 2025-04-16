@@ -16,6 +16,11 @@ interface NavbarProps {
 const Navbar: React.FC<NavbarProps> = ({ brand, items }) => {
   const navigate = useNavigate();
 
+  const handleLogout = () => {
+    localStorage.removeItem("access_token");
+    navigate("/");
+  };
+
   return (
     <nav className="navbar">
       <div className="navbar-container">
@@ -32,6 +37,11 @@ const Navbar: React.FC<NavbarProps> = ({ brand, items }) => {
               {item.label}
             </button>
           ))}
+
+          {/* Logout Button */}
+          <button onClick={handleLogout} className="navbar-link logout-button">
+            Log Out
+          </button>
         </div>
 
         {/* Mobile Menu Button */}
@@ -45,4 +55,4 @@ const Navbar: React.FC<NavbarProps> = ({ brand, items }) => {
   );
 };
 
-export default Navbar; 
+export default Navbar;

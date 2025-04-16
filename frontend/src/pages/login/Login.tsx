@@ -79,15 +79,44 @@ export const Signup = ({ onSwitchToLogin }: { onSwitchToLogin: () => void }) => 
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [username, setUsername] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
-  const handleSignup = (e: React.FormEvent) => {
+
+  const handleSignup = async (e: React.FormEvent) => {
     e.preventDefault();
     if (password !== confirmPassword) {
       alert("Passwords do not match!");
       return;
     }
-    console.log("Signing up with:", { email, password, username });
+  
+    setLoading(true);
+    setError("");
+  
+    try {
+      const res = await fetch("http://localhost:4000/auth/signup", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, password })
+      });
+  
+      const data = await res.json();
+  
+      if (!res.ok) throw new Error(data.error || "Signup failed");
+  
+      const token = data.data.session.access_token;
+      localStorage.setItem("access_token", token);
+  
+      window.location.href = "/homepage";
+    } catch (err: any) {
+      setError(err.message);
+    } finally {
+      setLoading(false);
+    }
   };
+  
+  
+  
 
   return (
     <AuthFormContainer>
@@ -99,6 +128,8 @@ export const Signup = ({ onSwitchToLogin }: { onSwitchToLogin: () => void }) => 
           <AuthInput type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} required />
           <AuthInput type="password" placeholder="Confirm Password" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} required />
         </div>
+        {loading && <p>Creating account...</p>}
+        {error && <p style={{ color: 'red' }}>{error}</p>}
         <AuthButton>Sign Up</AuthButton>
         <AuthLink text="Already have an account?" linkText="Login" onClick={onSwitchToLogin} />
       </AuthForm>
@@ -109,11 +140,40 @@ export const Signup = ({ onSwitchToLogin }: { onSwitchToLogin: () => void }) => 
 export const Login = ({ onSwitchToSignup }: { onSwitchToSignup: () => void }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
-  const handleLogin = (e: React.FormEvent) => {
+
+  const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Logging in with:", email, password);
+  
+    setLoading(true);
+    setError("");
+  
+    try {
+      const res = await fetch("http://localhost:4000/auth/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, password })
+      });
+  
+      const data = await res.json();
+  
+      if (!res.ok) throw new Error(data.error || "Login failed");
+  
+      const token = data.data.session.access_token;
+      localStorage.setItem("access_token", token);
+  
+      alert("Login successful!");
+      window.location.href = "/homepage";
+    } catch (err: any) {
+      setError(err.message);
+    } finally {
+      setLoading(false);
+    }
   };
+  
+  
 
   return (
     <AuthFormContainer>
@@ -123,6 +183,8 @@ export const Login = ({ onSwitchToSignup }: { onSwitchToSignup: () => void }) =>
           <AuthInput type="email" placeholder="Email address" value={email} onChange={(e) => setEmail(e.target.value)} required />
           <AuthInput type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} required />
         </div>
+        {loading && <p>Logging in...</p>}
+        {error && <p style={{ color: 'red' }}>{error}</p>}
         <AuthButton>Login</AuthButton>
         <AuthLink text="Don't have an account?" linkText="Sign Up" onClick={onSwitchToSignup} />
       </AuthForm>
@@ -130,4 +192,3 @@ export const Login = ({ onSwitchToSignup }: { onSwitchToSignup: () => void }) =>
   );
 };
 
-export default Login;
