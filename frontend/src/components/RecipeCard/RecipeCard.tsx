@@ -9,7 +9,9 @@ interface RecipeProps {
 const RecipeCard: React.FC<RecipeProps> = ({ recipe }) => {
   return (
     <div className="recipe-card">
-      <img src={recipe.imageUrl} alt={recipe.title} className="recipe-image" />
+      {recipe.imageUrl ? (
+        <img src={recipe.imageUrl} alt={recipe.title} className="recipe-image" />
+      ) : null}
       <div className="recipe-info">
         <h3>{recipe.title}</h3>
         <p className="cuisine">{recipe.cuisine}</p>

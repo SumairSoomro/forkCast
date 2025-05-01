@@ -11,6 +11,7 @@ import Contact from './pages/contact/Contact.tsx';
 import { Signup, Login } from "./pages/login/Login.tsx";
 import './index.css';
 import PrivateRoute from './components/PrivateRoute.tsx';
+import { AuthProvider } from './context/AuthContext.tsx';
 
 const AuthWrapper = ({ Component }: { Component: typeof Login | typeof Signup }) => {
   const navigate = useNavigate();
@@ -20,6 +21,7 @@ const AuthWrapper = ({ Component }: { Component: typeof Login | typeof Signup })
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <ChakraProvider>
+    <AuthProvider>
       <Router>
         <Routes>
           <Route path="/" element={<App />} />
@@ -52,6 +54,7 @@ createRoot(document.getElementById('root')!).render(
           <Route path="/login" element={<AuthWrapper Component={Login} />} />
         </Routes>
       </Router>
+      </AuthProvider>
     </ChakraProvider>
   </StrictMode>
 );

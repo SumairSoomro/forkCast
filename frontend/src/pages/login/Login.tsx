@@ -1,4 +1,9 @@
 import { useState } from "react";
+import { useAuth } from '../../context/AuthContext';
+import { useNavigate } from "react-router-dom";
+
+
+
 
 const AuthFormContainer = ({ children }: { children: React.ReactNode }) => (
     <div style={{ minHeight: '100vh', backgroundColor: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', padding: '16px' }}>
@@ -75,6 +80,8 @@ const AuthLink = ({ text, linkText, onClick }: {
 );
 
 export const Signup = ({ onSwitchToLogin }: { onSwitchToLogin: () => void }) => {
+  const { setIsLoggedIn } = useAuth();
+  const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
@@ -85,6 +92,7 @@ export const Signup = ({ onSwitchToLogin }: { onSwitchToLogin: () => void }) => 
 
   const handleSignup = async (e: React.FormEvent) => {
     e.preventDefault();
+    
     if (password !== confirmPassword) {
       alert("Passwords do not match!");
       return;
@@ -106,8 +114,9 @@ export const Signup = ({ onSwitchToLogin }: { onSwitchToLogin: () => void }) => 
   
       const token = data.data.session.access_token;
       localStorage.setItem("access_token", token);
+      setIsLoggedIn(true);
   
-      window.location.href = "/homepage";
+      navigate("/homepage");
     } catch (err: any) {
       setError(err.message);
     } finally {
@@ -142,11 +151,12 @@ export const Login = ({ onSwitchToSignup }: { onSwitchToSignup: () => void }) =>
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  const navigate = useNavigate();
+  const { setIsLoggedIn } = useAuth();
 
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
-  
     setLoading(true);
     setError("");
   
@@ -163,9 +173,10 @@ export const Login = ({ onSwitchToSignup }: { onSwitchToSignup: () => void }) =>
   
       const token = data.data.session.access_token;
       localStorage.setItem("access_token", token);
-  
+      setIsLoggedIn(true);
+      
       alert("Login successful!");
-      window.location.href = "/homepage";
+      navigate("/homepage");
     } catch (err: any) {
       setError(err.message);
     } finally {
@@ -191,4 +202,3 @@ export const Login = ({ onSwitchToSignup }: { onSwitchToSignup: () => void }) =>
     </AuthFormContainer>
   );
 };
-
