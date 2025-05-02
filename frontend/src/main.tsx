@@ -8,6 +8,7 @@ import Calendar from './pages/calendar/Calendar.tsx';
 import Favorites from './pages/favorites/Favorites.tsx';
 import Profile from './pages/profile/Profile.tsx';
 import Contact from './pages/contact/Contact.tsx';
+import CreateRecipe from './pages/create-recipe/CreateRecipe.tsx';
 import { Signup, Login } from "./pages/login/Login.tsx";
 import './index.css';
 import PrivateRoute from './components/PrivateRoute.tsx';
@@ -46,6 +47,11 @@ createRoot(document.getElementById('root')!).render(
           <Route path="/contact" element={
             <PrivateRoute>
               <Contact />
+            </PrivateRoute>
+          } />
+          <Route path="/create-recipe" element={
+            <PrivateRoute>
+              <CreateRecipe />
             </PrivateRoute>
           } />
           <Route path="/signup" element={<AuthWrapper Component={Signup} />} />

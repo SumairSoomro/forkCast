@@ -1,13 +1,16 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import { Box, Text, VStack, Heading } from "@chakra-ui/react";
+import { useNavigate } from "react-router-dom"; // Import useNavigate for navigation
 
 const Profile: React.FC = () => {
   const [user, setUser] = useState<any>(null);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(true);
+  const navigate = useNavigate(); // Initialize useNavigate
 
   const navItems = [
     { label: "Homepage", path: "/homepage" },
@@ -50,6 +53,10 @@ const Profile: React.FC = () => {
     fetchUser();
   }, []);
 
+  const handleCreateRecipe = () => {
+    navigate("/create-recipe"); 
+  };
+
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar brand="Forkcast" items={navItems} />
@@ -65,6 +72,20 @@ const Profile: React.FC = () => {
                 <Heading size="md">My Profile</Heading>
                 <Text><strong>Username:</strong> {user.username}</Text>
                 <Text><strong>Email:</strong> {user.email}</Text>
+                <button
+                  onClick={handleCreateRecipe}
+                  style={{
+                    marginTop: "20px",
+                    padding: "10px 20px",
+                    backgroundColor: "#3182ce",
+                    color: "white",
+                    border: "none",
+                    borderRadius: "5px",
+                    cursor: "pointer",
+                  }}
+                >
+                  Create New Recipe
+                </button>
               </VStack>
             </Box>
           ) : null}
