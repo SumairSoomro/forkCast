@@ -3,6 +3,7 @@ import { fetchRecipes } from './mocks/mockAPI';
 import Navbar from './components/Navbar/Navbar';
 import RecipeList from './components/RecipeList/RecipeList';
 import { Recipe } from './mocks/mockTypes';
+import Footer from './components/Footer/Footer';
 import './App.css';
 
 export const App = () => {
@@ -67,16 +68,7 @@ export const App = () => {
           </div>
         </section>
       </main>
-      
-      <footer>
-        <div className="container">
-          <div className="footer-bottom">
-            <p className="text-gray-400 text-sm">
-              © 2024 Forkcast. All rights reserved.
-            </p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };
