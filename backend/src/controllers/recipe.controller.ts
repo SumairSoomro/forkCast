@@ -2,7 +2,7 @@ import { Request, Response } from "express";
 import { supabase } from "../config/supabaseClient";
 
 import { Recipe } from '../interfaces/recipe.interface';
-import { Ingredient } from '../interfaces/ingredient.interface';
+import { Ingredient, RecipeIngredient } from '../interfaces/ingredient.interface';
 import { Tag } from '../interfaces/tag.interface';
 import { NutritionalInfo } from '../interfaces/nutritionalInfo.interface';
 import { Instruction } from '../interfaces/instruction.interface';
@@ -99,40 +99,3 @@ export const addRecipe = async (req: Request, res: Response) => {
 };
 
 
-let x = {
-    id: "3",
-    title: "Avocado Toast",
-    description: "Simple and nutritious breakfast with mashed avocado on artisan bread",
-    cuisine: "Modern",
-    prepTime: 10,
-    cookTime: 5,
-    servings: 2,
-    difficulty: "Easy",
-    ingredients: [
-      { id: null, name: "Sourdough bread", quantity: 2, unit: "slices" },
-      { id: null, name: "Ripe avocados", quantity: 2, unit: "count" },
-      { id: null, name: "Cherry tomatoes", quantity: 100, unit: "grams" },
-      { id: null, name: "Red pepper flakes", quantity: 0.5, unit: "tsp" },
-      { id: null, name: "Salt", quantity: 0.5, unit: "tsp" },
-      { id: null, name: "Olive oil", quantity: 1, unit: "tbsp" }
-    ],
-    instructions: [
-      "Toast bread until golden",
-      "Mash avocado with seasonings",
-      "Spread on toast",
-      "Top with tomatoes and pepper flakes"
-    ],
-    imageUrl: "https://example.com/avocado-toast.jpg",
-    tags: ["breakfast", "healthy", "vegetarian", "quick"],
-    nutritionalInfo: {
-      calories: 280,
-      protein: 8,
-      carbs: 25,
-      fats: 16
-    },
-    ratings: {
-      average: 4.5,
-      count: 750
-    },
-    views: 9000
-  }
