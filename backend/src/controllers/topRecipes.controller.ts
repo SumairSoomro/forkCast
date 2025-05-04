@@ -2,6 +2,7 @@ import { Request, Response } from "express";
 import { supabase } from "../config/supabaseClient";
 
 export const getTopFavoritedRecipes = async (req: Request, res: Response) => {
+  
   try {
     const { data, error } = await supabase.rpc("get_top_favorited_recipes");
 
