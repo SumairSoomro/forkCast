@@ -18,3 +18,21 @@ export const addIngredient = async (req: Request, res: Response) => {
       return res.status(500).json({ error: "Internal server error. Ingredient not added." });
     }
 }
+
+export const getAllIngredients = async (req: Request, res: Response) => {
+
+    try {
+        const { data, error } = await supabase
+            .from("ingredients")
+            .select("*");
+  
+      if (error) {
+        return res.status(400).json({ error: error.message });
+      }
+  
+      return res.status(200).json(data);
+    }
+    catch (err) {
+      return res.status(500).json({ error: "Internal server error. Ingredients not retrieved." });
+    }
+} 
