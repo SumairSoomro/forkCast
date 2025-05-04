@@ -78,7 +78,6 @@ export const addRecipe = async (req: Request, res: Response) => {
         if (nutritionalInfo) {
           const a: NutritionalInfo =  nutritionalInfo;
           const { calories, protein, carbs, fats } = a;
-          console.log(calories, protein, carbs, fats);
     
           const { error: nutriErr } = await supabase.from("nutritional_info").insert([{
             recipe_id: recipeId,
@@ -204,7 +203,7 @@ export const getRecipesByIds = async (req: Request, res: Response) => {
     return res.status(200).json(recipesWithDetails);
 
   } catch (error) {
-    
+
     console.error("Error fetching recipes:", error);
     return res.status(500).json({ error: error instanceof Error ? error.message : "Internal server error" });
   }
