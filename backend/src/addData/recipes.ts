@@ -27,4 +27,26 @@ const addRecipes = async () => {
   }
 };
 
-addRecipes();
+const getRecipesByIds = async () => {
+    try {
+        const response = await fetch("http://localhost:4000/recipes/get", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ ids: ["03ade5f1-27c8-4e5f-889c-fe4617fa68be", "12853a8b-70b6-4853-932d-18753925e422"] }), // Example IDs
+        });
+    
+        const data = await response.json();
+        data.forEach((recipe: any) => {
+            console.log(recipe);
+            console.log(recipe.ingredients);
+            console.log(recipe.instructions);
+        });
+    } catch (error) {
+        console.error("Error fetching recipes:", error);
+    }
+}
+
+// addRecipes();
+getRecipesByIds();
