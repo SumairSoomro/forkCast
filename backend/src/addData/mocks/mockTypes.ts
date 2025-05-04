@@ -10,7 +10,7 @@ export interface Recipe {
     ingredients: object[];
     instructions: string[];
     imageUrl: string;
-    tags: string[];
+    tags: Tag[];
     nutritionalInfo: {
       calories: number;
       protein: number;
@@ -22,6 +22,11 @@ export interface Recipe {
       count: number;
     };
     views: number;
+  }
+
+export interface Tag {
+    id: string;
+    name: string;
   }
 
 export interface MealTask {

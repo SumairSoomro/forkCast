@@ -86,7 +86,7 @@ export const mealPlan = [
 
       //Eventually change this image url to backend, mock for now
       imageUrl: "https://imgs.search.brave.com/xwcQR81vQpr7eo9e0ZMDwDXdneWKLzdUkN_6OEMz58A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jb29r/aWVhbmRrYXRlLmNv/bS9pbWFnZXMvMjAy/MS8wNy9tYXJnaGVy/aXRhLXBpenphLXJl/Y2lwZS0xLTIuanBn",
-      tags: ["pizza", "italian", "vegetarian", "classic"],
+      tags: [{ id: "20fe1a5b-5451-48ae-8b65-8c7c6eb192d3", name: "pizza" }, { id: "7eb2c4a9-128d-4f2c-8c1f-5417a1c5820f", name: "italian" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "84941bdf-0612-4f58-adb7-c6fccc52e860", name: "classic" }],
       nutritionalInfo: {
         calories: 250,
         protein: 12,
@@ -126,7 +126,7 @@ export const mealPlan = [
         "Simmer until thick"
       ],
       imageUrl: "https://imgs.search.brave.com/lhenkq_NUddS6MTMwdpAzmeSNY07TsS30Uprv6Z9RwE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aW5kaWFuaGVhbHRo/eXJlY2lwZXMuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIy/LzA2L2NoaWNrZW4t/dGlra2EtbWFzYWxh/LXJlY2lwZS53ZWJw",
-      tags: ["indian", "curry", "chicken", "spicy"],
+      tags: [{ id: "3b3076d2-653b-4318-aa32-b94d0ef6ef21", name: "indian" }, { id: "81351b60-0089-4b28-8416-2443183dbe85", name: "curry" }, { id: "ef302a71-5818-4ead-a03d-88e56fcfed48", name: "chicken" }, { id: "92c10bb9-437d-4322-8ab4-d533713b5a51", name: "spicy" }],
       nutritionalInfo: {
         calories: 320,
         protein: 28,
@@ -163,7 +163,7 @@ export const mealPlan = [
         "Top with tomatoes and pepper flakes"
       ],
       imageUrl: "https://example.com/avocado-toast.jpg",
-      tags: ["breakfast", "healthy", "vegetarian", "quick"],
+      tags: [{ id: "97928368-1e77-4b98-9670-2f6b8792e530", name: "breakfast" }, { id: "670b4550-2aa1-4bc3-a2a7-1b6ffe536281", name: "healthy" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "70b3322a-d4b1-48dd-b7e5-ca9cbf1ab577", name: "quick" }],
       nutritionalInfo: {
         calories: 280,
         protein: 8,
@@ -202,7 +202,7 @@ export const mealPlan = [
         "Garnish with sesame seeds"
       ],
       imageUrl: "https://example.com/bulgogi.jpg",
-      tags: ["korean", "beef", "asian", "quick"],
+      tags: [{ id: "66cd2351-6d61-4714-a774-42605b591f59", name: "korean" }, { id: "ca12111a-2c0e-409c-90ed-749b0fab816d", name: "beef" }, { id: "37777e66-2751-4299-adaf-63204212fcc8", name: "asian" }, { id: "70b3322a-d4b1-48dd-b7e5-ca9cbf1ab577", name: "quick" }],
       nutritionalInfo: {
         calories: 350,
         protein: 32,
@@ -242,7 +242,7 @@ export const mealPlan = [
         "Season to taste"
       ],
       imageUrl: "https://example.com/quinoa-bowl.jpg",
-      tags: ["healthy", "vegetarian", "meal-prep", "mediterranean"],
+      tags: [{ id: "670b4550-2aa1-4bc3-a2a7-1b6ffe536281", name: "healthy" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "57e3ad9a-0643-4008-8631-a7be7755a8d0", name: "meal-prep" }, { id: "5732cc66-a954-4b23-b9bd-452f429eba60", name: "mediterranean" }],
       nutritionalInfo: {
         calories: 310,
         protein: 12,
@@ -281,7 +281,7 @@ export const mealPlan = [
       "Proof and bake"
     ],
     imageUrl: "https://imgs.search.brave.com/hNL3DH6RKTu6eYf5vDDQ4ZNFotPyOka2kfXql_xSg4Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAwLzU5LzMyLzE2/LzM2MF9GXzU5MzIx/NjY2X0xwUExVNHBF/dld0SHZuV080THh0/VUJtWjdGbTljaDlv/LmpwZw",
-    tags: ["french", "pastry", "breakfast", "baking"],
+    tags: [{ id: "55f23355-7a21-451d-a9be-26ce345a7215", name: "french" }, { id: "758565cf-421f-4c1a-90d3-d8f9dcb99a37", name: "pastry" }, { id: "97928368-1e77-4b98-9670-2f6b8792e530", name: "breakfast" }, { id: "f5b36342-2d64-433c-9ce6-633a8aa2b349", name: "baking" }],
     nutritionalInfo: {
       calories: 280,
       protein: 5,
@@ -321,7 +321,7 @@ export const mealPlan = [
       "Garnish and serve"
     ],
     imageUrl: "https://imgs.search.brave.com/k2AeFSykB6aYAuPKnp6S4HlOrHA88UDtnTkegMdxEo8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vYXRobGV0/ZWx1bmNoYm94LmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/NC8wMi9EU0NGNTEx/Ni0xLmpwZz9yZXNp/emU9NjgzLDEwMjQm/c3NsPTE",
-    tags: ["thai", "noodles", "spicy", "stir-fry"],
+    tags: [{ id: "b811c959-ff00-49fe-bed8-6a97aaa54ef6", name: "thai" }, { id: "4d6c6535-2a92-47ec-8589-6720756fb97e", name: "noodles" }, { id: "92c10bb9-437d-4322-8ab4-d533713b5a51", name: "spicy" }, { id: "53610fe9-e91e-4a7a-8e00-48a1d13bf83f", name: "stir-fry" }],
     nutritionalInfo: {
       calories: 380,
       protein: 16,
@@ -360,7 +360,7 @@ export const mealPlan = [
       "Cut and serve"
     ],
     imageUrl: "https://example.com/sushi.jpg",
-    tags: ["japanese", "sushi", "seafood", "fresh"],
+    tags: [{ id: "2b310d67-8cd5-4570-bf0b-2bcbb30ff16f", name: "japanese" }, { id: "c400731a-d55d-49f3-aeb1-d54b5811fdb5", name: "sushi" }, { id: "5c283a33-e8c5-4d62-bb91-a830751050f9", name: "seafood" }, { id: "f281cafa-753b-4187-ad39-8946160dfca1", name: "fresh" }],
     nutritionalInfo: {
       calories: 290,
       protein: 12,
@@ -400,7 +400,7 @@ export const mealPlan = [
       "Serve hot"
     ],
     imageUrl: "https://imgs.search.brave.com/-kykFc1PB2jgbg-SyEiBsde6xZekzEpACMWj7COZReM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yZWFs/Zm9vZC50ZXNjby5j/b20vbWVkaWEvaW1h/Z2VzL0J1cmdlci0z/MUxHSC1hMjk2YTM1/Ni0wMjBjLTQ5Njkt/ODZlOC1kOGMyNjEz/OWY4M2YtMC0xNDAw/eDkxOS5qcGc",
-    tags: ["american", "beef", "grilling", "classic"],
+    tags: [{ id: "fdcebb9e-6854-4599-af0b-2c66e608740d", name: "american" }, { id: "ca12111a-2c0e-409c-90ed-749b0fab816d", name: "beef" }, { id: "1df77084-3356-45bc-98eb-33844867b8cc", name: "grilling" }, { id: "84941bdf-0612-4f58-adb7-c6fccc52e860", name: "classic" }],
     nutritionalInfo: {
       calories: 450,
       protein: 28,
@@ -439,7 +439,7 @@ export const mealPlan = [
       "Serve hot"
     ],
     imageUrl: "https://example.com/stir-fry.jpg",
-    tags: ["vegetarian", "healthy", "quick", "asian"],
+    tags: [{ id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "670b4550-2aa1-4bc3-a2a7-1b6ffe536281", name: "healthy" }, { id: "70b3322a-d4b1-48dd-b7e5-ca9cbf1ab577", name: "quick" }, { id: "37777e66-2751-4299-adaf-63204212fcc8", name: "asian" }],
     nutritionalInfo: {
       calories: 280,
       protein: 14,
@@ -481,7 +481,7 @@ export const mealPlan = [
       "Bake until golden"
     ],
     imageUrl: "https://example.com/moussaka.jpg",
-    tags: ["greek", "casserole", "lamb", "comfort-food"],
+    tags: [{ id: "8c475671-2abf-4a43-8851-ff13fbd77053", name: "greek" }, { id: "14cef293-00d9-46ac-9cfc-4a919c25308f", name: "casserole" }, { id: "e672e471-5067-4943-8c30-37e823071102", name: "lamb" }, { id: "011da6ea-b8ed-4c17-bcfc-9dee8529f467", name: "comfort-food" }],
     nutritionalInfo: {
       calories: 420,
       protein: 24,
@@ -521,7 +521,7 @@ export const mealPlan = [
       "Serve hot"
     ],
     imageUrl: "https://imgs.search.brave.com/6Io7YDH3j16cZT2hnBiX4HX_GVi3kUU68Uvh5ArNTyE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTQ2/MjM1MjM1MS9waG90/by9waG8uanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPVRhTmVV/Y1F5YXp1Ym9MMmc2/c0NfRU16dUY5WnZX/OXhQdkRMNkZaZ1dL/Vk09",
-    tags: ["vietnamese", "soup", "beef", "noodles"],
+    tags: [{ id: "d5a7dac6-414a-4a9a-b3ab-3794b9866ada", name: "vietnamese" }, { id: "b7a8a5b5-cd4d-46e5-80e8-f32f97c5875c", name: "soup" }, { id: "ca12111a-2c0e-409c-90ed-749b0fab816d", name: "beef" }, { id: "4d6c6535-2a92-47ec-8589-6720756fb97e", name: "noodles" }],
     nutritionalInfo: {
       calories: 320,
       protein: 26,
@@ -561,7 +561,7 @@ export const mealPlan = [
       "Create socarrat"
     ],
     imageUrl: "https://imgs.search.brave.com/wRDYWs56Qyi-nxb0hLcn3fEaJ2hyA_cwybZZXMHh5CY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTgx/ODkxNDAyL3Bob3Rv/L3NlYWZvb2QtcGFl/bGxhLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz04WlVCc25j/ZE1zU0FLT20teFRJ/eUhUNko1cElJc2tl/TXN3MHZLNjRLeUtR/PQ",
-    tags: ["spanish", "rice", "seafood", "one-pot"],
+    tags: [{ id: "ec783cb5-25de-4417-9036-2ae46e1aae1c", name: "spanish" }, { id: "6dcaed95-06e8-4113-a173-8b22c8e5f355", name: "rice" }, { id: "5c283a33-e8c5-4d62-bb91-a830751050f9", name: "seafood" }, { id: "5731c3a6-cd2b-4cde-8bbb-58d905959153", name: "one-pot" }],
     nutritionalInfo: {
       calories: 460,
       protein: 32,
@@ -600,7 +600,7 @@ export const mealPlan = [
       "Serve immediately"
     ],
     imageUrl: "https://imgs.search.brave.com/X2OUMnMc5aNkgWYj_P-CAt4jGdqmcmUTEX7P_70_WYc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzEyLzg4Lzk1LzU4/LzM2MF9GXzEyODg5/NTU4ODlfanpraUlw/bzNpbENqWk12QkFD/QUtQT25LRzQ3Ulk4/SHYuanBn",
-    tags: ["dessert", "chocolate", "french", "baking"],
+    tags: [{ id: "aadf44c7-005c-4235-ad6a-a5612997e840", name: "dessert" }, { id: "f80176f2-803b-46f6-9630-2a5095532a5e", name: "chocolate" }, { id: "55f23355-7a21-451d-a9be-26ce345a7215", name: "french" }, { id: "f5b36342-2d64-433c-9ce6-633a8aa2b349", name: "baking" }],
     nutritionalInfo: {
       calories: 380,
       protein: 6,
@@ -639,7 +639,7 @@ export const mealPlan = [
       "Assemble tacos"
     ],
     imageUrl: "https://imgs.search.brave.com/778GL1XlICCwv1rRIhCU0ZR50-wafRb1_ul3ovbrYws/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9nbGVu/ZGFlbWJyZWUuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIy/LzA4L01leGljYW4t/U3RyZWV0LVRhY29z/LTMtaG9sZGVyLXYt/Yi02ODN4MTAyNC5q/cGc",
-    tags: ["mexican", "street-food", "beef", "quick"],
+    tags: [{ id: "a29a991c-0798-4bec-8da3-ff0e160e62a0", name: "mexican" }, { id: "a4383a56-d462-4812-9f98-555685065b88", name: "street-food" }, { id: "ca12111a-2c0e-409c-90ed-749b0fab816d", name: "beef" }, { id: "70b3322a-d4b1-48dd-b7e5-ca9cbf1ab577", name: "quick" }],
     nutritionalInfo: {
       calories: 280,
       protein: 24,
@@ -678,7 +678,7 @@ export const mealPlan = [
       "Season to taste"
     ],
     imageUrl: "https://example.com/squash-soup.jpg",
-    tags: ["soup", "vegetarian", "fall", "comfort-food"],
+    tags: [{ id: "b7a8a5b5-cd4d-46e5-80e8-f32f97c5875c", name: "soup" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "71911c2d-386c-4ffb-83d8-587e0d422732", name: "fall" }, { id: "011da6ea-b8ed-4c17-bcfc-9dee8529f467", name: "comfort-food" }],
     nutritionalInfo: {
       calories: 220,
       protein: 4,
@@ -718,7 +718,7 @@ export const mealPlan = [
       "Assemble wraps"
     ],
     imageUrl: "https://example.com/falafel.jpg",
-    tags: ["middle-eastern", "vegetarian", "healthy", "lunch"],
+    tags: [{ id: "da1507c6-a6b5-4c44-b399-85cf11680640", name: "middle-eastern" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "670b4550-2aa1-4bc3-a2a7-1b6ffe536281", name: "healthy" }, { id: "1cb939a2-08c9-4154-9a64-e40d41350110", name: "lunch" }],
     nutritionalInfo: {
       calories: 380,
       protein: 14,
@@ -757,7 +757,7 @@ export const mealPlan = [
       "Bake until golden"
     ],
     imageUrl: "https://imgs.search.brave.com/5ItdXxS4-T_mPpVQ8ug3_2cCP7ZaphyHejaLDxJrjSM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzEyLzYxLzMwLzA2/LzM2MF9GXzEyNjEz/MDA2MDhfOU5uU1hr/TXlQdzN4YmNHdkZQ/T0l3ZkFWZHZhaFd0/T3IuanBn",
-    tags: ["british", "beef", "special-occasion", "elegant"],
+    tags: [{ id: "cff14bb6-8876-4d77-b8e9-2c67df270694", name: "british" }, { id: "ca12111a-2c0e-409c-90ed-749b0fab816d", name: "beef" }, { id: "57621348-b512-4ae6-95dc-6d0f1dd8ef66", name: "special-occasion" }, { id: "0fad0583-94f9-4691-9c1a-ffd4403f6d1e", name: "elegant" }],
     nutritionalInfo: {
       calories: 580,
       protein: 42,
@@ -797,7 +797,7 @@ export const mealPlan = [
       "Assemble bowls"
     ],
     imageUrl: "https://imgs.search.brave.com/dbvo2GDSx-uMU7BonEJ7j7ja-gn5ATqZ7cDXTpiNp6g/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuaW1tZWRpYXRl/LmNvLnVrL3Byb2R1/Y3Rpb24vdm9sYXRp/bGUvc2l0ZXMvMzAv/MjAyMC8wOC9taXNv/LXJhbWVuLTUxNGUy/Y2EuanBnP3F1YWxp/dHk9OTAmcmVzaXpl/PTQ0MCw0MDA",
-    tags: ["japanese", "soup", "noodles", "comfort-food"],
+    tags: [{ id: "2b310d67-8cd5-4570-bf0b-2bcbb30ff16f", name: "japanese" }, { id: "b7a8a5b5-cd4d-46e5-80e8-f32f97c5875c", name: "soup" }, { id: "4d6c6535-2a92-47ec-8589-6720756fb97e", name: "noodles" }, { id: "011da6ea-b8ed-4c17-bcfc-9dee8529f467", name: "comfort-food" }],
     nutritionalInfo: {
       calories: 520,
       protein: 28,
@@ -837,7 +837,7 @@ export const mealPlan = [
       "Top with berries"
     ],
     imageUrl: "https://imgs.search.brave.com/DoRkwui_gxwPx0mptLMEuLJHxeRjWe92scgrJddt2wg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Z2lhbGxvemFmZmVy/YW5vLmNvbS9pbWFn/ZXMvMjU1LTI1NTMw/L1dpbGQtYmVycnkt/Y2hlZXNlY2FrZV8x/MjAweDgwMC5qcGc",
-    tags: ["dessert", "baking", "cheesecake", "berries"],
+    tags: [{ id: "aadf44c7-005c-4235-ad6a-a5612997e840", name: "dessert" }, { id: "f5b36342-2d64-433c-9ce6-633a8aa2b349", name: "baking" }, { id: "d3b03b64-976e-484c-8df5-6161e4930e72", name: "cheesecake" }, { id: "b7a6300e-a501-450a-95d0-45b7f237fa70", name: "berries" }],
     nutritionalInfo: {
       calories: 420,
       protein: 8,
@@ -876,7 +876,7 @@ export const mealPlan = [
       "Serve with lemon wedges"
     ],
     imageUrl: '',
-    tags: ["salmon", "grilling", "healthy", "quick"],
+    tags: [{ id: "ef77e5a3-2171-4ef5-9ff0-5ac969ef57f8", name: "salmon" }, { id: "1df77084-3356-45bc-98eb-33844867b8cc", name: "grilling" }, { id: "670b4550-2aa1-4bc3-a2a7-1b6ffe536281", name: "healthy" }, { id: "70b3322a-d4b1-48dd-b7e5-ca9cbf1ab577", name: "quick" }],
     nutritionalInfo: {
       calories: 320,
       protein: 34,
@@ -915,7 +915,7 @@ export const mealPlan = [
       "Let rest for 10 minutes before serving"
     ],
     imageUrl: '',
-    tags: ["vegetarian", "lasagna", "italian", "comfort-food"],
+    tags: [{ id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "ed7528a4-cb67-47bf-ac8a-59334ab93d44", name: "lasagna" }, { id: "7eb2c4a9-128d-4f2c-8c1f-5417a1c5820f", name: "italian" }, { id: "011da6ea-b8ed-4c17-bcfc-9dee8529f467", name: "comfort-food" }],
     nutritionalInfo: {
       calories: 420,
       protein: 22,
@@ -954,7 +954,7 @@ export const mealPlan = [
       "Serve with lime wedges"
     ],
     imageUrl: '',
-    tags: ["mexican", "shrimp", "tacos", "quick"],
+    tags: [{ id: "a29a991c-0798-4bec-8da3-ff0e160e62a0", name: "mexican" }, { id: "2e28d841-3de4-4995-807f-230eff55c5c5", name: "shrimp" }, { id: "1ce86525-a2a0-478e-94a3-e88d109318b2", name: "tacos" }, { id: "70b3322a-d4b1-48dd-b7e5-ca9cbf1ab577", name: "quick" }],
     nutritionalInfo: {
       calories: 280,
       protein: 20,
@@ -993,7 +993,7 @@ export const mealPlan = [
       "Top with cheese and bake for 10 more minutes"
     ],
     imageUrl: '',
-    tags: ["vegetarian", "stuffed-peppers", "healthy", "mediterranean"],
+    tags: [{ id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "702f53c0-a8ef-4ab4-a458-3a48de70b885", name: "stuffed-peppers" }, { id: "670b4550-2aa1-4bc3-a2a7-1b6ffe536281", name: "healthy" }, { id: "5732cc66-a954-4b23-b9bd-452f429eba60", name: "mediterranean" }],
     nutritionalInfo: {
       calories: 350,
       protein: 14,
@@ -1032,7 +1032,7 @@ export const mealPlan = [
       "Garnish with parsley and serve"
     ],
     imageUrl: '',
-    tags: ["italian", "pasta", "chicken", "creamy"],
+    tags: [{ id: "7eb2c4a9-128d-4f2c-8c1f-5417a1c5820f", name: "italian" }, { id: "b5c178fc-df32-4eea-92f9-2a5ba12755fa", name: "pasta" }, { id: "ef302a71-5818-4ead-a03d-88e56fcfed48", name: "chicken" }, { id: "2bbc020f-537e-4ffc-84c8-0477cef41f40", name: "creamy" }],
     nutritionalInfo: {
       calories: 520,
       protein: 32,
@@ -1071,7 +1071,7 @@ export const mealPlan = [
       "Bake at 375°F (190°C) for 25 minutes"
     ],
     imageUrl: "",
-    tags: ["italian", "vegetarian", "baking", "comfort-food"],
+    tags: [{ id: "7eb2c4a9-128d-4f2c-8c1f-5417a1c5820f", name: "italian" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "f5b36342-2d64-433c-9ce6-633a8aa2b349", name: "baking" }, { id: "011da6ea-b8ed-4c17-bcfc-9dee8529f467", name: "comfort-food" }],
     nutritionalInfo: {
       calories: 400,
       protein: 18,
@@ -1111,7 +1111,7 @@ export const mealPlan = [
       "Assemble shawarma wraps"
     ],
     imageUrl: "",
-    tags: ["middle-eastern", "chicken", "quick", "healthy"],
+    tags: [{ id: "da1507c6-a6b5-4c44-b399-85cf11680640", name: "middle-eastern" }, { id: "ef302a71-5818-4ead-a03d-88e56fcfed48", name: "chicken" }, { id: "70b3322a-d4b1-48dd-b7e5-ca9cbf1ab577", name: "quick" }, { id: "670b4550-2aa1-4bc3-a2a7-1b6ffe536281", name: "healthy" }],
     nutritionalInfo: {
       calories: 350,
       protein: 28,
@@ -1151,7 +1151,7 @@ export const mealPlan = [
       "Add coconut milk and season to taste"
     ],
     imageUrl: "",
-    tags: ["indian", "vegetarian", "curry", "healthy"],
+    tags: [{ id: "3b3076d2-653b-4318-aa32-b94d0ef6ef21", name: "indian" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "81351b60-0089-4b28-8416-2443183dbe85", name: "curry" }, { id: "670b4550-2aa1-4bc3-a2a7-1b6ffe536281", name: "healthy" }],
     nutritionalInfo: {
       calories: 280,
       protein: 6,
@@ -1191,7 +1191,7 @@ export const mealPlan = [
       "Stir in sour cream and return beef to the pan"
     ],
     imageUrl: "",
-    tags: ["russian", "beef", "comfort-food", "creamy"],
+    tags: [{ id: "63fff2cf-e6d4-43e1-bcb1-0b9295ebbd51", name: "russian" }, { id: "ca12111a-2c0e-409c-90ed-749b0fab816d", name: "beef" }, { id: "011da6ea-b8ed-4c17-bcfc-9dee8529f467", name: "comfort-food" }, { id: "2bbc020f-537e-4ffc-84c8-0477cef41f40", name: "creamy" }],
     nutritionalInfo: {
       calories: 450,
       protein: 28,
@@ -1231,7 +1231,7 @@ export const mealPlan = [
       "Serve with syrup and butter"
     ],
     imageUrl: "",
-    tags: ["breakfast", "pancakes", "blueberries", "quick"],
+    tags: [{ id: "97928368-1e77-4b98-9670-2f6b8792e530", name: "breakfast" }, { id: "01c96ff0-7874-4697-8b19-646caaf337e1", name: "pancakes" }, { id: "24495198-b9ac-49dc-9c0a-38807a2fba3f", name: "blueberries" }, { id: "70b3322a-d4b1-48dd-b7e5-ca9cbf1ab577", name: "quick" }],
     nutritionalInfo: {
       calories: 320,
       protein: 8,
@@ -1271,7 +1271,7 @@ export const mealPlan = [
       "Top with cheese and bake at 375°F (190°C) for 25 minutes"
     ],
     imageUrl: "",
-    tags: ["mediterranean", "healthy", "zucchini", "baking"],
+    tags: [{ id: "5732cc66-a954-4b23-b9bd-452f429eba60", name: "mediterranean" }, { id: "670b4550-2aa1-4bc3-a2a7-1b6ffe536281", name: "healthy" }, { id: "8a49bdb6-ce44-4156-8fd5-50551ca029ef", name: "zucchini" }, { id: "f5b36342-2d64-433c-9ce6-633a8aa2b349", name: "baking" }],
     nutritionalInfo: {
       calories: 280,
       protein: 22,
@@ -1311,7 +1311,7 @@ export const mealPlan = [
       "Serve warm"
     ],
     imageUrl: "",
-    tags: ["soup", "lentils", "vegetarian", "healthy"],
+    tags: [{ id: "b7a8a5b5-cd4d-46e5-80e8-f32f97c5875c", name: "soup" }, { id: "3b417168-f802-409d-b276-34d016ac4fbe", name: "lentils" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "670b4550-2aa1-4bc3-a2a7-1b6ffe536281", name: "healthy" }],
     nutritionalInfo: {
       calories: 220,
       protein: 12,
@@ -1350,7 +1350,7 @@ export const mealPlan = [
       "Serve immediately"
     ],
     imageUrl: "",
-    tags: ["salad", "italian", "vegetarian", "quick"],
+    tags: [{ id: "544d2dc4-6d91-45ab-90b2-a2b03788560b", name: "salad" }, { id: "7eb2c4a9-128d-4f2c-8c1f-5417a1c5820f", name: "italian" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "70b3322a-d4b1-48dd-b7e5-ca9cbf1ab577", name: "quick" }],
     nutritionalInfo: {
       calories: 180,
       protein: 8,
@@ -1390,7 +1390,7 @@ export const mealPlan = [
       "Bake at 375°F (190°C) for 25 minutes"
     ],
     imageUrl: "",
-    tags: ["british", "comfort-food", "lamb", "baking"],
+    tags: [{ id: "cff14bb6-8876-4d77-b8e9-2c67df270694", name: "british" }, { id: "011da6ea-b8ed-4c17-bcfc-9dee8529f467", name: "comfort-food" }, { id: "e672e471-5067-4943-8c30-37e823071102", name: "lamb" }, { id: "f5b36342-2d64-433c-9ce6-633a8aa2b349", name: "baking" }],
     nutritionalInfo: {
       calories: 450,
       protein: 20,
@@ -1428,7 +1428,7 @@ export const mealPlan = [
       "Serve immediately"
     ],
     imageUrl: "",
-    tags: ["wrap", "chicken", "quick", "healthy"],
+    tags: [{ id: "0359d764-fba4-4b16-84e9-ff3d48fadd43", name: "wrap" }, { id: "ef302a71-5818-4ead-a03d-88e56fcfed48", name: "chicken" }, { id: "70b3322a-d4b1-48dd-b7e5-ca9cbf1ab577", name: "quick" }, { id: "670b4550-2aa1-4bc3-a2a7-1b6ffe536281", name: "healthy" }],
     nutritionalInfo: {
       calories: 320,
       protein: 25,
@@ -1467,7 +1467,7 @@ export const mealPlan = [
       "Serve hot with rice or noodles"
     ],
     imageUrl: "",
-    tags: ["asian", "vegetarian", "stir-fry", "quick"],
+    tags: [{ id: "37777e66-2751-4299-adaf-63204212fcc8", name: "asian" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "53610fe9-e91e-4a7a-8e00-48a1d13bf83f", name: "stir-fry" }, { id: "70b3322a-d4b1-48dd-b7e5-ca9cbf1ab577", name: "quick" }],
     nutritionalInfo: {
       calories: 280,
       protein: 8,
@@ -1504,7 +1504,7 @@ export const mealPlan = [
       "Serve immediately"
     ],
     imageUrl: "",
-    tags: ["salad", "beets", "vegetarian", "healthy"],
+    tags: [{ id: "544d2dc4-6d91-45ab-90b2-a2b03788560b", name: "salad" }, { id: "a005375d-d12b-4ff4-a2c0-a8ed0a08b137", name: "beets" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "670b4550-2aa1-4bc3-a2a7-1b6ffe536281", name: "healthy" }],
     nutritionalInfo: {
       calories: 220,
       protein: 6,
@@ -1543,7 +1543,7 @@ export const mealPlan = [
       "Serve warm"
     ],
     imageUrl: "",
-    tags: ["italian", "risotto", "pumpkin", "comfort-food"],
+    tags: [{ id: "7eb2c4a9-128d-4f2c-8c1f-5417a1c5820f", name: "italian" }, { id: "9ae9060b-19df-4313-9280-64c7f6237eca", name: "risotto" }, { id: "95826181-8a5a-4a77-8407-9d9558cb2d58", name: "pumpkin" }, { id: "011da6ea-b8ed-4c17-bcfc-9dee8529f467", name: "comfort-food" }],
     nutritionalInfo: {
       calories: 320,
       protein: 10,
@@ -1580,7 +1580,7 @@ export const mealPlan = [
       "Sprinkle with sesame seeds and extra sauce"
     ],
     imageUrl: "",
-    tags: ["japanese", "salmon", "healthy", "quick"],
+    tags: [{ id: "2b310d67-8cd5-4570-bf0b-2bcbb30ff16f", name: "japanese" }, { id: "ef77e5a3-2171-4ef5-9ff0-5ac969ef57f8", name: "salmon" }, { id: "670b4550-2aa1-4bc3-a2a7-1b6ffe536281", name: "healthy" }, { id: "70b3322a-d4b1-48dd-b7e5-ca9cbf1ab577", name: "quick" }],
     nutritionalInfo: {
       calories: 380,
       protein: 28,
@@ -1619,7 +1619,7 @@ export const mealPlan = [
       "Scoop batter into muffin tins and bake at 350°F (175°C) for 20 minutes"
     ],
     imageUrl: "",
-    tags: ["dessert", "banana", "muffins", "baking"],
+    tags: [{ id: "aadf44c7-005c-4235-ad6a-a5612997e840", name: "dessert" }, { id: "cc10b088-9d7e-4d4a-b48b-dee3fd49dca3", name: "banana" }, { id: "84090db7-ec3b-415a-a872-599d5a0d8db1", name: "muffins" }, { id: "f5b36342-2d64-433c-9ce6-633a8aa2b349", name: "baking" }],
     nutritionalInfo: {
       calories: 220,
       protein: 4,
@@ -1656,7 +1656,7 @@ export const mealPlan = [
       "Serve warm with chips or bread"
     ],
     imageUrl: "",
-    tags: ["appetizer", "dip", "cheesy", "party"],
+    tags: [{ id: "6bd3f859-4a39-4641-9d12-ab6dbcad09b7", name: "appetizer" }, { id: "5b8e0c68-f821-4837-871a-1b7c8d768d0b", name: "dip" }, { id: "9da8785f-3492-4953-83a0-754d44d401c8", name: "cheesy" }, { id: "0bb060d1-0420-443d-b308-d4d950fda630", name: "party" }],
     nutritionalInfo: {
       calories: 250,
       protein: 8,
@@ -1692,7 +1692,7 @@ export const mealPlan = [
       "Bake at 375°F (190°C) for 20 minutes"
     ],
     imageUrl: "",
-    tags: ["appetizer", "mushrooms", "cheesy", "baking"],
+    tags: [{ id: "6bd3f859-4a39-4641-9d12-ab6dbcad09b7", name: "appetizer" }, { id: "740ee36e-cfa4-48ab-9aa3-5870562435a7", name: "mushrooms" }, { id: "9da8785f-3492-4953-83a0-754d44d401c8", name: "cheesy" }, { id: "f5b36342-2d64-433c-9ce6-633a8aa2b349", name: "baking" }],
     nutritionalInfo: {
       calories: 180,
       protein: 6,
@@ -1728,7 +1728,7 @@ export const mealPlan = [
       "Serve hot"
     ],
     imageUrl: "",
-    tags: ["side", "healthy", "baking", "quick"],
+    tags: [{ id: "0e8f84c8-9f57-4e9c-b52d-64f8c599f1ce", name: "side" }, { id: "670b4550-2aa1-4bc3-a2a7-1b6ffe536281", name: "healthy" }, { id: "f5b36342-2d64-433c-9ce6-633a8aa2b349", name: "baking" }, { id: "70b3322a-d4b1-48dd-b7e5-ca9cbf1ab577", name: "quick" }],
     nutritionalInfo: {
       calories: 150,
       protein: 2,
@@ -1764,7 +1764,7 @@ export const mealPlan = [
       "Bake at 375°F (190°C) for 30 minutes"
     ],
     imageUrl: "",
-    tags: ["mexican", "chicken", "baking", "comfort-food"],
+    tags: [{ id: "a29a991c-0798-4bec-8da3-ff0e160e62a0", name: "mexican" }, { id: "ef302a71-5818-4ead-a03d-88e56fcfed48", name: "chicken" }, { id: "f5b36342-2d64-433c-9ce6-633a8aa2b349", name: "baking" }, { id: "011da6ea-b8ed-4c17-bcfc-9dee8529f467", name: "comfort-food" }],
     nutritionalInfo: {
       calories: 350,
       protein: 25,
@@ -1800,7 +1800,7 @@ export const mealPlan = [
       "Serve with dipping sauce"
     ],
     imageUrl: "",
-    tags: ["asian", "vegetarian", "healthy", "quick"],
+    tags: [{ id: "37777e66-2751-4299-adaf-63204212fcc8", name: "asian" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "670b4550-2aa1-4bc3-a2a7-1b6ffe536281", name: "healthy" }, { id: "70b3322a-d4b1-48dd-b7e5-ca9cbf1ab577", name: "quick" }],
     nutritionalInfo: {
       calories: 120,
       protein: 2,
@@ -1835,7 +1835,7 @@ export const mealPlan = [
       "Serve warm"
     ],
     imageUrl: "",
-    tags: ["bread", "garlic", "baking", "side"],
+    tags: [{ id: "6b4e81c1-c69b-49e1-a7ae-ea389582cf79", name: "bread" }, { id: "1b0dfd5f-3536-425b-88d0-0d353b60c6a6", name: "garlic" }, { id: "f5b36342-2d64-433c-9ce6-633a8aa2b349", name: "baking" }, { id: "0e8f84c8-9f57-4e9c-b52d-64f8c599f1ce", name: "side" }],
     nutritionalInfo: {
       calories: 200,
       protein: 5,
@@ -1873,7 +1873,7 @@ export const mealPlan = [
       "Toss and serve"
     ],
     imageUrl: "",
-    tags: ["salad", "greek", "vegetarian", "healthy"],
+    tags: [{ id: "544d2dc4-6d91-45ab-90b2-a2b03788560b", name: "salad" }, { id: "8c475671-2abf-4a43-8851-ff13fbd77053", name: "greek" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "670b4550-2aa1-4bc3-a2a7-1b6ffe536281", name: "healthy" }],
     nutritionalInfo: {
       calories: 180,
       protein: 6,
@@ -1909,7 +1909,7 @@ export const mealPlan = [
       "Chill for 2 hours before serving"
     ],
     imageUrl: "",
-    tags: ["dessert", "chocolate", "french", "creamy"],
+    tags: [{ id: "aadf44c7-005c-4235-ad6a-a5612997e840", name: "dessert" }, { id: "f80176f2-803b-46f6-9630-2a5095532a5e", name: "chocolate" }, { id: "55f23355-7a21-451d-a9be-26ce345a7215", name: "french" }, { id: "2bbc020f-537e-4ffc-84c8-0477cef41f40", name: "creamy" }],
     nutritionalInfo: {
       calories: 320,
       protein: 6,
@@ -1946,7 +1946,7 @@ export const mealPlan = [
       "Assemble sandwiches and serve"
     ],
     imageUrl: "",
-    tags: ["sandwich", "eggs", "quick", "lunch"],
+    tags: [{ id: "266c1d5d-84f6-4443-b84b-e370954901d7", name: "sandwich" }, { id: "28b7e53d-6c6f-4249-97a3-cc12ee5baed2", name: "eggs" }, { id: "70b3322a-d4b1-48dd-b7e5-ca9cbf1ab577", name: "quick" }, { id: "1cb939a2-08c9-4154-9a64-e40d41350110", name: "lunch" }],
     nutritionalInfo: {
       calories: 300,
       protein: 12,
@@ -1983,7 +1983,7 @@ export const mealPlan = [
       "Bake at 375°F (190°C) for 40 minutes"
     ],
     imageUrl: "",
-    tags: ["dessert", "peach", "baking", "comfort-food"],
+    tags: [{ id: "aadf44c7-005c-4235-ad6a-a5612997e840", name: "dessert" }, { id: "288dae1c-55a6-4dcf-aced-832c1d605cd8", name: "peach" }, { id: "f5b36342-2d64-433c-9ce6-633a8aa2b349", name: "baking" }, { id: "011da6ea-b8ed-4c17-bcfc-9dee8529f467", name: "comfort-food" }],
     nutritionalInfo: {
       calories: 280,
       protein: 4,
@@ -2022,7 +2022,7 @@ export const mealPlan = [
       "Let rest for 5 minutes before serving"
     ],
     imageUrl: "",
-    tags: ["spanish", "vegetarian", "rice", "one-pot"],
+    tags: [{ id: "ec783cb5-25de-4417-9036-2ae46e1aae1c", name: "spanish" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "6dcaed95-06e8-4113-a173-8b22c8e5f355", name: "rice" }, { id: "5731c3a6-cd2b-4cde-8bbb-58d905959153", name: "one-pot" }],
     nutritionalInfo: {
       calories: 320,
       protein: 8,
@@ -2060,7 +2060,7 @@ export const mealPlan = [
       "Serve with steamed rice"
     ],
     imageUrl: "",
-    tags: ["thai", "curry", "vegetarian", "spicy"],
+    tags: [{ id: "b811c959-ff00-49fe-bed8-6a97aaa54ef6", name: "thai" }, { id: "81351b60-0089-4b28-8416-2443183dbe85", name: "curry" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "92c10bb9-437d-4322-8ab4-d533713b5a51", name: "spicy" }],
     nutritionalInfo: {
       calories: 280,
       protein: 10,
@@ -2095,7 +2095,7 @@ export const mealPlan = [
       "Serve warm"
     ],
     imageUrl: "",
-    tags: ["american", "bbq", "pork", "sandwich"],
+    tags: [{ id: "fdcebb9e-6854-4599-af0b-2c66e608740d", name: "american" }, { id: "f97fd817-3cce-46c2-bdea-4d2e670325c9", name: "bbq" }, { id: "d6c688b3-9701-44de-8835-6b97a4d5e868", name: "pork" }, { id: "266c1d5d-84f6-4443-b84b-e370954901d7", name: "sandwich" }],
     nutritionalInfo: {
       calories: 450,
       protein: 28,
@@ -2133,7 +2133,7 @@ export const mealPlan = [
       "Serve warm as a side or main dish"
     ],
     imageUrl: "",
-    tags: ["french", "vegetarian", "stew", "healthy"],
+    tags: [{ id: "55f23355-7a21-451d-a9be-26ce345a7215", name: "french" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "a58288f5-e1d7-4e82-95ea-d2658b09f7bd", name: "stew" }, { id: "670b4550-2aa1-4bc3-a2a7-1b6ffe536281", name: "healthy" }],
     nutritionalInfo: {
       calories: 180,
       protein: 4,
@@ -2170,7 +2170,7 @@ export const mealPlan = [
       "Serve immediately"
     ],
     imageUrl: "",
-    tags: ["italian", "shrimp", "pasta", "quick"],
+    tags: [{ id: "7eb2c4a9-128d-4f2c-8c1f-5417a1c5820f", name: "italian" }, { id: "2e28d841-3de4-4995-807f-230eff55c5c5", name: "shrimp" }, { id: "b5c178fc-df32-4eea-92f9-2a5ba12755fa", name: "pasta" }, { id: "70b3322a-d4b1-48dd-b7e5-ca9cbf1ab577", name: "quick" }],
     nutritionalInfo: {
       calories: 380,
       protein: 28,
@@ -2207,7 +2207,7 @@ export const mealPlan = [
       "Cover with tomato sauce and bake at 375°F (190°C) for 1 hour"
     ],
     imageUrl: "",
-    tags: ["eastern-european", "beef", "baking", "comfort-food"],
+    tags: [{ id: "bc287c44-5b7a-42a2-abda-bde70b07d343", name: "eastern-european" }, { id: "ca12111a-2c0e-409c-90ed-749b0fab816d", name: "beef" }, { id: "f5b36342-2d64-433c-9ce6-633a8aa2b349", name: "baking" }, { id: "011da6ea-b8ed-4c17-bcfc-9dee8529f467", name: "comfort-food" }],
     nutritionalInfo: {
       calories: 320,
       protein: 20,
@@ -2244,7 +2244,7 @@ export const mealPlan = [
       "Serve chicken with sauce drizzled on top"
     ],
     imageUrl: "",
-    tags: ["italian", "chicken", "quick", "healthy"],
+    tags: [{ id: "7eb2c4a9-128d-4f2c-8c1f-5417a1c5820f", name: "italian" }, { id: "ef302a71-5818-4ead-a03d-88e56fcfed48", name: "chicken" }, { id: "70b3322a-d4b1-48dd-b7e5-ca9cbf1ab577", name: "quick" }, { id: "670b4550-2aa1-4bc3-a2a7-1b6ffe536281", name: "healthy" }],
     nutritionalInfo: {
       calories: 280,
       protein: 25,
@@ -2280,7 +2280,7 @@ export const mealPlan = [
       "Sprinkle cheese on top and broil until golden"
     ],
     imageUrl: "",
-    tags: ["italian", "eggs", "vegetarian", "quick"],
+    tags: [{ id: "7eb2c4a9-128d-4f2c-8c1f-5417a1c5820f", name: "italian" }, { id: "28b7e53d-6c6f-4249-97a3-cc12ee5baed2", name: "eggs" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "70b3322a-d4b1-48dd-b7e5-ca9cbf1ab577", name: "quick" }],
     nutritionalInfo: {
       calories: 250,
       protein: 14,
@@ -2318,7 +2318,7 @@ export const mealPlan = [
       "Serve hot with rice"
     ],
     imageUrl: "",
-    tags: ["asian", "beef", "stir-fry", "quick"],
+    tags: [{ id: "37777e66-2751-4299-adaf-63204212fcc8", name: "asian" }, { id: "ca12111a-2c0e-409c-90ed-749b0fab816d", name: "beef" }, { id: "53610fe9-e91e-4a7a-8e00-48a1d13bf83f", name: "stir-fry" }, { id: "70b3322a-d4b1-48dd-b7e5-ca9cbf1ab577", name: "quick" }],
     nutritionalInfo: {
       calories: 320,
       protein: 28,
@@ -2354,7 +2354,7 @@ export const mealPlan = [
       "Bake at 375°F (190°C) for 30 minutes"
     ],
     imageUrl: "",
-    tags: ["dessert", "apple", "baking", "comfort-food"],
+    tags: [{ id: "aadf44c7-005c-4235-ad6a-a5612997e840", name: "dessert" }, { id: "8712eeca-a786-4ba0-9fe2-c491a51e38cb", name: "apple" }, { id: "f5b36342-2d64-433c-9ce6-633a8aa2b349", name: "baking" }, { id: "011da6ea-b8ed-4c17-bcfc-9dee8529f467", name: "comfort-food" }],
     nutritionalInfo: {
       calories: 280,
       protein: 3,
@@ -2393,7 +2393,7 @@ export const mealPlan = [
       "Bake at 375°F (190°C) for 15 minutes"
     ],
     imageUrl: "",
-    tags: ["italian", "chicken", "baking", "comfort-food"],
+    tags: [{ id: "7eb2c4a9-128d-4f2c-8c1f-5417a1c5820f", name: "italian" }, { id: "ef302a71-5818-4ead-a03d-88e56fcfed48", name: "chicken" }, { id: "f5b36342-2d64-433c-9ce6-633a8aa2b349", name: "baking" }, { id: "011da6ea-b8ed-4c17-bcfc-9dee8529f467", name: "comfort-food" }],
     nutritionalInfo: {
       calories: 450,
       protein: 35,
@@ -2431,7 +2431,7 @@ export const mealPlan = [
       "Serve with chutney"
     ],
     imageUrl: "",
-    tags: ["indian", "vegetarian", "snack", "spicy"],
+    tags: [{ id: "3b3076d2-653b-4318-aa32-b94d0ef6ef21", name: "indian" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "de9f5dfd-da26-4008-b18f-ae9fd529bc02", name: "snack" }, { id: "92c10bb9-437d-4322-8ab4-d533713b5a51", name: "spicy" }],
     nutritionalInfo: {
       calories: 250,
       protein: 5,
@@ -2470,7 +2470,7 @@ export const mealPlan = [
       "Serve warm"
     ],
     imageUrl: "",
-    tags: ["soup", "seafood", "creamy", "comfort-food"],
+    tags: [{ id: "b7a8a5b5-cd4d-46e5-80e8-f32f97c5875c", name: "soup" }, { id: "5c283a33-e8c5-4d62-bb91-a830751050f9", name: "seafood" }, { id: "2bbc020f-537e-4ffc-84c8-0477cef41f40", name: "creamy" }, { id: "011da6ea-b8ed-4c17-bcfc-9dee8529f467", name: "comfort-food" }],
     nutritionalInfo: {
       calories: 320,
       protein: 12,
@@ -2508,7 +2508,7 @@ export const mealPlan = [
       "Serve warm"
     ],
     imageUrl: "",
-    tags: ["vegetarian", "mushrooms", "baking", "healthy"],
+    tags: [{ id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "740ee36e-cfa4-48ab-9aa3-5870562435a7", name: "mushrooms" }, { id: "f5b36342-2d64-433c-9ce6-633a8aa2b349", name: "baking" }, { id: "670b4550-2aa1-4bc3-a2a7-1b6ffe536281", name: "healthy" }],
     nutritionalInfo: {
       calories: 200,
       protein: 8,
@@ -2545,7 +2545,7 @@ export const mealPlan = [
       "Serve immediately"
     ],
     imageUrl: "",
-    tags: ["mexican", "beef", "quick", "tacos"],
+    tags: [{ id: "a29a991c-0798-4bec-8da3-ff0e160e62a0", name: "mexican" }, { id: "ca12111a-2c0e-409c-90ed-749b0fab816d", name: "beef" }, { id: "70b3322a-d4b1-48dd-b7e5-ca9cbf1ab577", name: "quick" }, { id: "1ce86525-a2a0-478e-94a3-e88d109318b2", name: "tacos" }],
     nutritionalInfo: {
       calories: 300,
       protein: 20,
@@ -2582,7 +2582,7 @@ export const mealPlan = [
       "Serve hot"
     ],
     imageUrl: "",
-    tags: ["chinese", "soup", "quick", "comfort-food"],
+    tags: [{ id: "c1bc21b6-c44d-4010-85fe-1b32e32b986a", name: "chinese" }, { id: "b7a8a5b5-cd4d-46e5-80e8-f32f97c5875c", name: "soup" }, { id: "70b3322a-d4b1-48dd-b7e5-ca9cbf1ab577", name: "quick" }, { id: "011da6ea-b8ed-4c17-bcfc-9dee8529f467", name: "comfort-food" }],
     nutritionalInfo: {
       calories: 120,
       protein: 8,
@@ -2620,7 +2620,7 @@ export const mealPlan = [
       "Serve warm"
     ],
     imageUrl: "",
-    tags: ["greek", "vegetarian", "baking", "comfort-food"],
+    tags: [{ id: "8c475671-2abf-4a43-8851-ff13fbd77053", name: "greek" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "f5b36342-2d64-433c-9ce6-633a8aa2b349", name: "baking" }, { id: "011da6ea-b8ed-4c17-bcfc-9dee8529f467", name: "comfort-food" }],
     nutritionalInfo: {
       calories: 320,
       protein: 10,
@@ -2658,7 +2658,7 @@ export const mealPlan = [
       "Serve hot"
     ],
     imageUrl: "",
-    tags: ["chinese", "rice", "quick", "chicken"],
+    tags: [{ id: "c1bc21b6-c44d-4010-85fe-1b32e32b986a", name: "chinese" }, { id: "6dcaed95-06e8-4113-a173-8b22c8e5f355", name: "rice" }, { id: "70b3322a-d4b1-48dd-b7e5-ca9cbf1ab577", name: "quick" }, { id: "ef302a71-5818-4ead-a03d-88e56fcfed48", name: "chicken" }],
     nutritionalInfo: {
       calories: 320,
       protein: 18,
@@ -2693,7 +2693,7 @@ export const mealPlan = [
       "Serve with fruits and marshmallows for dipping"
     ],
     imageUrl: "",
-    tags: ["dessert", "chocolate", "quick", "party"],
+    tags: [{ id: "aadf44c7-005c-4235-ad6a-a5612997e840", name: "dessert" }, { id: "f80176f2-803b-46f6-9630-2a5095532a5e", name: "chocolate" }, { id: "70b3322a-d4b1-48dd-b7e5-ca9cbf1ab577", name: "quick" }, { id: "0bb060d1-0420-443d-b308-d4d950fda630", name: "party" }],
     nutritionalInfo: {
       calories: 300,
       protein: 4,
@@ -2730,7 +2730,7 @@ export const mealPlan = [
       "Serve warm with grated Parmesan"
     ],
     imageUrl: "",
-    tags: ["italian", "soup", "vegetarian", "healthy"],
+    tags: [{ id: "7eb2c4a9-128d-4f2c-8c1f-5417a1c5820f", name: "italian" }, { id: "b7a8a5b5-cd4d-46e5-80e8-f32f97c5875c", name: "soup" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "670b4550-2aa1-4bc3-a2a7-1b6ffe536281", name: "healthy" }],
     nutritionalInfo: {
       calories: 250,
       protein: 8,
@@ -2768,7 +2768,7 @@ export const mealPlan = [
       "Serve with tzatziki sauce"
     ],
     imageUrl: "",
-    tags: ["middle-eastern", "lamb", "grilling", "spicy"],
+    tags: [{ id: "da1507c6-a6b5-4c44-b399-85cf11680640", name: "middle-eastern" }, { id: "e672e471-5067-4943-8c30-37e823071102", name: "lamb" }, { id: "1df77084-3356-45bc-98eb-33844867b8cc", name: "grilling" }, { id: "92c10bb9-437d-4322-8ab4-d533713b5a51", name: "spicy" }],
     nutritionalInfo: {
       calories: 320,
       protein: 25,
@@ -2804,7 +2804,7 @@ export const mealPlan = [
       "Serve with sliced mango"
     ],
     imageUrl: "",
-    tags: ["thai", "dessert", "mango", "sweet"],
+    tags: [{ id: "b811c959-ff00-49fe-bed8-6a97aaa54ef6", name: "thai" }, { id: "aadf44c7-005c-4235-ad6a-a5612997e840", name: "dessert" }, { id: "d143294f-cbbd-4acf-9ec9-3e50e9c27bc8", name: "mango" }, { id: "7f3bf842-2578-4735-89e4-51b89b79dfcc", name: "sweet" }],
     nutritionalInfo: {
       calories: 280,
       protein: 4,
@@ -2843,7 +2843,7 @@ export const mealPlan = [
       "Serve with bread"
     ],
     imageUrl: "",
-    tags: ["middle-eastern", "eggs", "vegetarian", "spicy"],
+    tags: [{ id: "da1507c6-a6b5-4c44-b399-85cf11680640", name: "middle-eastern" }, { id: "28b7e53d-6c6f-4249-97a3-cc12ee5baed2", name: "eggs" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "92c10bb9-437d-4322-8ab4-d533713b5a51", name: "spicy" }],
     nutritionalInfo: {
       calories: 200,
       protein: 10,
@@ -2881,7 +2881,7 @@ export const mealPlan = [
       "Serve immediately"
     ],
     imageUrl: "",
-    tags: ["mexican", "fish", "tacos", "quick"],
+    tags: [{ id: "a29a991c-0798-4bec-8da3-ff0e160e62a0", name: "mexican" }, { id: "d63c3194-6f72-4912-91c4-fa469c92cf7b", name: "fish" }, { id: "1ce86525-a2a0-478e-94a3-e88d109318b2", name: "tacos" }, { id: "70b3322a-d4b1-48dd-b7e5-ca9cbf1ab577", name: "quick" }],
     nutritionalInfo: {
       calories: 280,
       protein: 20,
@@ -2920,7 +2920,7 @@ export const mealPlan = [
       "Cool before serving"
     ],
     imageUrl: "",
-    tags: ["dessert", "pumpkin", "baking", "fall"],
+    tags: [{ id: "aadf44c7-005c-4235-ad6a-a5612997e840", name: "dessert" }, { id: "95826181-8a5a-4a77-8407-9d9558cb2d58", name: "pumpkin" }, { id: "f5b36342-2d64-433c-9ce6-633a8aa2b349", name: "baking" }, { id: "71911c2d-386c-4ffb-83d8-587e0d422732", name: "fall" }],
     nutritionalInfo: {
       calories: 320,
       protein: 6,
@@ -2959,7 +2959,7 @@ export const mealPlan = [
       "Garnish with peanuts and serve"
     ],
     imageUrl: "",
-    tags: ["thai", "vegetarian", "noodles", "quick"],
+    tags: [{ id: "b811c959-ff00-49fe-bed8-6a97aaa54ef6", name: "thai" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "4d6c6535-2a92-47ec-8589-6720756fb97e", name: "noodles" }, { id: "70b3322a-d4b1-48dd-b7e5-ca9cbf1ab577", name: "quick" }],
     nutritionalInfo: {
       calories: 380,
       protein: 12,
@@ -2997,7 +2997,7 @@ export const mealPlan = [
       "Serve hot"
     ],
     imageUrl: "",
-    tags: ["french", "soup", "cheesy", "comfort-food"],
+    tags: [{ id: "55f23355-7a21-451d-a9be-26ce345a7215", name: "french" }, { id: "b7a8a5b5-cd4d-46e5-80e8-f32f97c5875c", name: "soup" }, { id: "9da8785f-3492-4953-83a0-754d44d401c8", name: "cheesy" }, { id: "011da6ea-b8ed-4c17-bcfc-9dee8529f467", name: "comfort-food" }],
     nutritionalInfo: {
       calories: 320,
       protein: 10,
@@ -3034,7 +3034,7 @@ export const mealPlan = [
       "Serve with dipping sauce"
     ],
     imageUrl: "",
-    tags: ["japanese", "dumplings", "vegetarian", "snack"],
+    tags: [{ id: "2b310d67-8cd5-4570-bf0b-2bcbb30ff16f", name: "japanese" }, { id: "465a72a1-ac5d-4739-aff6-f53533287f19", name: "dumplings" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "de9f5dfd-da26-4008-b18f-ae9fd529bc02", name: "snack" }],
     nutritionalInfo: {
       calories: 200,
       protein: 6,
@@ -3069,7 +3069,7 @@ export const mealPlan = [
       "Serve with sweet chili sauce"
     ],
     imageUrl: "",
-    tags: ["caribbean", "shrimp", "crispy", "appetizer"],
+    tags: [{ id: "a406e0a6-4c7b-4a7f-b372-586affa213a4", name: "caribbean" }, { id: "2e28d841-3de4-4995-807f-230eff55c5c5", name: "shrimp" }, { id: "46e195bb-aaeb-4758-b3ed-c8098dc0951d", name: "crispy" }, { id: "6bd3f859-4a39-4641-9d12-ab6dbcad09b7", name: "appetizer" }],
     nutritionalInfo: {
       calories: 320,
       protein: 20,
@@ -3104,7 +3104,7 @@ export const mealPlan = [
       "Serve chilled"
     ],
     imageUrl: "",
-    tags: ["dessert", "raspberry", "sorbet", "summer"],
+    tags: [{ id: "aadf44c7-005c-4235-ad6a-a5612997e840", name: "dessert" }, { id: "2aabff99-1ac8-447f-8e63-a3deccd94d84", name: "raspberry" }, { id: "899f81cf-5871-43dc-a4fb-133e35a0d838", name: "sorbet" }, { id: "fa015a2c-68eb-4d50-8b0d-18a086cc1203", name: "summer" }],
     nutritionalInfo: {
       calories: 120,
       protein: 1,
@@ -3144,7 +3144,7 @@ export const mealPlan = [
       "Serve hot"
     ],
     imageUrl: "",
-    tags: ["vietnamese", "soup", "vegetarian", "noodles"],
+    tags: [{ id: "d5a7dac6-414a-4a9a-b3ab-3794b9866ada", name: "vietnamese" }, { id: "b7a8a5b5-cd4d-46e5-80e8-f32f97c5875c", name: "soup" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "4d6c6535-2a92-47ec-8589-6720756fb97e", name: "noodles" }],
     nutritionalInfo: {
       calories: 250,
       protein: 6,
@@ -3181,7 +3181,7 @@ export const mealPlan = [
       "Serve warm"
     ],
     imageUrl: "",
-    tags: ["vegetarian", "healthy", "quick", "comfort-food"],
+    tags: [{ id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "670b4550-2aa1-4bc3-a2a7-1b6ffe536281", name: "healthy" }, { id: "70b3322a-d4b1-48dd-b7e5-ca9cbf1ab577", name: "quick" }, { id: "011da6ea-b8ed-4c17-bcfc-9dee8529f467", name: "comfort-food" }],
     nutritionalInfo: {
       calories: 300,
       protein: 8,
@@ -3217,7 +3217,7 @@ export const mealPlan = [
       "Top with tortilla strips before serving"
     ],
     imageUrl: "",
-    tags: ["mexican", "soup", "chicken", "comfort-food"],
+    tags: [{ id: "a29a991c-0798-4bec-8da3-ff0e160e62a0", name: "mexican" }, { id: "b7a8a5b5-cd4d-46e5-80e8-f32f97c5875c", name: "soup" }, { id: "ef302a71-5818-4ead-a03d-88e56fcfed48", name: "chicken" }, { id: "011da6ea-b8ed-4c17-bcfc-9dee8529f467", name: "comfort-food" }],
     nutritionalInfo: {
       calories: 320,
       protein: 20,
@@ -3253,7 +3253,7 @@ export const mealPlan = [
       "Sprinkle with Parmesan and bake at 375°F (190°C) for 40 minutes"
     ],
     imageUrl: "",
-    tags: ["italian", "vegetarian", "pasta", "baking"],
+    tags: [{ id: "7eb2c4a9-128d-4f2c-8c1f-5417a1c5820f", name: "italian" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "b5c178fc-df32-4eea-92f9-2a5ba12755fa", name: "pasta" }, { id: "f5b36342-2d64-433c-9ce6-633a8aa2b349", name: "baking" }],
     nutritionalInfo: {
       calories: 400,
       protein: 18,
@@ -3289,7 +3289,7 @@ export const mealPlan = [
       "Cool and slice into bars"
     ],
     imageUrl: "",
-    tags: ["dessert", "lemon", "baking", "sweet"],
+    tags: [{ id: "aadf44c7-005c-4235-ad6a-a5612997e840", name: "dessert" }, { id: "3422580f-ac39-41eb-b022-b2ebf3da8bd8", name: "lemon" }, { id: "f5b36342-2d64-433c-9ce6-633a8aa2b349", name: "baking" }, { id: "7f3bf842-2578-4735-89e4-51b89b79dfcc", name: "sweet" }],
     nutritionalInfo: {
       calories: 180,
       protein: 3,
@@ -3325,7 +3325,7 @@ export const mealPlan = [
       "Slice into pieces and serve with soy sauce"
     ],
     imageUrl: "",
-    tags: ["japanese", "vegetarian", "sushi", "healthy"],
+    tags: [{ id: "2b310d67-8cd5-4570-bf0b-2bcbb30ff16f", name: "japanese" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "c400731a-d55d-49f3-aeb1-d54b5811fdb5", name: "sushi" }, { id: "670b4550-2aa1-4bc3-a2a7-1b6ffe536281", name: "healthy" }],
     nutritionalInfo: {
       calories: 250,
       protein: 6,
@@ -3361,7 +3361,7 @@ export const mealPlan = [
       "Serve hot with toppings of choice"
     ],
     imageUrl: "",
-    tags: ["american", "beef", "spicy", "comfort-food"],
+    tags: [{ id: "fdcebb9e-6854-4599-af0b-2c66e608740d", name: "american" }, { id: "ca12111a-2c0e-409c-90ed-749b0fab816d", name: "beef" }, { id: "92c10bb9-437d-4322-8ab4-d533713b5a51", name: "spicy" }, { id: "011da6ea-b8ed-4c17-bcfc-9dee8529f467", name: "comfort-food" }],
     nutritionalInfo: {
       calories: 350,
       protein: 25,
@@ -3397,7 +3397,7 @@ export const mealPlan = [
       "Serve hot with rice"
     ],
     imageUrl: "",
-    tags: ["asian", "vegetarian", "stir-fry", "quick"],
+    tags: [{ id: "37777e66-2751-4299-adaf-63204212fcc8", name: "asian" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "53610fe9-e91e-4a7a-8e00-48a1d13bf83f", name: "stir-fry" }, { id: "70b3322a-d4b1-48dd-b7e5-ca9cbf1ab577", name: "quick" }],
     nutritionalInfo: {
       calories: 280,
       protein: 8,
@@ -3433,7 +3433,7 @@ export const mealPlan = [
       "Chill before serving"
     ],
     imageUrl: "",
-    tags: ["french", "dessert", "pastry", "baking"],
+    tags: [{ id: "55f23355-7a21-451d-a9be-26ce345a7215", name: "french" }, { id: "aadf44c7-005c-4235-ad6a-a5612997e840", name: "dessert" }, { id: "758565cf-421f-4c1a-90d3-d8f9dcb99a37", name: "pastry" }, { id: "f5b36342-2d64-433c-9ce6-633a8aa2b349", name: "baking" }],
     nutritionalInfo: {
       calories: 300,
       protein: 6,
@@ -3470,7 +3470,7 @@ export const mealPlan = [
       "Let rest before serving"
     ],
     imageUrl: "",
-    tags: ["italian", "vegetarian", "lasagna", "baking"],
+    tags: [{ id: "7eb2c4a9-128d-4f2c-8c1f-5417a1c5820f", name: "italian" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "ed7528a4-cb67-47bf-ac8a-59334ab93d44", name: "lasagna" }, { id: "f5b36342-2d64-433c-9ce6-633a8aa2b349", name: "baking" }],
     nutritionalInfo: {
       calories: 420,
       protein: 22,
@@ -3507,7 +3507,7 @@ export const mealPlan = [
       "Serve skewers with sauce"
     ],
     imageUrl: "",
-    tags: ["thai", "chicken", "grilling", "appetizer"],
+    tags: [{ id: "b811c959-ff00-49fe-bed8-6a97aaa54ef6", name: "thai" }, { id: "ef302a71-5818-4ead-a03d-88e56fcfed48", name: "chicken" }, { id: "1df77084-3356-45bc-98eb-33844867b8cc", name: "grilling" }, { id: "6bd3f859-4a39-4641-9d12-ab6dbcad09b7", name: "appetizer" }],
     nutritionalInfo: {
       calories: 320,
       protein: 28,
@@ -3542,7 +3542,7 @@ export const mealPlan = [
       "Serve with soy dipping sauce"
     ],
     imageUrl: "",
-    tags: ["japanese", "vegetarian", "crispy", "appetizer"],
+    tags: [{ id: "2b310d67-8cd5-4570-bf0b-2bcbb30ff16f", name: "japanese" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "46e195bb-aaeb-4758-b3ed-c8098dc0951d", name: "crispy" }, { id: "6bd3f859-4a39-4641-9d12-ab6dbcad09b7", name: "appetizer" }],
     nutritionalInfo: {
       calories: 250,
       protein: 4,
@@ -3579,7 +3579,7 @@ export const mealPlan = [
       "Serve warm"
     ],
     imageUrl: "",
-    tags: ["mediterranean", "vegetarian", "healthy", "baking"],
+    tags: [{ id: "5732cc66-a954-4b23-b9bd-452f429eba60", name: "mediterranean" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "670b4550-2aa1-4bc3-a2a7-1b6ffe536281", name: "healthy" }, { id: "f5b36342-2d64-433c-9ce6-633a8aa2b349", name: "baking" }],
     nutritionalInfo: {
       calories: 280,
       protein: 8,
@@ -3616,7 +3616,7 @@ export const mealPlan = [
       "Serve with crusty bread"
     ],
     imageUrl: "",
-    tags: ["french", "beef", "stew", "comfort-food"],
+    tags: [{ id: "55f23355-7a21-451d-a9be-26ce345a7215", name: "french" }, { id: "ca12111a-2c0e-409c-90ed-749b0fab816d", name: "beef" }, { id: "a58288f5-e1d7-4e82-95ea-d2658b09f7bd", name: "stew" }, { id: "011da6ea-b8ed-4c17-bcfc-9dee8529f467", name: "comfort-food" }],
     nutritionalInfo: {
       calories: 450,
       protein: 35,
@@ -3651,7 +3651,7 @@ export const mealPlan = [
       "Garnish with green onions and serve"
     ],
     imageUrl: "",
-    tags: ["thai", "rice", "vegetarian", "quick"],
+    tags: [{ id: "b811c959-ff00-49fe-bed8-6a97aaa54ef6", name: "thai" }, { id: "6dcaed95-06e8-4113-a173-8b22c8e5f355", name: "rice" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "70b3322a-d4b1-48dd-b7e5-ca9cbf1ab577", name: "quick" }],
     nutritionalInfo: {
       calories: 300,
       protein: 6,
@@ -3688,7 +3688,7 @@ export const mealPlan = [
       "Serve with rice or naan"
     ],
     imageUrl: "",
-    tags: ["indian", "lamb", "curry", "spicy"],
+    tags: [{ id: "3b3076d2-653b-4318-aa32-b94d0ef6ef21", name: "indian" }, { id: "e672e471-5067-4943-8c30-37e823071102", name: "lamb" }, { id: "81351b60-0089-4b28-8416-2443183dbe85", name: "curry" }, { id: "92c10bb9-437d-4322-8ab4-d533713b5a51", name: "spicy" }],
     nutritionalInfo: {
       calories: 480,
       protein: 35,
@@ -3722,7 +3722,7 @@ export const mealPlan = [
       "Serve as an appetizer"
     ],
     imageUrl: "",
-    tags: ["italian", "appetizer", "vegetarian", "quick"],
+    tags: [{ id: "7eb2c4a9-128d-4f2c-8c1f-5417a1c5820f", name: "italian" }, { id: "6bd3f859-4a39-4641-9d12-ab6dbcad09b7", name: "appetizer" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "70b3322a-d4b1-48dd-b7e5-ca9cbf1ab577", name: "quick" }],
     nutritionalInfo: {
       calories: 150,
       protein: 8,
@@ -3758,7 +3758,7 @@ export const mealPlan = [
       "Serve warm"
     ],
     imageUrl: "",
-    tags: ["american", "soup", "vegetarian", "comfort-food"],
+    tags: [{ id: "fdcebb9e-6854-4599-af0b-2c66e608740d", name: "american" }, { id: "b7a8a5b5-cd4d-46e5-80e8-f32f97c5875c", name: "soup" }, { id: "294cc9a7-02a6-47cd-a740-a9f9b20f201d", name: "vegetarian" }, { id: "011da6ea-b8ed-4c17-bcfc-9dee8529f467", name: "comfort-food" }],
     nutritionalInfo: {
       calories: 220,
       protein: 4,
@@ -3794,7 +3794,7 @@ export const mealPlan = [
       "Serve warm"
     ],
     imageUrl: "",
-    tags: ["spanish", "seafood", "rice", "one-pot"],
+    tags: [{ id: "ec783cb5-25de-4417-9036-2ae46e1aae1c", name: "spanish" }, { id: "5c283a33-e8c5-4d62-bb91-a830751050f9", name: "seafood" }, { id: "6dcaed95-06e8-4113-a173-8b22c8e5f355", name: "rice" }, { id: "5731c3a6-cd2b-4cde-8bbb-58d905959153", name: "one-pot" }],
     nutritionalInfo: {
       calories: 400,
       protein: 25,
@@ -3828,7 +3828,7 @@ export const mealPlan = [
       "Serve chilled"
     ],
     imageUrl: "",
-    tags: ["french", "dessert", "chocolate", "easy"],
+    tags: [{ id: "55f23355-7a21-451d-a9be-26ce345a7215", name: "french" }, { id: "aadf44c7-005c-4235-ad6a-a5612997e840", name: "dessert" }, { id: "f80176f2-803b-46f6-9630-2a5095532a5e", name: "chocolate" }, { id: "aef8aab7-92e9-4432-a309-2e7df586940f", name: "easy" }],
     nutritionalInfo: {
       calories: 120,
       protein: 2,
@@ -3856,7 +3856,7 @@ export const mealPlan = [
     return recipes.filter(recipe => 
       recipe.title.toLowerCase().includes(searchTerm) ||
       recipe.description.toLowerCase().includes(searchTerm) ||
-      recipe.tags.some(tag => tag.toLowerCase().includes(searchTerm)) ||
+      recipe.tags.some(tag => tag.name.toLowerCase().includes(searchTerm)) ||
       recipe.cuisine.toLowerCase().includes(searchTerm)
     );
   };

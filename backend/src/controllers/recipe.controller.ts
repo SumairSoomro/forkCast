@@ -53,10 +53,10 @@ export const addRecipe = async (req: Request, res: Response) => {
     
         // 3. Insert instructions
         if (instructions?.length) {
-          const instructionInserts = instructions.map(({step, index}: Instruction) => ({
+          const instructionInserts = instructions.map((instruction: string, index: number) => ({   
             recipe_id: recipeId,
             step_number: index + 1,
-            instruction: step
+            instruction
           }));
     
           const { error: instrErr } = await supabase.from("recipe_instructions").insert(instructionInserts);
@@ -65,9 +65,9 @@ export const addRecipe = async (req: Request, res: Response) => {
     
         // 4. Insert tags
         if (tags?.length) {
-            const tagInserts = tags.map((tag: string) => ({
+            const tagInserts = tags.map((tag: Tag) => ({
                 recipe_id: recipeId,
-                tag
+                tag_id: tag.id
               }));
     
           const { error: tagErr } = await supabase.from("recipe_tags").insert(tagInserts);
@@ -76,9 +76,11 @@ export const addRecipe = async (req: Request, res: Response) => {
     
         // 5. Insert nutrition
         if (nutritionalInfo) {
-          const { calories, protein, carbs, fats } = nutritionalInfo;
+          const a: NutritionalInfo =  nutritionalInfo;
+          const { calories, protein, carbs, fats } = a;
+          console.log(calories, protein, carbs, fats);
     
-          const { error: nutriErr } = await supabase.from("recipe_nutrition").insert([{
+          const { error: nutriErr } = await supabase.from("nutritional_info").insert([{
             recipe_id: recipeId,
             calories,
             protein,

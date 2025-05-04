@@ -1,0 +1,390 @@
+[
+  {
+    "id": "20fe1a5b-5451-48ae-8b65-8c7c6eb192d3",
+    "name": "pizza"
+  },
+  {
+    "id": "7eb2c4a9-128d-4f2c-8c1f-5417a1c5820f",
+    "name": "italian"
+  },
+  {
+    "id": "294cc9a7-02a6-47cd-a740-a9f9b20f201d",
+    "name": "vegetarian"
+  },
+  {
+    "id": "84941bdf-0612-4f58-adb7-c6fccc52e860",
+    "name": "classic"
+  },
+  {
+    "id": "3b3076d2-653b-4318-aa32-b94d0ef6ef21",
+    "name": "indian"
+  },
+  {
+    "id": "81351b60-0089-4b28-8416-2443183dbe85",
+    "name": "curry"
+  },
+  {
+    "id": "ef302a71-5818-4ead-a03d-88e56fcfed48",
+    "name": "chicken"
+  },
+  {
+    "id": "92c10bb9-437d-4322-8ab4-d533713b5a51",
+    "name": "spicy"
+  },
+  {
+    "id": "97928368-1e77-4b98-9670-2f6b8792e530",
+    "name": "breakfast"
+  },
+  {
+    "id": "670b4550-2aa1-4bc3-a2a7-1b6ffe536281",
+    "name": "healthy"
+  },
+  {
+    "id": "70b3322a-d4b1-48dd-b7e5-ca9cbf1ab577",
+    "name": "quick"
+  },
+  {
+    "id": "66cd2351-6d61-4714-a774-42605b591f59",
+    "name": "korean"
+  },
+  {
+    "id": "ca12111a-2c0e-409c-90ed-749b0fab816d",
+    "name": "beef"
+  },
+  {
+    "id": "37777e66-2751-4299-adaf-63204212fcc8",
+    "name": "asian"
+  },
+  {
+    "id": "57e3ad9a-0643-4008-8631-a7be7755a8d0",
+    "name": "meal-prep"
+  },
+  {
+    "id": "5732cc66-a954-4b23-b9bd-452f429eba60",
+    "name": "mediterranean"
+  },
+  {
+    "id": "55f23355-7a21-451d-a9be-26ce345a7215",
+    "name": "french"
+  },
+  {
+    "id": "758565cf-421f-4c1a-90d3-d8f9dcb99a37",
+    "name": "pastry"
+  },
+  {
+    "id": "f5b36342-2d64-433c-9ce6-633a8aa2b349",
+    "name": "baking"
+  },
+  {
+    "id": "b811c959-ff00-49fe-bed8-6a97aaa54ef6",
+    "name": "thai"
+  },
+  {
+    "id": "4d6c6535-2a92-47ec-8589-6720756fb97e",
+    "name": "noodles"
+  },
+  {
+    "id": "53610fe9-e91e-4a7a-8e00-48a1d13bf83f",
+    "name": "stir-fry"
+  },
+  {
+    "id": "2b310d67-8cd5-4570-bf0b-2bcbb30ff16f",
+    "name": "japanese"
+  },
+  {
+    "id": "c400731a-d55d-49f3-aeb1-d54b5811fdb5",
+    "name": "sushi"
+  },
+  {
+    "id": "5c283a33-e8c5-4d62-bb91-a830751050f9",
+    "name": "seafood"
+  },
+  {
+    "id": "f281cafa-753b-4187-ad39-8946160dfca1",
+    "name": "fresh"
+  },
+  {
+    "id": "fdcebb9e-6854-4599-af0b-2c66e608740d",
+    "name": "american"
+  },
+  {
+    "id": "1df77084-3356-45bc-98eb-33844867b8cc",
+    "name": "grilling"
+  },
+  {
+    "id": "8c475671-2abf-4a43-8851-ff13fbd77053",
+    "name": "greek"
+  },
+  {
+    "id": "14cef293-00d9-46ac-9cfc-4a919c25308f",
+    "name": "casserole"
+  },
+  {
+    "id": "e672e471-5067-4943-8c30-37e823071102",
+    "name": "lamb"
+  },
+  {
+    "id": "011da6ea-b8ed-4c17-bcfc-9dee8529f467",
+    "name": "comfort-food"
+  },
+  {
+    "id": "d5a7dac6-414a-4a9a-b3ab-3794b9866ada",
+    "name": "vietnamese"
+  },
+  {
+    "id": "b7a8a5b5-cd4d-46e5-80e8-f32f97c5875c",
+    "name": "soup"
+  },
+  {
+    "id": "ec783cb5-25de-4417-9036-2ae46e1aae1c",
+    "name": "spanish"
+  },
+  {
+    "id": "6dcaed95-06e8-4113-a173-8b22c8e5f355",
+    "name": "rice"
+  },
+  {
+    "id": "5731c3a6-cd2b-4cde-8bbb-58d905959153",
+    "name": "one-pot"
+  },
+  {
+    "id": "aadf44c7-005c-4235-ad6a-a5612997e840",
+    "name": "dessert"
+  },
+  {
+    "id": "f80176f2-803b-46f6-9630-2a5095532a5e",
+    "name": "chocolate"
+  },
+  {
+    "id": "a29a991c-0798-4bec-8da3-ff0e160e62a0",
+    "name": "mexican"
+  },
+  {
+    "id": "a4383a56-d462-4812-9f98-555685065b88",
+    "name": "street-food"
+  },
+  {
+    "id": "71911c2d-386c-4ffb-83d8-587e0d422732",
+    "name": "fall"
+  },
+  {
+    "id": "da1507c6-a6b5-4c44-b399-85cf11680640",
+    "name": "middle-eastern"
+  },
+  {
+    "id": "1cb939a2-08c9-4154-9a64-e40d41350110",
+    "name": "lunch"
+  },
+  {
+    "id": "cff14bb6-8876-4d77-b8e9-2c67df270694",
+    "name": "british"
+  },
+  {
+    "id": "57621348-b512-4ae6-95dc-6d0f1dd8ef66",
+    "name": "special-occasion"
+  },
+  {
+    "id": "0fad0583-94f9-4691-9c1a-ffd4403f6d1e",
+    "name": "elegant"
+  },
+  {
+    "id": "d3b03b64-976e-484c-8df5-6161e4930e72",
+    "name": "cheesecake"
+  },
+  {
+    "id": "b7a6300e-a501-450a-95d0-45b7f237fa70",
+    "name": "berries"
+  },
+  {
+    "id": "ef77e5a3-2171-4ef5-9ff0-5ac969ef57f8",
+    "name": "salmon"
+  },
+  {
+    "id": "ed7528a4-cb67-47bf-ac8a-59334ab93d44",
+    "name": "lasagna"
+  },
+  {
+    "id": "2e28d841-3de4-4995-807f-230eff55c5c5",
+    "name": "shrimp"
+  },
+  {
+    "id": "1ce86525-a2a0-478e-94a3-e88d109318b2",
+    "name": "tacos"
+  },
+  {
+    "id": "702f53c0-a8ef-4ab4-a458-3a48de70b885",
+    "name": "stuffed-peppers"
+  },
+  {
+    "id": "b5c178fc-df32-4eea-92f9-2a5ba12755fa",
+    "name": "pasta"
+  },
+  {
+    "id": "2bbc020f-537e-4ffc-84c8-0477cef41f40",
+    "name": "creamy"
+  },
+  {
+    "id": "63fff2cf-e6d4-43e1-bcb1-0b9295ebbd51",
+    "name": "russian"
+  },
+  {
+    "id": "01c96ff0-7874-4697-8b19-646caaf337e1",
+    "name": "pancakes"
+  },
+  {
+    "id": "24495198-b9ac-49dc-9c0a-38807a2fba3f",
+    "name": "blueberries"
+  },
+  {
+    "id": "8a49bdb6-ce44-4156-8fd5-50551ca029ef",
+    "name": "zucchini"
+  },
+  {
+    "id": "3b417168-f802-409d-b276-34d016ac4fbe",
+    "name": "lentils"
+  },
+  {
+    "id": "544d2dc4-6d91-45ab-90b2-a2b03788560b",
+    "name": "salad"
+  },
+  {
+    "id": "0359d764-fba4-4b16-84e9-ff3d48fadd43",
+    "name": "wrap"
+  },
+  {
+    "id": "a005375d-d12b-4ff4-a2c0-a8ed0a08b137",
+    "name": "beets"
+  },
+  {
+    "id": "9ae9060b-19df-4313-9280-64c7f6237eca",
+    "name": "risotto"
+  },
+  {
+    "id": "95826181-8a5a-4a77-8407-9d9558cb2d58",
+    "name": "pumpkin"
+  },
+  {
+    "id": "cc10b088-9d7e-4d4a-b48b-dee3fd49dca3",
+    "name": "banana"
+  },
+  {
+    "id": "84090db7-ec3b-415a-a872-599d5a0d8db1",
+    "name": "muffins"
+  },
+  {
+    "id": "6bd3f859-4a39-4641-9d12-ab6dbcad09b7",
+    "name": "appetizer"
+  },
+  {
+    "id": "5b8e0c68-f821-4837-871a-1b7c8d768d0b",
+    "name": "dip"
+  },
+  {
+    "id": "9da8785f-3492-4953-83a0-754d44d401c8",
+    "name": "cheesy"
+  },
+  {
+    "id": "0bb060d1-0420-443d-b308-d4d950fda630",
+    "name": "party"
+  },
+  {
+    "id": "740ee36e-cfa4-48ab-9aa3-5870562435a7",
+    "name": "mushrooms"
+  },
+  {
+    "id": "0e8f84c8-9f57-4e9c-b52d-64f8c599f1ce",
+    "name": "side"
+  },
+  {
+    "id": "6b4e81c1-c69b-49e1-a7ae-ea389582cf79",
+    "name": "bread"
+  },
+  {
+    "id": "1b0dfd5f-3536-425b-88d0-0d353b60c6a6",
+    "name": "garlic"
+  },
+  {
+    "id": "266c1d5d-84f6-4443-b84b-e370954901d7",
+    "name": "sandwich"
+  },
+  {
+    "id": "28b7e53d-6c6f-4249-97a3-cc12ee5baed2",
+    "name": "eggs"
+  },
+  {
+    "id": "288dae1c-55a6-4dcf-aced-832c1d605cd8",
+    "name": "peach"
+  },
+  {
+    "id": "f97fd817-3cce-46c2-bdea-4d2e670325c9",
+    "name": "bbq"
+  },
+  {
+    "id": "d6c688b3-9701-44de-8835-6b97a4d5e868",
+    "name": "pork"
+  },
+  {
+    "id": "a58288f5-e1d7-4e82-95ea-d2658b09f7bd",
+    "name": "stew"
+  },
+  {
+    "id": "bc287c44-5b7a-42a2-abda-bde70b07d343",
+    "name": "eastern-european"
+  },
+  {
+    "id": "8712eeca-a786-4ba0-9fe2-c491a51e38cb",
+    "name": "apple"
+  },
+  {
+    "id": "de9f5dfd-da26-4008-b18f-ae9fd529bc02",
+    "name": "snack"
+  },
+  {
+    "id": "c1bc21b6-c44d-4010-85fe-1b32e32b986a",
+    "name": "chinese"
+  },
+  {
+    "id": "d143294f-cbbd-4acf-9ec9-3e50e9c27bc8",
+    "name": "mango"
+  },
+  {
+    "id": "7f3bf842-2578-4735-89e4-51b89b79dfcc",
+    "name": "sweet"
+  },
+  {
+    "id": "d63c3194-6f72-4912-91c4-fa469c92cf7b",
+    "name": "fish"
+  },
+  {
+    "id": "465a72a1-ac5d-4739-aff6-f53533287f19",
+    "name": "dumplings"
+  },
+  {
+    "id": "a406e0a6-4c7b-4a7f-b372-586affa213a4",
+    "name": "caribbean"
+  },
+  {
+    "id": "46e195bb-aaeb-4758-b3ed-c8098dc0951d",
+    "name": "crispy"
+  },
+  {
+    "id": "2aabff99-1ac8-447f-8e63-a3deccd94d84",
+    "name": "raspberry"
+  },
+  {
+    "id": "899f81cf-5871-43dc-a4fb-133e35a0d838",
+    "name": "sorbet"
+  },
+  {
+    "id": "fa015a2c-68eb-4d50-8b0d-18a086cc1203",
+    "name": "summer"
+  },
+  {
+    "id": "3422580f-ac39-41eb-b022-b2ebf3da8bd8",
+    "name": "lemon"
+  },
+  {
+    "id": "aef8aab7-92e9-4432-a309-2e7df586940f",
+    "name": "easy"
+  }
+]
