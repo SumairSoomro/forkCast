@@ -68,12 +68,12 @@ export const mealPlan = [
       servings: 4,
       difficulty: "Medium",
       ingredients: [
-        { id: null, name: "Pizza dough", quantity: 1, unit: "count" },
-        { id: null, name: "Fresh mozzarella", quantity: 200, unit: "grams" },
-        { id: null, name: "Fresh basil leaves", quantity: 10, unit: "count" },
-        { id: null, name: "San Marzano tomatoes", quantity: 200, unit: "grams" },
-        { id: null, name: "Extra virgin olive oil", quantity: 2, unit: "tbsp" },
-        { id: null, name: "Salt", quantity: 1, unit: "tsp" }
+        { id: "70a2b615-aa14-470c-a674-cd026bed39d8", name: "Pizza dough", quantity: 1, unit: "count" },
+        { id: "7e1beab2-a96d-47cf-ba39-2ca910c02796", name: "Fresh mozzarella", quantity: 200, unit: "grams" },
+        { id: "a302fd19-4bd5-4d7a-940b-8437c6919b94", name: "Fresh basil leaves", quantity: 10, unit: "count" },
+        { id: "25789f82-fdaf-4020-ad95-2d8aec4b6c80", name: "San Marzano tomatoes", quantity: 200, unit: "grams" },
+        { id: "acb3dd45-09d0-4a5c-bf62-bb030c60d414", name: "Extra virgin olive oil", quantity: 2, unit: "tbsp" },
+        { id: "1008613b-a1cf-4d6b-959a-594b064a8864", name: "Salt", quantity: 1, unit: "tsp" }
       ],
       instructions: [
         "Preheat oven to 500°F (260°C)",
@@ -109,14 +109,14 @@ export const mealPlan = [
       servings: 6,
       difficulty: "Medium",
       ingredients: [
-        { id: null, name: "Chicken breast", quantity: 500, unit: "grams" },
-        { id: null, name: "Yogurt", quantity: 200, unit: "grams" },
-        { id: null, name: "Garam masala", quantity: 2, unit: "tbsp" },
-        { id: null, name: "Heavy cream", quantity: 100, unit: "ml" },
-        { id: null, name: "Tomato sauce", quantity: 400, unit: "grams" },
-        { id: null, name: "Onions", quantity: 2, unit: "count" },
-        { id: null, name: "Garlic", quantity: 4, unit: "cloves" },
-        { id: null, name: "Ginger", quantity: 1, unit: "tbsp" }
+        { id: "d0a1f3b4-8f8e-47a4-953b-e1006228ddef", name: "Chicken breast", quantity: 500, unit: "grams" },
+        { id: "4ef82d61-4abf-40f1-a3f3-14d507c45849", name: "Yogurt", quantity: 200, unit: "grams" },
+        { id: "d07a5636-e018-491c-b70c-34269eedb659", name: "Garam masala", quantity: 2, unit: "tbsp" },
+        { id: "04f3e213-d544-41e5-a161-baaf21d19689", name: "Heavy cream", quantity: 100, unit: "ml" },
+        { id: "2a2c84c5-38fd-4243-b5af-cd898eff6cb3", name: "Tomato sauce", quantity: 400, unit: "grams" },
+        { id: "f848fc07-a599-40af-aa98-82580a19b4de", name: "Onions", quantity: 2, unit: "count" },
+        { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 4, unit: "cloves" },
+        { id: "c05d376b-a6f3-458d-8985-777fc689911c", name: "Ginger", quantity: 1, unit: "tbsp" }
       ],
       instructions: [
         "Marinate chicken in yogurt and spices",
@@ -149,12 +149,12 @@ export const mealPlan = [
       servings: 2,
       difficulty: "Easy",
       ingredients: [
-        { id: null, name: "Sourdough bread", quantity: 2, unit: "slices" },
-        { id: null, name: "Ripe avocados", quantity: 2, unit: "count" },
-        { id: null, name: "Cherry tomatoes", quantity: 100, unit: "grams" },
-        { id: null, name: "Red pepper flakes", quantity: 0.5, unit: "tsp" },
-        { id: null, name: "Salt", quantity: 0.5, unit: "tsp" },
-        { id: null, name: "Olive oil", quantity: 1, unit: "tbsp" }
+        { id: "c8cbf180-56fa-4a0b-a6d5-5e891f5f3243", name: "Sourdough bread", quantity: 2, unit: "slices" },
+        { id: "f888236e-1f88-451c-9c30-3212a3d7641a", name: "Ripe avocados", quantity: 2, unit: "count" },
+        { id: "0a839bda-c855-4e89-ac08-cab8dbf3d3fa", name: "Cherry tomatoes", quantity: 100, unit: "grams" },
+        { id: "49c0044c-22ac-420f-a624-adf9a28db73d", name: "Red pepper flakes", quantity: 0.5, unit: "tsp" },
+        { id: "1008613b-a1cf-4d6b-959a-594b064a8864", name: "Salt", quantity: 0.5, unit: "tsp" },
+        { id: "a4aca1c2-2ff2-4936-a77a-4b8d2ef18a39", name: "Olive oil", quantity: 1, unit: "tbsp" }
       ],
       instructions: [
         "Toast bread until golden",
@@ -186,13 +186,13 @@ export const mealPlan = [
       servings: 4,
       difficulty: "Medium",
       ingredients: [
-{ id: null, name: "Thinly sliced beef", quantity: 500, unit: "grams" },
-        { id: null, name: "Soy sauce", quantity: 100, unit: "ml" },
-        { id: null, name: "Asian pear", quantity: 1, unit: "count" },
-        { id: null, name: "Garlic", quantity: 4, unit: "cloves" },
-        { id: null, name: "Ginger", quantity: 1, unit: "tbsp" },
-        { id: null, name: "Brown sugar", quantity: 2, unit: "tbsp" },
-        { id: null, name: "Sesame oil", quantity: 1, unit: "tbsp" }
+{ id: "077b8f2a-9171-4f2f-960d-9352fead4a06", name: "Thinly sliced beef", quantity: 500, unit: "grams" },
+        { id: "c39e09b8-f2bc-41ad-9749-ceada71be810", name: "Soy sauce", quantity: 100, unit: "ml" },
+        { id: "978f9107-1515-42b8-8099-e71d15b5c01e", name: "Asian pear", quantity: 1, unit: "count" },
+        { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 4, unit: "cloves" },
+        { id: "c05d376b-a6f3-458d-8985-777fc689911c", name: "Ginger", quantity: 1, unit: "tbsp" },
+        { id: "a3d0e0b4-27b4-403d-811f-c3f3a3f0fb25", name: "Brown sugar", quantity: 2, unit: "tbsp" },
+        { id: "37380d82-a816-44f2-9b4e-4779355bbc2f", name: "Sesame oil", quantity: 1, unit: "tbsp" }
       ],
       instructions: [
         "Blend marinade ingredients",
@@ -225,14 +225,14 @@ export const mealPlan = [
       servings: 4,
       difficulty: "Easy",
       ingredients: [
-        { id: null, name: "Quinoa", quantity: 200, unit: "grams" },
-        { id: null, name: "Cherry tomatoes", quantity: 100, unit: "grams" },
-        { id: null, name: "Cucumber", quantity: 1, unit: "count" },
-        { id: null, name: "Kalamata olives", quantity: 50, unit: "grams" },
-        { id: null, name: "Feta cheese", quantity: 100, unit: "grams" },
-        { id: null, name: "Red onion", quantity: 0.5, unit: "count" },
-        { id: null, name: "Olive oil", quantity: 2, unit: "tbsp" },
-        { id: null, name: "Lemon juice", quantity: 1, unit: "tbsp" }
+        { id: "2cc270db-294d-462b-b226-85ab0194bd1b", name: "Quinoa", quantity: 200, unit: "grams" },
+        { id: "0a839bda-c855-4e89-ac08-cab8dbf3d3fa", name: "Cherry tomatoes", quantity: 100, unit: "grams" },
+        { id: "df0943cc-c901-4522-bd9f-0e1d1b727f56", name: "Cucumber", quantity: 1, unit: "count" },
+        { id: "9b5d9caf-1f76-4a34-945b-a1536ed9867b", name: "Kalamata olives", quantity: 50, unit: "grams" },
+        { id: "86703ee7-8e5c-4257-92bf-adbb6fc3152f", name: "Feta cheese", quantity: 100, unit: "grams" },
+        { id: "18f199bb-acea-4ae3-a005-272b487da070", name: "Red onion", quantity: 0.5, unit: "count" },
+        { id: "a4aca1c2-2ff2-4936-a77a-4b8d2ef18a39", name: "Olive oil", quantity: 2, unit: "tbsp" },
+        { id: "1cddbcd4-27d4-4ce3-8408-d24c0efe2490", name: "Lemon juice", quantity: 1, unit: "tbsp" }
       ],
       instructions: [
         "Cook quinoa according to package",
@@ -266,12 +266,12 @@ export const mealPlan = [
     servings: 12,
     difficulty: "Hard",
     ingredients: [
-      { id: null, name: "Bread flour", quantity: 500, unit: "grams" },
-      { id: null, name: "Active dry yeast", quantity: 7, unit: "grams" },
-      { id: null, name: "Sugar", quantity: 50, unit: "grams" },
-      { id: null, name: "Salt", quantity: 10, unit: "grams" },
-      { id: null, name: "Cold butter", quantity: 250, unit: "grams" },
-      { id: null, name: "Milk", quantity: 250, unit: "ml" }
+      { id: "95c20b55-22b4-4ffa-b444-17d42eea85b7", name: "Bread flour", quantity: 500, unit: "grams" },
+      { id: "b41b0770-81d1-4f97-b649-7ee0e66d7d1c", name: "Active dry yeast", quantity: 7, unit: "grams" },
+      { id: "bc511659-bcb6-4975-bc41-7f4a40e06da4", name: "Sugar", quantity: 50, unit: "grams" },
+      { id: "1008613b-a1cf-4d6b-959a-594b064a8864", name: "Salt", quantity: 10, unit: "grams" },
+      { id: "c66a6aa3-02bc-4134-b332-e64b922b78ff", name: "Cold butter", quantity: 250, unit: "grams" },
+      { id: "f2e7ffe1-01cd-4221-816b-1a165a9437f3", name: "Milk", quantity: 250, unit: "ml" }
     ],
     instructions: [
       "Make dough and chill",
@@ -304,14 +304,14 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Rice noodles", quantity: 200, unit: "grams" },
-      { id: null, name: "Tofu", quantity: 150, unit: "grams" },
-      { id: null, name: "Bean sprouts", quantity: 100, unit: "grams" },
-      { id: null, name: "Eggs", quantity: 2, unit: "count" },
-      { id: null, name: "Peanuts", quantity: 50, unit: "grams" },
-      { id: null, name: "Tamarind paste", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Fish sauce", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Palm sugar", quantity: 1, unit: "tbsp" }
+      { id: "a103ddc9-d2a7-48f1-ac98-a8663cfd7a9e", name: "Rice noodles", quantity: 200, unit: "grams" },
+      { id: "7ae9656a-fee0-4900-a012-f2085b9afe24", name: "Tofu", quantity: 150, unit: "grams" },
+      { id: "fd7b1921-c196-4a43-9264-f950ecb98482", name: "Bean sprouts", quantity: 100, unit: "grams" },
+      { id: "4df6eae6-94b5-4a28-9f6f-7d0aca7f0822", name: "Eggs", quantity: 2, unit: "count" },
+      { id: "000cac87-0327-4f88-8eab-553500bff133", name: "Peanuts", quantity: 50, unit: "grams" },
+      { id: "236c86fe-f8a2-43b4-83f2-8e865a44de18", name: "Tamarind paste", quantity: 2, unit: "tbsp" },
+      { id: "407a0850-d674-4aa7-9abf-eab97626aa6a", name: "Fish sauce", quantity: 2, unit: "tbsp" },
+      { id: "9816c9cd-7366-4fe5-8bff-4f0e28123922", name: "Palm sugar", quantity: 1, unit: "tbsp" }
     ],
     instructions: [
       "Soak noodles",
@@ -344,14 +344,14 @@ export const mealPlan = [
     servings: 6,
     difficulty: "Hard",
     ingredients: [
-      { id: null, name: "Sushi rice", quantity: 300, unit: "grams" },
-      { id: null, name: "Nori sheets", quantity: 6, unit: "count" },
-      { id: null, name: "Fresh fish", quantity: 200, unit: "grams" },
-      { id: null, name: "Cucumber", quantity: 1, unit: "count" },
-      { id: null, name: "Avocado", quantity: 1, unit: "count" },
-      { id: null, name: "Rice vinegar", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Wasabi", quantity: 1, unit: "tsp" },
-      { id: null, name: "Soy sauce", quantity: 50, unit: "ml" }
+      { id: "8ead63d7-61c7-4cb7-b056-718615f68d7f", name: "Sushi rice", quantity: 300, unit: "grams" },
+      { id: "b9475132-0749-4485-849c-174d67bfe01f", name: "Nori sheets", quantity: 6, unit: "count" },
+      { id: "f42d34f6-7206-42b7-ae8a-3965480170a4", name: "Fresh fish", quantity: 200, unit: "grams" },
+      { id: "df0943cc-c901-4522-bd9f-0e1d1b727f56", name: "Cucumber", quantity: 1, unit: "count" },
+      { id: "de6302b8-7732-491e-b4e0-4e56a9a004f4", name: "Avocado", quantity: 1, unit: "count" },
+      { id: "cc30f608-15bf-43c4-95d4-60f2e891c747", name: "Rice vinegar", quantity: 2, unit: "tbsp" },
+      { id: "c64396c8-f533-4656-b214-792c36b6ead3", name: "Wasabi", quantity: 1, unit: "tsp" },
+      { id: "c39e09b8-f2bc-41ad-9749-ceada71be810", name: "Soy sauce", quantity: 50, unit: "ml" }
     ],
     instructions: [
       "Prepare sushi rice",
@@ -383,14 +383,14 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Ground beef", quantity: 500, unit: "grams" },
-      { id: null, name: "Burger buns", quantity: 4, unit: "count" },
-      { id: null, name: "Lettuce", quantity: 4, unit: "leaves" },
-      { id: null, name: "Tomato", quantity: 1, unit: "count" },
-      { id: null, name: "Onion", quantity: 1, unit: "count" },
-      { id: null, name: "Cheese", quantity: 4, unit: "slices" },
-      { id: null, name: "Mayo", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Ketchup", quantity: 2, unit: "tbsp" }
+      { id: "b632358c-fad2-4d67-8d08-90477a21a7ac", name: "Ground beef", quantity: 500, unit: "grams" },
+      { id: "6db459d9-f135-4ca3-a3e1-effd947a9bdc", name: "Burger buns", quantity: 4, unit: "count" },
+      { id: "9cdcee95-602f-44ef-a130-258176e29037", name: "Lettuce", quantity: 4, unit: "leaves" },
+      { id: "c328c668-810d-4ce9-a8d7-4228a7f77f61", name: "Tomato", quantity: 1, unit: "count" },
+      { id: "651968b7-1b7b-4725-808f-414084c4b679", name: "Onion", quantity: 1, unit: "count" },
+      { id: "6de919a0-299f-4059-87fc-83628aa32407", name: "Cheese", quantity: 4, unit: "slices" },
+      { id: "55da6aa4-ba86-4518-9d14-0df705c4a69e", name: "Mayo", quantity: 2, unit: "tbsp" },
+      { id: "8812e59c-2622-40fc-b603-647fe0d53112", name: "Ketchup", quantity: 2, unit: "tbsp" }
     ],
     instructions: [
       "Form patties",
@@ -423,13 +423,13 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Mixed vegetables", quantity: 300, unit: "grams" },
-      { id: null, name: "Tofu", quantity: 200, unit: "grams" },
-      { id: null, name: "Soy sauce", quantity: 3, unit: "tbsp" },
-      { id: null, name: "Ginger", quantity: 1, unit: "tbsp" },
-      { id: null, name: "Garlic", quantity: 2, unit: "cloves" },
-      { id: null, name: "Sesame oil", quantity: 1, unit: "tbsp" },
-      { id: null, name: "Rice", quantity: 200, unit: "grams" }
+      { id: "fa15195a-6a37-43c1-b289-7d1d7289cd1d", name: "Mixed vegetables", quantity: 300, unit: "grams" },
+      { id: "7ae9656a-fee0-4900-a012-f2085b9afe24", name: "Tofu", quantity: 200, unit: "grams" },
+      { id: "c39e09b8-f2bc-41ad-9749-ceada71be810", name: "Soy sauce", quantity: 3, unit: "tbsp" },
+      { id: "c05d376b-a6f3-458d-8985-777fc689911c", name: "Ginger", quantity: 1, unit: "tbsp" },
+      { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 2, unit: "cloves" },
+      { id: "37380d82-a816-44f2-9b4e-4779355bbc2f", name: "Sesame oil", quantity: 1, unit: "tbsp" },
+      { id: "7abe3bdd-7404-40a7-baf7-72c6a8514488", name: "Rice", quantity: 200, unit: "grams" }
     ],
     instructions: [
       "Prep vegetables",
@@ -462,16 +462,16 @@ export const mealPlan = [
     servings: 8,
     difficulty: "Hard",
     ingredients: [
-      { id: null, name: "Eggplant", quantity: 2, unit: "count" },
-      { id: null, name: "Ground lamb", quantity: 500, unit: "grams" },
-      { id: null, name: "Onions", quantity: 2, unit: "count" },
-      { id: null, name: "Garlic", quantity: 3, unit: "cloves" },
-      { id: null, name: "Tomato paste", quantity: 3, unit: "tbsp" },
-      { id: null, name: "Cinnamon", quantity: 1, unit: "tsp" },
-      { id: null, name: "Flour", quantity: 50, unit: "grams" },
-      { id: null, name: "Milk", quantity: 500, unit: "ml" },
-      { id: null, name: "Eggs", quantity: 2, unit: "count" },
-      { id: null, name: "Nutmeg", quantity: 0.5, unit: "tsp" }
+      { id: "7c89311d-691d-475a-a21d-8c2da94bd927", name: "Eggplant", quantity: 2, unit: "count" },
+      { id: "5b8761a9-67e0-4b0d-a6d6-4f6fda0d6afa", name: "Ground lamb", quantity: 500, unit: "grams" },
+      { id: "f848fc07-a599-40af-aa98-82580a19b4de", name: "Onions", quantity: 2, unit: "count" },
+      { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 3, unit: "cloves" },
+      { id: "d98d65d4-5862-423f-a96d-aa334bfa35e9", name: "Tomato paste", quantity: 3, unit: "tbsp" },
+      { id: "d57f8289-785c-449d-b289-9de12d06f49d", name: "Cinnamon", quantity: 1, unit: "tsp" },
+      { id: "b524b6b9-b3ca-40b1-b0d7-03b3f9948796", name: "Flour", quantity: 50, unit: "grams" },
+      { id: "f2e7ffe1-01cd-4221-816b-1a165a9437f3", name: "Milk", quantity: 500, unit: "ml" },
+      { id: "4df6eae6-94b5-4a28-9f6f-7d0aca7f0822", name: "Eggs", quantity: 2, unit: "count" },
+      { id: "83d52014-6f01-448f-917c-d2d3967507a2", name: "Nutmeg", quantity: 0.5, unit: "tsp" }
     ],
     instructions: [
       "Slice and salt eggplants",
@@ -504,14 +504,14 @@ export const mealPlan = [
     servings: 6,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Rice noodles", quantity: 200, unit: "grams" },
-      { id: null, name: "Beef bones", quantity: 1, unit: "kg" },
-      { id: null, name: "Beef slices", quantity: 300, unit: "grams" },
-      { id: null, name: "Star anise", quantity: 2, unit: "count" },
-      { id: null, name: "Cinnamon stick", quantity: 1, unit: "count" },
-      { id: null, name: "Ginger", quantity: 50, unit: "grams" },
-      { id: null, name: "Bean sprouts", quantity: 150, unit: "grams" },
-      { id: null, name: "Thai basil", quantity: 10, unit: "leaves" }
+      { id: "a103ddc9-d2a7-48f1-ac98-a8663cfd7a9e", name: "Rice noodles", quantity: 200, unit: "grams" },
+      { id: "70ecc8ff-020a-470d-8586-f20987bb952a", name: "Beef bones", quantity: 1, unit: "kg" },
+      { id: "e79566cf-b701-4d7f-a405-d6cbf3d4ed07", name: "Beef slices", quantity: 300, unit: "grams" },
+      { id: "8a252a21-0481-4d5a-86d4-2945dc1ce1ee", name: "Star anise", quantity: 2, unit: "count" },
+      { id: "284ede95-1f0d-4ccf-9593-5352400d2237", name: "Cinnamon stick", quantity: 1, unit: "count" },
+      { id: "c05d376b-a6f3-458d-8985-777fc689911c", name: "Ginger", quantity: 50, unit: "grams" },
+      { id: "fd7b1921-c196-4a43-9264-f950ecb98482", name: "Bean sprouts", quantity: 150, unit: "grams" },
+      { id: "24fde084-1614-463a-971b-ce9af28a1c55", name: "Thai basil", quantity: 10, unit: "leaves" }
     ],
     instructions: [
       "Make bone broth",
@@ -544,14 +544,14 @@ export const mealPlan = [
     servings: 6,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Bomba rice", quantity: 300, unit: "grams" },
-      { id: null, name: "Saffron", quantity: 1, unit: "pinch" },
-      { id: null, name: "Shrimp", quantity: 200, unit: "grams" },
-      { id: null, name: "Mussels", quantity: 200, unit: "grams" },
-      { id: null, name: "Chorizo", quantity: 150, unit: "grams" },
-      { id: null, name: "Bell peppers", quantity: 2, unit: "count" },
-      { id: null, name: "Peas", quantity: 100, unit: "grams" },
-      { id: null, name: "Chicken stock", quantity: 1, unit: "liter" }
+      { id: "43c6fe77-0017-435d-af13-e58a3c5ca3dc", name: "Bomba rice", quantity: 300, unit: "grams" },
+      { id: "8e96e84f-6e00-4228-9d6a-e15c0ad75383", name: "Saffron", quantity: 1, unit: "pinch" },
+      { id: "109ca87c-fa15-49e7-ae76-f9c840286704", name: "Shrimp", quantity: 200, unit: "grams" },
+      { id: "0739fbb0-bb55-4b38-8af7-b96462c0e004", name: "Mussels", quantity: 200, unit: "grams" },
+      { id: "256ea5b1-f1c8-4c2b-a655-da01c36f9aeb", name: "Chorizo", quantity: 150, unit: "grams" },
+      { id: "3fe13572-198e-43bc-804e-335287b053f8", name: "Bell peppers", quantity: 2, unit: "count" },
+      { id: "c150332c-94e4-4417-a89e-ef44b749c05a", name: "Peas", quantity: 100, unit: "grams" },
+      { id: "1a16781f-e08c-4c4d-aa61-378f23f420a9", name: "Chicken stock", quantity: 1, unit: "liter" }
     ],
     instructions: [
       "Bloom saffron in stock",
@@ -584,13 +584,13 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Dark chocolate", quantity: 200, unit: "grams" },
-      { id: null, name: "Butter", quantity: 100, unit: "grams" },
-      { id: null, name: "Eggs", quantity: 3, unit: "count" },
-      { id: null, name: "Sugar", quantity: 100, unit: "grams" },
-      { id: null, name: "Flour", quantity: 50, unit: "grams" },
-      { id: null, name: "Vanilla extract", quantity: 1, unit: "tsp" },
-      { id: null, name: "Salt", quantity: 0.5, unit: "tsp" }
+      { id: "f47f2ffe-d168-48a9-857a-d9c583b15f8b", name: "Dark chocolate", quantity: 200, unit: "grams" },
+      { id: "78592daa-1cbc-4305-8da4-bc8ae8604d47", name: "Butter", quantity: 100, unit: "grams" },
+      { id: "4df6eae6-94b5-4a28-9f6f-7d0aca7f0822", name: "Eggs", quantity: 3, unit: "count" },
+      { id: "bc511659-bcb6-4975-bc41-7f4a40e06da4", name: "Sugar", quantity: 100, unit: "grams" },
+      { id: "b524b6b9-b3ca-40b1-b0d7-03b3f9948796", name: "Flour", quantity: 50, unit: "grams" },
+      { id: "e0799d88-3c0d-473a-8366-4621eb564a9e", name: "Vanilla extract", quantity: 1, unit: "tsp" },
+      { id: "1008613b-a1cf-4d6b-959a-594b064a8864", name: "Salt", quantity: 0.5, unit: "tsp" }
     ],
     instructions: [
       "Melt chocolate and butter",
@@ -623,13 +623,13 @@ export const mealPlan = [
     servings: 6,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Flank steak", quantity: 500, unit: "grams" },
-      { id: null, name: "Corn tortillas", quantity: 12, unit: "count" },
-      { id: null, name: "Onion", quantity: 1, unit: "count" },
-      { id: null, name: "Cilantro", quantity: 50, unit: "grams" },
-      { id: null, name: "Lime", quantity: 2, unit: "count" },
-      { id: null, name: "Mexican spices", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Salsa verde", quantity: 100, unit: "grams" }
+      { id: "317abfe6-7604-4f2b-a3a0-a361d0407503", name: "Flank steak", quantity: 500, unit: "grams" },
+      { id: "98acc5c7-c3ff-4862-94da-c7f61eb82af7", name: "Corn tortillas", quantity: 12, unit: "count" },
+      { id: "651968b7-1b7b-4725-808f-414084c4b679", name: "Onion", quantity: 1, unit: "count" },
+      { id: "75f4ec70-cba8-4f15-aa49-1b1240023d41", name: "Cilantro", quantity: 50, unit: "grams" },
+      { id: "d6c2e6e2-0d08-4206-ba79-f113dd09266f", name: "Lime", quantity: 2, unit: "count" },
+      { id: "0b53eb1d-7ce3-43b0-9e9f-b709eeae4bfe", name: "Mexican spices", quantity: 2, unit: "tbsp" },
+      { id: "d178a711-d803-4447-b7a5-c458232c217d", name: "Salsa verde", quantity: 100, unit: "grams" }
     ],
     instructions: [
       "Marinate meat",
@@ -662,13 +662,13 @@ export const mealPlan = [
     servings: 6,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Butternut squash", quantity: 1, unit: "count" },
-      { id: null, name: "Onion", quantity: 1, unit: "count" },
-      { id: null, name: "Garlic", quantity: 2, unit: "cloves" },
-      { id: null, name: "Vegetable broth", quantity: 1, unit: "liter" },
-      { id: null, name: "Heavy cream", quantity: 100, unit: "ml" },
-      { id: null, name: "Sage", quantity: 1, unit: "tbsp" },
-      { id: null, name: "Nutmeg", quantity: 0.5, unit: "tsp" }
+      { id: "137c42da-3a7a-428b-88b1-4d236465e1b1", name: "Butternut squash", quantity: 1, unit: "count" },
+      { id: "651968b7-1b7b-4725-808f-414084c4b679", name: "Onion", quantity: 1, unit: "count" },
+      { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 2, unit: "cloves" },
+      { id: "bf29b666-5da9-42ef-989f-f7ad2dea96ce", name: "Vegetable broth", quantity: 1, unit: "liter" },
+      { id: "04f3e213-d544-41e5-a161-baaf21d19689", name: "Heavy cream", quantity: 100, unit: "ml" },
+      { id: "403f7089-2867-45ed-b4cf-cf63378a057e", name: "Sage", quantity: 1, unit: "tbsp" },
+      { id: "83d52014-6f01-448f-917c-d2d3967507a2", name: "Nutmeg", quantity: 0.5, unit: "tsp" }
     ],
     instructions: [
       "Roast squash",
@@ -701,14 +701,14 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Dried chickpeas", quantity: 200, unit: "grams" },
-      { id: null, name: "Fresh herbs", quantity: 50, unit: "grams" },
-      { id: null, name: "Garlic", quantity: 3, unit: "cloves" },
-      { id: null, name: "Cumin", quantity: 1, unit: "tbsp" },
-      { id: null, name: "Pita bread", quantity: 4, unit: "count" },
-      { id: null, name: "Tahini", quantity: 50, unit: "grams" },
-      { id: null, name: "Cucumber", quantity: 1, unit: "count" },
-      { id: null, name: "Tomatoes", quantity: 2, unit: "count" }
+      { id: "e2cb049b-3e4c-4c52-9b23-f69c22c1c9ee", name: "Dried chickpeas", quantity: 200, unit: "grams" },
+      { id: "1529a4e7-e28a-46d7-aa6d-fb473dbd423a", name: "Fresh herbs", quantity: 50, unit: "grams" },
+      { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 3, unit: "cloves" },
+      { id: "5639cec6-3e98-4c66-a200-7ee43f934349", name: "Cumin", quantity: 1, unit: "tbsp" },
+      { id: "aebdc1f9-3aa9-486a-b209-7d0772abda55", name: "Pita bread", quantity: 4, unit: "count" },
+      { id: "19c94db8-6baf-4788-aa59-fd12a2c01cb7", name: "Tahini", quantity: 50, unit: "grams" },
+      { id: "df0943cc-c901-4522-bd9f-0e1d1b727f56", name: "Cucumber", quantity: 1, unit: "count" },
+      { id: "bb0a7d22-a791-40ce-be10-67d5afeb062d", name: "Tomatoes", quantity: 2, unit: "count" }
     ],
     instructions: [
       "Soak chickpeas",
@@ -741,13 +741,13 @@ export const mealPlan = [
     servings: 6,
     difficulty: "Hard",
     ingredients: [
-      { id: null, name: "Beef tenderloin", quantity: 1, unit: "kg" },
-      { id: null, name: "Puff pastry", quantity: 500, unit: "grams" },
-      { id: null, name: "Mushrooms", quantity: 200, unit: "grams" },
-      { id: null, name: "Prosciutto", quantity: 100, unit: "grams" },
-      { id: null, name: "Dijon mustard", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Egg wash", quantity: 1, unit: "count" },
-      { id: null, name: "Thyme", quantity: 1, unit: "tsp" }
+      { id: "6d47ec5d-b40f-4d64-b775-bdf666a87211", name: "Beef tenderloin", quantity: 1, unit: "kg" },
+      { id: "ae97572e-3ffc-47bf-bc76-2182085cbfbb", name: "Puff pastry", quantity: 500, unit: "grams" },
+      { id: "ab5b1b1b-6950-43fb-8c1e-8efa2a6c328b", name: "Mushrooms", quantity: 200, unit: "grams" },
+      { id: "3e83640a-a1cf-40a9-8597-2bcc2e50829a", name: "Prosciutto", quantity: 100, unit: "grams" },
+      { id: "d2f31c73-3b97-4a50-a0a9-c933653aa6e8", name: "Dijon mustard", quantity: 2, unit: "tbsp" },
+      { id: "13257bcd-d299-431d-94a7-756b948e0266", name: "Egg wash", quantity: 1, unit: "count" },
+      { id: "561de191-98c9-4718-b086-c0112698294f", name: "Thyme", quantity: 1, unit: "tsp" }
     ],
     instructions: [
       "Sear beef",
@@ -780,14 +780,14 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Ramen noodles", quantity: 200, unit: "grams" },
-      { id: null, name: "Miso paste", quantity: 3, unit: "tbsp" },
-      { id: null, name: "Pork belly", quantity: 300, unit: "grams" },
-      { id: null, name: "Soft-boiled eggs", quantity: 2, unit: "count" },
-      { id: null, name: "Green onions", quantity: 50, unit: "grams" },
-      { id: null, name: "Corn", quantity: 100, unit: "grams" },
-      { id: null, name: "Bamboo shoots", quantity: 50, unit: "grams" },
-      { id: null, name: "Nori", quantity: 2, unit: "sheets" }
+      { id: "cf95a6c8-30fb-4d4b-8ef4-764df8345db7", name: "Ramen noodles", quantity: 200, unit: "grams" },
+      { id: "a44f79cb-1d2a-4b1d-bf2a-3788d6e59ca1", name: "Miso paste", quantity: 3, unit: "tbsp" },
+      { id: "007cb0e1-901b-4ff3-8a5e-11ccc376c590", name: "Pork belly", quantity: 300, unit: "grams" },
+      { id: "9406a0f3-e4ec-4b68-b097-f4a1f4f4ec9c", name: "Soft-boiled eggs", quantity: 2, unit: "count" },
+      { id: "d1239781-62c9-4db4-abea-48c7697b0c25", name: "Green onions", quantity: 50, unit: "grams" },
+      { id: "92beb769-6680-4922-b7e5-3c6227f6ab70", name: "Corn", quantity: 100, unit: "grams" },
+      { id: "e4487d49-a73c-44a8-a5ad-d375c50a2263", name: "Bamboo shoots", quantity: 50, unit: "grams" },
+      { id: "5b21d409-d8b2-4f1d-8b97-8acd026efb4f", name: "Nori", quantity: 2, unit: "sheets" }
     ],
     instructions: [
       "Prepare broth",
@@ -820,14 +820,14 @@ export const mealPlan = [
     servings: 12,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Cream cheese", quantity: 500, unit: "grams" },
-      { id: null, name: "Graham crackers", quantity: 200, unit: "grams" },
-      { id: null, name: "Sugar", quantity: 150, unit: "grams" },
-      { id: null, name: "Eggs", quantity: 3, unit: "count" },
-      { id: null, name: "Sour cream", quantity: 200, unit: "grams" },
-      { id: null, name: "Mixed berries", quantity: 300, unit: "grams" },
-      { id: null, name: "Vanilla extract", quantity: 1, unit: "tsp" },
-      { id: null, name: "Butter", quantity: 100, unit: "grams" }
+      { id: "d71eea04-5919-4f5b-b518-5aad44a2df79", name: "Cream cheese", quantity: 500, unit: "grams" },
+      { id: "aa2c2944-98ab-439b-8e57-46da686f9c45", name: "Graham crackers", quantity: 200, unit: "grams" },
+      { id: "bc511659-bcb6-4975-bc41-7f4a40e06da4", name: "Sugar", quantity: 150, unit: "grams" },
+      { id: "4df6eae6-94b5-4a28-9f6f-7d0aca7f0822", name: "Eggs", quantity: 3, unit: "count" },
+      { id: "cfc33400-f753-4443-8820-eed852be92a6", name: "Sour cream", quantity: 200, unit: "grams" },
+      { id: "06549eab-2ece-46dd-ba42-6ab561805df0", name: "Mixed berries", quantity: 300, unit: "grams" },
+      { id: "e0799d88-3c0d-473a-8366-4621eb564a9e", name: "Vanilla extract", quantity: 1, unit: "tsp" },
+      { id: "78592daa-1cbc-4305-8da4-bc8ae8604d47", name: "Butter", quantity: 100, unit: "grams" }
     ],
     instructions: [
       "Make crust",
@@ -860,13 +860,13 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Salmon fillets", quantity: 4, unit: "count" },
-      { id: null, name: "Lemon juice", quantity: 3, unit: "tbsp" },
-      { id: null, name: "Olive oil", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Garlic", quantity: 2, unit: "cloves" },
-      { id: null, name: "Fresh dill", quantity: 1, unit: "tbsp" },
-      { id: null, name: "Salt", quantity: 1, unit: "tsp" },
-      { id: null, name: "Black pepper", quantity: 0.5, unit: "tsp" }
+      { id: "704b83b2-5999-4ca1-aedf-a01cdbc9619f", name: "Salmon fillets", quantity: 4, unit: "count" },
+      { id: "1cddbcd4-27d4-4ce3-8408-d24c0efe2490", name: "Lemon juice", quantity: 3, unit: "tbsp" },
+      { id: "a4aca1c2-2ff2-4936-a77a-4b8d2ef18a39", name: "Olive oil", quantity: 2, unit: "tbsp" },
+      { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 2, unit: "cloves" },
+      { id: "7fd3ee6e-0e65-46b2-8ddd-69e742a74851", name: "Fresh dill", quantity: 1, unit: "tbsp" },
+      { id: "1008613b-a1cf-4d6b-959a-594b064a8864", name: "Salt", quantity: 1, unit: "tsp" },
+      { id: "effcaf1b-7bb7-4154-8900-a3af0ad8fff5", name: "Black pepper", quantity: 0.5, unit: "tsp" }
     ],
     instructions: [
       "Prepare marinade with lemon juice, olive oil, garlic, and herbs",
@@ -899,13 +899,13 @@ export const mealPlan = [
     servings: 8,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Lasagna noodles", quantity: 12, unit: "count" },
-      { id: null, name: "Ricotta cheese", quantity: 400, unit: "grams" },
-      { id: null, name: "Mozzarella cheese", quantity: 300, unit: "grams" },
-      { id: null, name: "Parmesan cheese", quantity: 100, unit: "grams" },
-      { id: null, name: "Tomato sauce", quantity: 800, unit: "grams" },
-      { id: null, name: "Zucchini", quantity: 2, unit: "count" },
-      { id: null, name: "Spinach", quantity: 200, unit: "grams" }
+      { id: "3775ac13-a584-43fe-9c96-0f7a5b5d697f", name: "Lasagna noodles", quantity: 12, unit: "count" },
+      { id: "6ce96213-f1f9-428c-9699-5831436d16a2", name: "Ricotta cheese", quantity: 400, unit: "grams" },
+      { id: "270cb6c8-8a75-47b0-acda-9d09ff8bceb1", name: "Mozzarella cheese", quantity: 300, unit: "grams" },
+      { id: "7b0dfa70-cf94-41a6-b1b9-653b2398c4f2", name: "Parmesan cheese", quantity: 100, unit: "grams" },
+      { id: "2a2c84c5-38fd-4243-b5af-cd898eff6cb3", name: "Tomato sauce", quantity: 800, unit: "grams" },
+      { id: "1bcde3d9-1380-45e3-ad5b-8eae1b230011", name: "Zucchini", quantity: 2, unit: "count" },
+      { id: "7d8ed43d-5272-4eea-b8ca-c2ac533ee23b", name: "Spinach", quantity: 200, unit: "grams" }
     ],
     instructions: [
       "Cook lasagna noodles",
@@ -938,13 +938,13 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Shrimp", quantity: 400, unit: "grams" },
-      { id: null, name: "Corn tortillas", quantity: 8, unit: "count" },
-      { id: null, name: "Cabbage", quantity: 100, unit: "grams" },
-      { id: null, name: "Lime", quantity: 2, unit: "count" },
-      { id: null, name: "Chili powder", quantity: 1, unit: "tbsp" },
-      { id: null, name: "Garlic powder", quantity: 1, unit: "tsp" },
-      { id: null, name: "Sour cream", quantity: 100, unit: "grams" }
+      { id: "109ca87c-fa15-49e7-ae76-f9c840286704", name: "Shrimp", quantity: 400, unit: "grams" },
+      { id: "98acc5c7-c3ff-4862-94da-c7f61eb82af7", name: "Corn tortillas", quantity: 8, unit: "count" },
+      { id: "25b5c96d-799c-46b5-8ecf-21b8aa15faca", name: "Cabbage", quantity: 100, unit: "grams" },
+      { id: "d6c2e6e2-0d08-4206-ba79-f113dd09266f", name: "Lime", quantity: 2, unit: "count" },
+      { id: "232c7918-f8cb-487c-8980-ff1e35b63c23", name: "Chili powder", quantity: 1, unit: "tbsp" },
+      { id: "dd001871-fbfe-4ed6-aa0f-5f5a2c02b8d3", name: "Garlic powder", quantity: 1, unit: "tsp" },
+      { id: "cfc33400-f753-4443-8820-eed852be92a6", name: "Sour cream", quantity: 100, unit: "grams" }
     ],
     instructions: [
       "Season shrimp with spices",
@@ -977,13 +977,13 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Bell peppers", quantity: 4, unit: "count" },
-      { id: null, name: "Cooked rice", quantity: 200, unit: "grams" },
-      { id: null, name: "Black beans", quantity: 150, unit: "grams" },
-      { id: null, name: "Tomato sauce", quantity: 200, unit: "grams" },
-      { id: null, name: "Onion", quantity: 1, unit: "count" },
-      { id: null, name: "Garlic", quantity: 2, unit: "cloves" },
-      { id: null, name: "Cheddar cheese", quantity: 100, unit: "grams" }
+      { id: "3fe13572-198e-43bc-804e-335287b053f8", name: "Bell peppers", quantity: 4, unit: "count" },
+      { id: "3d98739b-62b2-42c6-b982-a220e913ea3b", name: "Cooked rice", quantity: 200, unit: "grams" },
+      { id: "6f916675-fbf6-4d90-b1f0-3f5fa3c4f6d3", name: "Black beans", quantity: 150, unit: "grams" },
+      { id: "2a2c84c5-38fd-4243-b5af-cd898eff6cb3", name: "Tomato sauce", quantity: 200, unit: "grams" },
+      { id: "651968b7-1b7b-4725-808f-414084c4b679", name: "Onion", quantity: 1, unit: "count" },
+      { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 2, unit: "cloves" },
+      { id: "12fa449a-54e9-41bf-b4cc-8aa52ab7730d", name: "Cheddar cheese", quantity: 100, unit: "grams" }
     ],
     instructions: [
       "Cut tops off bell peppers and remove seeds",
@@ -1016,13 +1016,13 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Fettuccine pasta", quantity: 300, unit: "grams" },
-      { id: null, name: "Chicken breast", quantity: 400, unit: "grams" },
-      { id: null, name: "Heavy cream", quantity: 200, unit: "ml" },
-      { id: null, name: "Parmesan cheese", quantity: 100, unit: "grams" },
-      { id: null, name: "Butter", quantity: 50, unit: "grams" },
-      { id: null, name: "Garlic", quantity: 2, unit: "cloves" },
-      { id: null, name: "Parsley", quantity: 1, unit: "tbsp" }
+      { id: "585063a4-827a-4da6-8a82-ec78923d11b3", name: "Fettuccine pasta", quantity: 300, unit: "grams" },
+      { id: "d0a1f3b4-8f8e-47a4-953b-e1006228ddef", name: "Chicken breast", quantity: 400, unit: "grams" },
+      { id: "04f3e213-d544-41e5-a161-baaf21d19689", name: "Heavy cream", quantity: 200, unit: "ml" },
+      { id: "7b0dfa70-cf94-41a6-b1b9-653b2398c4f2", name: "Parmesan cheese", quantity: 100, unit: "grams" },
+      { id: "78592daa-1cbc-4305-8da4-bc8ae8604d47", name: "Butter", quantity: 50, unit: "grams" },
+      { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 2, unit: "cloves" },
+      { id: "9ed9004d-4775-4215-8c30-90478c00d072", name: "Parsley", quantity: 1, unit: "tbsp" }
     ],
     instructions: [
       "Cook pasta according to package instructions",
@@ -1055,13 +1055,13 @@ export const mealPlan = [
     servings: 6,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Eggplant", quantity: 2, unit: "count" },
-      { id: null, name: "Breadcrumbs", quantity: 200, unit: "grams" },
-      { id: null, name: "Parmesan cheese", quantity: 100, unit: "grams" },
-      { id: null, name: "Mozzarella cheese", quantity: 200, unit: "grams" },
-      { id: null, name: "Marinara sauce", quantity: 500, unit: "ml" },
-      { id: null, name: "Eggs", quantity: 2, unit: "count" },
-      { id: null, name: "Flour", quantity: 100, unit: "grams" }
+      { id: "7c89311d-691d-475a-a21d-8c2da94bd927", name: "Eggplant", quantity: 2, unit: "count" },
+      { id: "56eeca66-5978-4630-8b5c-9bdc62a07490", name: "Breadcrumbs", quantity: 200, unit: "grams" },
+      { id: "7b0dfa70-cf94-41a6-b1b9-653b2398c4f2", name: "Parmesan cheese", quantity: 100, unit: "grams" },
+      { id: "270cb6c8-8a75-47b0-acda-9d09ff8bceb1", name: "Mozzarella cheese", quantity: 200, unit: "grams" },
+      { id: "8549671f-6b7c-48a2-9967-e5065df0bc6e", name: "Marinara sauce", quantity: 500, unit: "ml" },
+      { id: "4df6eae6-94b5-4a28-9f6f-7d0aca7f0822", name: "Eggs", quantity: 2, unit: "count" },
+      { id: "b524b6b9-b3ca-40b1-b0d7-03b3f9948796", name: "Flour", quantity: 100, unit: "grams" }
     ],
     instructions: [
       "Slice and salt eggplants",
@@ -1094,14 +1094,14 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Chicken thighs", quantity: 500, unit: "grams" },
-      { id: null, name: "Pita bread", quantity: 4, unit: "count" },
-      { id: null, name: "Yogurt", quantity: 100, unit: "grams" },
-      { id: null, name: "Garlic", quantity: 3, unit: "cloves" },
-      { id: null, name: "Lemon juice", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Shawarma spices", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Cucumber", quantity: 1, unit: "count" },
-      { id: null, name: "Tomatoes", quantity: 2, unit: "count" }
+      { id: "cb2d8ce4-5f16-4920-b96c-f5d012bec400", name: "Chicken thighs", quantity: 500, unit: "grams" },
+      { id: "aebdc1f9-3aa9-486a-b209-7d0772abda55", name: "Pita bread", quantity: 4, unit: "count" },
+      { id: "4ef82d61-4abf-40f1-a3f3-14d507c45849", name: "Yogurt", quantity: 100, unit: "grams" },
+      { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 3, unit: "cloves" },
+      { id: "1cddbcd4-27d4-4ce3-8408-d24c0efe2490", name: "Lemon juice", quantity: 2, unit: "tbsp" },
+      { id: "b462b342-2067-493c-b295-578fe04d681e", name: "Shawarma spices", quantity: 2, unit: "tbsp" },
+      { id: "df0943cc-c901-4522-bd9f-0e1d1b727f56", name: "Cucumber", quantity: 1, unit: "count" },
+      { id: "bb0a7d22-a791-40ce-be10-67d5afeb062d", name: "Tomatoes", quantity: 2, unit: "count" }
     ],
     instructions: [
       "Marinate chicken in yogurt, spices, and lemon juice",
@@ -1134,14 +1134,14 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Mixed vegetables", quantity: 400, unit: "grams" },
-      { id: null, name: "Coconut milk", quantity: 400, unit: "ml" },
-      { id: null, name: "Curry powder", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Onion", quantity: 1, unit: "count" },
-      { id: null, name: "Garlic", quantity: 3, unit: "cloves" },
-      { id: null, name: "Ginger", quantity: 1, unit: "tbsp" },
-      { id: null, name: "Tomato paste", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Vegetable broth", quantity: 200, unit: "ml" }
+      { id: "fa15195a-6a37-43c1-b289-7d1d7289cd1d", name: "Mixed vegetables", quantity: 400, unit: "grams" },
+      { id: "f5416653-afbb-40e5-ba4c-b1e841033cf4", name: "Coconut milk", quantity: 400, unit: "ml" },
+      { id: "0c9b7dc0-128f-48bf-ad58-59ee2f931d58", name: "Curry powder", quantity: 2, unit: "tbsp" },
+      { id: "651968b7-1b7b-4725-808f-414084c4b679", name: "Onion", quantity: 1, unit: "count" },
+      { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 3, unit: "cloves" },
+      { id: "c05d376b-a6f3-458d-8985-777fc689911c", name: "Ginger", quantity: 1, unit: "tbsp" },
+      { id: "d98d65d4-5862-423f-a96d-aa334bfa35e9", name: "Tomato paste", quantity: 2, unit: "tbsp" },
+      { id: "bf29b666-5da9-42ef-989f-f7ad2dea96ce", name: "Vegetable broth", quantity: 200, unit: "ml" }
     ],
     instructions: [
       "Sauté onion, garlic, and ginger",
@@ -1174,14 +1174,14 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Beef strips", quantity: 500, unit: "grams" },
-      { id: null, name: "Mushrooms", quantity: 200, unit: "grams" },
-      { id: null, name: "Onion", quantity: 1, unit: "count" },
-      { id: null, name: "Sour cream", quantity: 200, unit: "grams" },
-      { id: null, name: "Beef broth", quantity: 200, unit: "ml" },
-      { id: null, name: "Flour", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Butter", quantity: 50, unit: "grams" },
-      { id: null, name: "Egg noodles", quantity: 300, unit: "grams" }
+      { id: "402fc880-fa97-4225-8f99-0ad9ba6d8315", name: "Beef strips", quantity: 500, unit: "grams" },
+      { id: "ab5b1b1b-6950-43fb-8c1e-8efa2a6c328b", name: "Mushrooms", quantity: 200, unit: "grams" },
+      { id: "651968b7-1b7b-4725-808f-414084c4b679", name: "Onion", quantity: 1, unit: "count" },
+      { id: "cfc33400-f753-4443-8820-eed852be92a6", name: "Sour cream", quantity: 200, unit: "grams" },
+      { id: "26d528a7-6027-4726-8932-b4d8a698ba4c", name: "Beef broth", quantity: 200, unit: "ml" },
+      { id: "b524b6b9-b3ca-40b1-b0d7-03b3f9948796", name: "Flour", quantity: 2, unit: "tbsp" },
+      { id: "78592daa-1cbc-4305-8da4-bc8ae8604d47", name: "Butter", quantity: 50, unit: "grams" },
+      { id: "e87b0153-f498-411e-bbe1-22b33f0b6070", name: "Egg noodles", quantity: 300, unit: "grams" }
     ],
     instructions: [
       "Cook egg noodles according to package instructions",
@@ -1214,14 +1214,14 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "All-purpose flour", quantity: 200, unit: "grams" },
-      { id: null, name: "Milk", quantity: 250, unit: "ml" },
-      { id: null, name: "Eggs", quantity: 2, unit: "count" },
-      { id: null, name: "Sugar", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Baking powder", quantity: 2, unit: "tsp" },
-      { id: null, name: "Salt", quantity: 0.5, unit: "tsp" },
-      { id: null, name: "Blueberries", quantity: 150, unit: "grams" },
-      { id: null, name: "Butter", quantity: 50, unit: "grams" }
+      { id: "0ebc2f83-d932-4a31-a8e9-c660adeeb8d1", name: "All-purpose flour", quantity: 200, unit: "grams" },
+      { id: "f2e7ffe1-01cd-4221-816b-1a165a9437f3", name: "Milk", quantity: 250, unit: "ml" },
+      { id: "4df6eae6-94b5-4a28-9f6f-7d0aca7f0822", name: "Eggs", quantity: 2, unit: "count" },
+      { id: "bc511659-bcb6-4975-bc41-7f4a40e06da4", name: "Sugar", quantity: 2, unit: "tbsp" },
+      { id: "6829c0ef-ec1d-4584-a3bd-85c1cba76e95", name: "Baking powder", quantity: 2, unit: "tsp" },
+      { id: "1008613b-a1cf-4d6b-959a-594b064a8864", name: "Salt", quantity: 0.5, unit: "tsp" },
+      { id: "a82c90b5-45eb-44a2-989c-2b1a6f6b3e79", name: "Blueberries", quantity: 150, unit: "grams" },
+      { id: "78592daa-1cbc-4305-8da4-bc8ae8604d47", name: "Butter", quantity: 50, unit: "grams" }
     ],
     instructions: [
       "Mix dry ingredients in a bowl",
@@ -1255,13 +1255,13 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Zucchini", quantity: 4, unit: "count" },
-      { id: null, name: "Ground turkey", quantity: 300, unit: "grams" },
-      { id: null, name: "Tomato sauce", quantity: 200, unit: "grams" },
-      { id: null, name: "Onion", quantity: 1, unit: "count" },
-      { id: null, name: "Garlic", quantity: 2, unit: "cloves" },
-      { id: null, name: "Mozzarella cheese", quantity: 100, unit: "grams" },
-      { id: null, name: "Olive oil", quantity: 1, unit: "tbsp" }
+      { id: "1bcde3d9-1380-45e3-ad5b-8eae1b230011", name: "Zucchini", quantity: 4, unit: "count" },
+      { id: "72b3f831-ecdd-449a-aec7-65507607d819", name: "Ground turkey", quantity: 300, unit: "grams" },
+      { id: "2a2c84c5-38fd-4243-b5af-cd898eff6cb3", name: "Tomato sauce", quantity: 200, unit: "grams" },
+      { id: "651968b7-1b7b-4725-808f-414084c4b679", name: "Onion", quantity: 1, unit: "count" },
+      { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 2, unit: "cloves" },
+      { id: "270cb6c8-8a75-47b0-acda-9d09ff8bceb1", name: "Mozzarella cheese", quantity: 100, unit: "grams" },
+      { id: "a4aca1c2-2ff2-4936-a77a-4b8d2ef18a39", name: "Olive oil", quantity: 1, unit: "tbsp" }
     ],
     instructions: [
       "Cut zucchini in half and scoop out the center",
@@ -1294,14 +1294,14 @@ export const mealPlan = [
     servings: 6,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Lentils", quantity: 200, unit: "grams" },
-      { id: null, name: "Carrots", quantity: 2, unit: "count" },
-      { id: null, name: "Celery", quantity: 2, unit: "stalks" },
-      { id: null, name: "Onion", quantity: 1, unit: "count" },
-      { id: null, name: "Garlic", quantity: 3, unit: "cloves" },
-      { id: null, name: "Vegetable broth", quantity: 1, unit: "liter" },
-      { id: null, name: "Cumin", quantity: 1, unit: "tsp" },
-      { id: null, name: "Olive oil", quantity: 1, unit: "tbsp" }
+      { id: "99bd1e42-35f9-4783-9530-669e7fbf499c", name: "Lentils", quantity: 200, unit: "grams" },
+      { id: "c388aa5b-2387-4a2a-8da3-2f7010e1e873", name: "Carrots", quantity: 2, unit: "count" },
+      { id: "458a5691-33c5-41bd-8ccb-cd57798064b7", name: "Celery", quantity: 2, unit: "stalks" },
+      { id: "651968b7-1b7b-4725-808f-414084c4b679", name: "Onion", quantity: 1, unit: "count" },
+      { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 3, unit: "cloves" },
+      { id: "bf29b666-5da9-42ef-989f-f7ad2dea96ce", name: "Vegetable broth", quantity: 1, unit: "liter" },
+      { id: "5639cec6-3e98-4c66-a200-7ee43f934349", name: "Cumin", quantity: 1, unit: "tsp" },
+      { id: "a4aca1c2-2ff2-4936-a77a-4b8d2ef18a39", name: "Olive oil", quantity: 1, unit: "tbsp" }
     ],
     instructions: [
       "Sauté onion, garlic, carrots, and celery in olive oil",
@@ -1334,13 +1334,13 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Tomatoes", quantity: 3, unit: "count" },
-      { id: null, name: "Fresh mozzarella", quantity: 200, unit: "grams" },
-      { id: null, name: "Fresh basil leaves", quantity: 10, unit: "count" },
-      { id: null, name: "Olive oil", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Balsamic glaze", quantity: 1, unit: "tbsp" },
-      { id: null, name: "Salt", quantity: 0.5, unit: "tsp" },
-      { id: null, name: "Black pepper", quantity: 0.25, unit: "tsp" }
+      { id: "bb0a7d22-a791-40ce-be10-67d5afeb062d", name: "Tomatoes", quantity: 3, unit: "count" },
+      { id: "7e1beab2-a96d-47cf-ba39-2ca910c02796", name: "Fresh mozzarella", quantity: 200, unit: "grams" },
+      { id: "a302fd19-4bd5-4d7a-940b-8437c6919b94", name: "Fresh basil leaves", quantity: 10, unit: "count" },
+      { id: "a4aca1c2-2ff2-4936-a77a-4b8d2ef18a39", name: "Olive oil", quantity: 2, unit: "tbsp" },
+      { id: "8ec48350-735e-4456-8d4b-a2bdf6ba7a5b", name: "Balsamic glaze", quantity: 1, unit: "tbsp" },
+      { id: "1008613b-a1cf-4d6b-959a-594b064a8864", name: "Salt", quantity: 0.5, unit: "tsp" },
+      { id: "effcaf1b-7bb7-4154-8900-a3af0ad8fff5", name: "Black pepper", quantity: 0.25, unit: "tsp" }
     ],
     instructions: [
       "Slice tomatoes and mozzarella",
@@ -1373,14 +1373,14 @@ export const mealPlan = [
     servings: 6,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Ground lamb", quantity: 500, unit: "grams" },
-      { id: null, name: "Potatoes", quantity: 800, unit: "grams" },
-      { id: null, name: "Carrots", quantity: 2, unit: "count" },
-      { id: null, name: "Peas", quantity: 100, unit: "grams" },
-      { id: null, name: "Onion", quantity: 1, unit: "count" },
-      { id: null, name: "Butter", quantity: 50, unit: "grams" },
-      { id: null, name: "Milk", quantity: 100, unit: "ml" },
-      { id: null, name: "Beef broth", quantity: 200, unit: "ml" }
+      { id: "5b8761a9-67e0-4b0d-a6d6-4f6fda0d6afa", name: "Ground lamb", quantity: 500, unit: "grams" },
+      { id: "8192e8d8-a441-4a5d-aa24-975e7840c988", name: "Potatoes", quantity: 800, unit: "grams" },
+      { id: "c388aa5b-2387-4a2a-8da3-2f7010e1e873", name: "Carrots", quantity: 2, unit: "count" },
+      { id: "c150332c-94e4-4417-a89e-ef44b749c05a", name: "Peas", quantity: 100, unit: "grams" },
+      { id: "651968b7-1b7b-4725-808f-414084c4b679", name: "Onion", quantity: 1, unit: "count" },
+      { id: "78592daa-1cbc-4305-8da4-bc8ae8604d47", name: "Butter", quantity: 50, unit: "grams" },
+      { id: "f2e7ffe1-01cd-4221-816b-1a165a9437f3", name: "Milk", quantity: 100, unit: "ml" },
+      { id: "26d528a7-6027-4726-8932-b4d8a698ba4c", name: "Beef broth", quantity: 200, unit: "ml" }
     ],
     instructions: [
       "Boil and mash potatoes with butter and milk",
@@ -1413,12 +1413,12 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Chicken breast", quantity: 400, unit: "grams" },
-      { id: null, name: "Romaine lettuce", quantity: 200, unit: "grams" },
-      { id: null, name: "Caesar dressing", quantity: 100, unit: "ml" },
-      { id: null, name: "Parmesan cheese", quantity: 50, unit: "grams" },
-      { id: null, name: "Tortillas", quantity: 4, unit: "count" },
-      { id: null, name: "Croutons", quantity: 50, unit: "grams" }
+      { id: "d0a1f3b4-8f8e-47a4-953b-e1006228ddef", name: "Chicken breast", quantity: 400, unit: "grams" },
+      { id: "aa8c558c-2ab7-4e8a-a652-f62eb23d01bc", name: "Romaine lettuce", quantity: 200, unit: "grams" },
+      { id: "5ae6b1aa-c5da-4c15-9b73-456af9f0436c", name: "Caesar dressing", quantity: 100, unit: "ml" },
+      { id: "7b0dfa70-cf94-41a6-b1b9-653b2398c4f2", name: "Parmesan cheese", quantity: 50, unit: "grams" },
+      { id: "4eff4c01-226e-4cb8-88d0-737a90c9411e", name: "Tortillas", quantity: 4, unit: "count" },
+      { id: "cfce0732-ae40-4fc9-971a-51f6ba93c38f", name: "Croutons", quantity: 50, unit: "grams" }
     ],
     instructions: [
       "Grill chicken and slice into strips",
@@ -1451,13 +1451,13 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Mixed vegetables", quantity: 300, unit: "grams" },
-      { id: null, name: "Peanut butter", quantity: 50, unit: "grams" },
-      { id: null, name: "Soy sauce", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Garlic", quantity: 2, unit: "cloves" },
-      { id: null, name: "Ginger", quantity: 1, unit: "tbsp" },
-      { id: null, name: "Sesame oil", quantity: 1, unit: "tbsp" },
-      { id: null, name: "Lime juice", quantity: 1, unit: "tbsp" }
+      { id: "fa15195a-6a37-43c1-b289-7d1d7289cd1d", name: "Mixed vegetables", quantity: 300, unit: "grams" },
+      { id: "a71a3f48-12a2-4519-8344-23992ec1f3f4", name: "Peanut butter", quantity: 50, unit: "grams" },
+      { id: "c39e09b8-f2bc-41ad-9749-ceada71be810", name: "Soy sauce", quantity: 2, unit: "tbsp" },
+      { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 2, unit: "cloves" },
+      { id: "c05d376b-a6f3-458d-8985-777fc689911c", name: "Ginger", quantity: 1, unit: "tbsp" },
+      { id: "37380d82-a816-44f2-9b4e-4779355bbc2f", name: "Sesame oil", quantity: 1, unit: "tbsp" },
+      { id: "709941f7-ad85-4f06-a2d8-2a01113ec35a", name: "Lime juice", quantity: 1, unit: "tbsp" }
     ],
     instructions: [
       "Sauté garlic and ginger in sesame oil",
@@ -1490,12 +1490,12 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Beets", quantity: 4, unit: "count" },
-      { id: null, name: "Goat cheese", quantity: 100, unit: "grams" },
-      { id: null, name: "Arugula", quantity: 100, unit: "grams" },
-      { id: null, name: "Walnuts", quantity: 50, unit: "grams" },
-      { id: null, name: "Olive oil", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Balsamic vinegar", quantity: 1, unit: "tbsp" }
+      { id: "d36214f7-4487-4771-8650-8322cf76baae", name: "Beets", quantity: 4, unit: "count" },
+      { id: "ebd8f2e6-d9b4-4546-a2b0-a36a24b990f1", name: "Goat cheese", quantity: 100, unit: "grams" },
+      { id: "8b0cf791-e795-41e9-b6c5-d773cb8df6b4", name: "Arugula", quantity: 100, unit: "grams" },
+      { id: "e46b2f55-2f24-4575-bd95-718529b9d345", name: "Walnuts", quantity: 50, unit: "grams" },
+      { id: "a4aca1c2-2ff2-4936-a77a-4b8d2ef18a39", name: "Olive oil", quantity: 2, unit: "tbsp" },
+      { id: "59323712-e1f6-4d0d-b04d-32eefe3fba41", name: "Balsamic vinegar", quantity: 1, unit: "tbsp" }
     ],
     instructions: [
       "Roast beets until tender and slice",
@@ -1527,13 +1527,13 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Arborio rice", quantity: 300, unit: "grams" },
-      { id: null, name: "Pumpkin puree", quantity: 200, unit: "grams" },
-      { id: null, name: "Chicken broth", quantity: 1, unit: "liter" },
-      { id: null, name: "Onion", quantity: 1, unit: "count" },
-      { id: null, name: "Garlic", quantity: 2, unit: "cloves" },
-      { id: null, name: "Parmesan cheese", quantity: 100, unit: "grams" },
-      { id: null, name: "Butter", quantity: 50, unit: "grams" }
+      { id: "437bd1b8-5602-4e2e-9953-74e944f9a700", name: "Arborio rice", quantity: 300, unit: "grams" },
+      { id: "9a527885-75bd-471c-a5d0-ffd5462e907e", name: "Pumpkin puree", quantity: 200, unit: "grams" },
+      { id: "e982b9c5-e451-4e79-b103-d97ec01d91e3", name: "Chicken broth", quantity: 1, unit: "liter" },
+      { id: "651968b7-1b7b-4725-808f-414084c4b679", name: "Onion", quantity: 1, unit: "count" },
+      { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 2, unit: "cloves" },
+      { id: "7b0dfa70-cf94-41a6-b1b9-653b2398c4f2", name: "Parmesan cheese", quantity: 100, unit: "grams" },
+      { id: "78592daa-1cbc-4305-8da4-bc8ae8604d47", name: "Butter", quantity: 50, unit: "grams" }
     ],
     instructions: [
       "Sauté onion and garlic in butter",
@@ -1566,12 +1566,12 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Salmon fillets", quantity: 4, unit: "count" },
-      { id: null, name: "Teriyaki sauce", quantity: 100, unit: "ml" },
-      { id: null, name: "Cooked rice", quantity: 400, unit: "grams" },
-      { id: null, name: "Broccoli", quantity: 200, unit: "grams" },
-      { id: null, name: "Carrots", quantity: 2, unit: "count" },
-      { id: null, name: "Sesame seeds", quantity: 1, unit: "tbsp" }
+      { id: "704b83b2-5999-4ca1-aedf-a01cdbc9619f", name: "Salmon fillets", quantity: 4, unit: "count" },
+      { id: "46521b7a-85ed-4134-ab03-c20ddc575cf4", name: "Teriyaki sauce", quantity: 100, unit: "ml" },
+      { id: "3d98739b-62b2-42c6-b982-a220e913ea3b", name: "Cooked rice", quantity: 400, unit: "grams" },
+      { id: "80953d85-4d8b-401d-b6b6-6faac17dc9c2", name: "Broccoli", quantity: 200, unit: "grams" },
+      { id: "c388aa5b-2387-4a2a-8da3-2f7010e1e873", name: "Carrots", quantity: 2, unit: "count" },
+      { id: "44960865-e7c1-4375-bf9b-90509c4cfc45", name: "Sesame seeds", quantity: 1, unit: "tbsp" }
     ],
     instructions: [
       "Grill salmon and brush with teriyaki sauce",
@@ -1603,13 +1603,13 @@ export const mealPlan = [
     servings: 12,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Ripe bananas", quantity: 3, unit: "count" },
-      { id: null, name: "All-purpose flour", quantity: 250, unit: "grams" },
-      { id: null, name: "Sugar", quantity: 150, unit: "grams" },
-      { id: null, name: "Butter", quantity: 100, unit: "grams" },
-      { id: null, name: "Eggs", quantity: 2, unit: "count" },
-      { id: null, name: "Baking soda", quantity: 1, unit: "tsp" },
-      { id: null, name: "Chocolate chips", quantity: 100, unit: "grams" }
+      { id: "ac31c48c-6fd2-4388-a8eb-6aa1ce7ba43c", name: "Ripe bananas", quantity: 3, unit: "count" },
+      { id: "0ebc2f83-d932-4a31-a8e9-c660adeeb8d1", name: "All-purpose flour", quantity: 250, unit: "grams" },
+      { id: "bc511659-bcb6-4975-bc41-7f4a40e06da4", name: "Sugar", quantity: 150, unit: "grams" },
+      { id: "78592daa-1cbc-4305-8da4-bc8ae8604d47", name: "Butter", quantity: 100, unit: "grams" },
+      { id: "4df6eae6-94b5-4a28-9f6f-7d0aca7f0822", name: "Eggs", quantity: 2, unit: "count" },
+      { id: "ead87089-b448-40df-b519-1be843457f5c", name: "Baking soda", quantity: 1, unit: "tsp" },
+      { id: "d002b9cf-778a-4283-b388-c08d24da6c68", name: "Chocolate chips", quantity: 100, unit: "grams" }
     ],
     instructions: [
       "Mash bananas and mix with melted butter",
@@ -1642,12 +1642,12 @@ export const mealPlan = [
     servings: 6,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Spinach", quantity: 200, unit: "grams" },
-      { id: null, name: "Artichoke hearts", quantity: 200, unit: "grams" },
-      { id: null, name: "Cream cheese", quantity: 200, unit: "grams" },
-      { id: null, name: "Sour cream", quantity: 100, unit: "grams" },
-      { id: null, name: "Parmesan cheese", quantity: 50, unit: "grams" },
-      { id: null, name: "Garlic", quantity: 2, unit: "cloves" }
+      { id: "7d8ed43d-5272-4eea-b8ca-c2ac533ee23b", name: "Spinach", quantity: 200, unit: "grams" },
+      { id: "fe675937-9b07-426d-8aee-0509796caac0", name: "Artichoke hearts", quantity: 200, unit: "grams" },
+      { id: "d71eea04-5919-4f5b-b518-5aad44a2df79", name: "Cream cheese", quantity: 200, unit: "grams" },
+      { id: "cfc33400-f753-4443-8820-eed852be92a6", name: "Sour cream", quantity: 100, unit: "grams" },
+      { id: "7b0dfa70-cf94-41a6-b1b9-653b2398c4f2", name: "Parmesan cheese", quantity: 50, unit: "grams" },
+      { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 2, unit: "cloves" }
     ],
     instructions: [
       "Sauté garlic in a pan",
@@ -1679,11 +1679,11 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Button mushrooms", quantity: 300, unit: "grams" },
-      { id: null, name: "Cream cheese", quantity: 100, unit: "grams" },
-      { id: null, name: "Parmesan cheese", quantity: 50, unit: "grams" },
-      { id: null, name: "Garlic", quantity: 2, unit: "cloves" },
-      { id: null, name: "Parsley", quantity: 1, unit: "tbsp" }
+      { id: "98c653c4-54bc-480f-b465-915eb7bb31fd", name: "Button mushrooms", quantity: 300, unit: "grams" },
+      { id: "d71eea04-5919-4f5b-b518-5aad44a2df79", name: "Cream cheese", quantity: 100, unit: "grams" },
+      { id: "7b0dfa70-cf94-41a6-b1b9-653b2398c4f2", name: "Parmesan cheese", quantity: 50, unit: "grams" },
+      { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 2, unit: "cloves" },
+      { id: "9ed9004d-4775-4215-8c30-90478c00d072", name: "Parsley", quantity: 1, unit: "tbsp" }
     ],
     instructions: [
       "Remove mushroom stems and chop finely",
@@ -1715,11 +1715,11 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Sweet potatoes", quantity: 500, unit: "grams" },
-      { id: null, name: "Olive oil", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Paprika", quantity: 1, unit: "tsp" },
-      { id: null, name: "Salt", quantity: 0.5, unit: "tsp" },
-      { id: null, name: "Black pepper", quantity: 0.25, unit: "tsp" }
+      { id: "a52150dd-59d3-47c2-95ea-6c3064e026fa", name: "Sweet potatoes", quantity: 500, unit: "grams" },
+      { id: "a4aca1c2-2ff2-4936-a77a-4b8d2ef18a39", name: "Olive oil", quantity: 2, unit: "tbsp" },
+      { id: "7a4485b8-c675-4d72-8684-a3cfb2585ce8", name: "Paprika", quantity: 1, unit: "tsp" },
+      { id: "1008613b-a1cf-4d6b-959a-594b064a8864", name: "Salt", quantity: 0.5, unit: "tsp" },
+      { id: "effcaf1b-7bb7-4154-8900-a3af0ad8fff5", name: "Black pepper", quantity: 0.25, unit: "tsp" }
     ],
     instructions: [
       "Cut sweet potatoes into fries",
@@ -1751,11 +1751,11 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Tortillas", quantity: 8, unit: "count" },
-      { id: null, name: "Shredded chicken", quantity: 400, unit: "grams" },
-      { id: null, name: "Enchilada sauce", quantity: 300, unit: "ml" },
-      { id: null, name: "Cheddar cheese", quantity: 100, unit: "grams" },
-      { id: null, name: "Onion", quantity: 1, unit: "count" }
+      { id: "4eff4c01-226e-4cb8-88d0-737a90c9411e", name: "Tortillas", quantity: 8, unit: "count" },
+      { id: "74817340-d13d-447c-9371-2d7357ab0a3f", name: "Shredded chicken", quantity: 400, unit: "grams" },
+      { id: "8741ae8d-746f-4617-9dc3-34efc8c6187a", name: "Enchilada sauce", quantity: 300, unit: "ml" },
+      { id: "12fa449a-54e9-41bf-b4cc-8aa52ab7730d", name: "Cheddar cheese", quantity: 100, unit: "grams" },
+      { id: "651968b7-1b7b-4725-808f-414084c4b679", name: "Onion", quantity: 1, unit: "count" }
     ],
     instructions: [
       "Fill tortillas with chicken and onion",
@@ -1787,11 +1787,11 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Rice paper wrappers", quantity: 8, unit: "count" },
-      { id: null, name: "Carrots", quantity: 2, unit: "count" },
-      { id: null, name: "Cucumber", quantity: 1, unit: "count" },
-      { id: null, name: "Lettuce", quantity: 100, unit: "grams" },
-      { id: null, name: "Mint leaves", quantity: 10, unit: "count" }
+      { id: "c5e23f29-829a-4dab-8985-5f088b34882b", name: "Rice paper wrappers", quantity: 8, unit: "count" },
+      { id: "c388aa5b-2387-4a2a-8da3-2f7010e1e873", name: "Carrots", quantity: 2, unit: "count" },
+      { id: "df0943cc-c901-4522-bd9f-0e1d1b727f56", name: "Cucumber", quantity: 1, unit: "count" },
+      { id: "9cdcee95-602f-44ef-a130-258176e29037", name: "Lettuce", quantity: 100, unit: "grams" },
+      { id: "44db854b-c42f-4db2-b0f5-31fb4ca044b0", name: "Mint leaves", quantity: 10, unit: "count" }
     ],
     instructions: [
       "Julienne carrots and cucumber",
@@ -1823,10 +1823,10 @@ export const mealPlan = [
     servings: 6,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Pizza dough", quantity: 500, unit: "grams" },
-      { id: null, name: "Butter", quantity: 50, unit: "grams" },
-      { id: null, name: "Garlic", quantity: 3, unit: "cloves" },
-      { id: null, name: "Parsley", quantity: 1, unit: "tbsp" }
+      { id: "70a2b615-aa14-470c-a674-cd026bed39d8", name: "Pizza dough", quantity: 500, unit: "grams" },
+      { id: "78592daa-1cbc-4305-8da4-bc8ae8604d47", name: "Butter", quantity: 50, unit: "grams" },
+      { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 3, unit: "cloves" },
+      { id: "9ed9004d-4775-4215-8c30-90478c00d072", name: "Parsley", quantity: 1, unit: "tbsp" }
     ],
     instructions: [
       "Roll dough into small knots",
@@ -1858,13 +1858,13 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Tomatoes", quantity: 3, unit: "count" },
-      { id: null, name: "Cucumber", quantity: 1, unit: "count" },
-      { id: null, name: "Red onion", quantity: 1, unit: "count" },
-      { id: null, name: "Feta cheese", quantity: 100, unit: "grams" },
-      { id: null, name: "Kalamata olives", quantity: 50, unit: "grams" },
-      { id: null, name: "Olive oil", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Red wine vinegar", quantity: 1, unit: "tbsp" }
+      { id: "bb0a7d22-a791-40ce-be10-67d5afeb062d", name: "Tomatoes", quantity: 3, unit: "count" },
+      { id: "df0943cc-c901-4522-bd9f-0e1d1b727f56", name: "Cucumber", quantity: 1, unit: "count" },
+      { id: "18f199bb-acea-4ae3-a005-272b487da070", name: "Red onion", quantity: 1, unit: "count" },
+      { id: "86703ee7-8e5c-4257-92bf-adbb6fc3152f", name: "Feta cheese", quantity: 100, unit: "grams" },
+      { id: "9b5d9caf-1f76-4a34-945b-a1536ed9867b", name: "Kalamata olives", quantity: 50, unit: "grams" },
+      { id: "a4aca1c2-2ff2-4936-a77a-4b8d2ef18a39", name: "Olive oil", quantity: 2, unit: "tbsp" },
+      { id: "fb03b52d-0444-448c-8937-656a7fbb6647", name: "Red wine vinegar", quantity: 1, unit: "tbsp" }
     ],
     instructions: [
       "Chop vegetables and combine in a bowl",
@@ -1896,11 +1896,11 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Dark chocolate", quantity: 200, unit: "grams" },
-      { id: null, name: "Heavy cream", quantity: 200, unit: "ml" },
-      { id: null, name: "Eggs", quantity: 2, unit: "count" },
-      { id: null, name: "Sugar", quantity: 50, unit: "grams" },
-      { id: null, name: "Vanilla extract", quantity: 1, unit: "tsp" }
+      { id: "f47f2ffe-d168-48a9-857a-d9c583b15f8b", name: "Dark chocolate", quantity: 200, unit: "grams" },
+      { id: "04f3e213-d544-41e5-a161-baaf21d19689", name: "Heavy cream", quantity: 200, unit: "ml" },
+      { id: "4df6eae6-94b5-4a28-9f6f-7d0aca7f0822", name: "Eggs", quantity: 2, unit: "count" },
+      { id: "bc511659-bcb6-4975-bc41-7f4a40e06da4", name: "Sugar", quantity: 50, unit: "grams" },
+      { id: "e0799d88-3c0d-473a-8366-4621eb564a9e", name: "Vanilla extract", quantity: 1, unit: "tsp" }
     ],
     instructions: [
       "Melt chocolate and let cool",
@@ -1932,12 +1932,12 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Eggs", quantity: 6, unit: "count" },
-      { id: null, name: "Mayonnaise", quantity: 100, unit: "grams" },
-      { id: null, name: "Mustard", quantity: 1, unit: "tsp" },
-      { id: null, name: "Salt", quantity: 0.5, unit: "tsp" },
-      { id: null, name: "Black pepper", quantity: 0.25, unit: "tsp" },
-      { id: null, name: "Bread slices", quantity: 8, unit: "count" }
+      { id: "4df6eae6-94b5-4a28-9f6f-7d0aca7f0822", name: "Eggs", quantity: 6, unit: "count" },
+      { id: "1fd44a6e-8664-49ab-8ef6-e7551f3d94c9", name: "Mayonnaise", quantity: 100, unit: "grams" },
+      { id: "5cf3d277-0d8c-421f-a5b5-2c9a4e910b21", name: "Mustard", quantity: 1, unit: "tsp" },
+      { id: "1008613b-a1cf-4d6b-959a-594b064a8864", name: "Salt", quantity: 0.5, unit: "tsp" },
+      { id: "effcaf1b-7bb7-4154-8900-a3af0ad8fff5", name: "Black pepper", quantity: 0.25, unit: "tsp" },
+      { id: "6af6730a-cca3-4341-89f1-3bdce89569e3", name: "Bread slices", quantity: 8, unit: "count" }
     ],
     instructions: [
       "Boil and peel eggs",
@@ -1969,12 +1969,12 @@ export const mealPlan = [
     servings: 6,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Peaches", quantity: 500, unit: "grams" },
-      { id: null, name: "Sugar", quantity: 150, unit: "grams" },
-      { id: null, name: "Flour", quantity: 200, unit: "grams" },
-      { id: null, name: "Butter", quantity: 100, unit: "grams" },
-      { id: null, name: "Baking powder", quantity: 1, unit: "tsp" },
-      { id: null, name: "Milk", quantity: 100, unit: "ml" }
+      { id: "6a5518b6-c8dc-44c9-b873-dca118f7c2e7", name: "Peaches", quantity: 500, unit: "grams" },
+      { id: "bc511659-bcb6-4975-bc41-7f4a40e06da4", name: "Sugar", quantity: 150, unit: "grams" },
+      { id: "b524b6b9-b3ca-40b1-b0d7-03b3f9948796", name: "Flour", quantity: 200, unit: "grams" },
+      { id: "78592daa-1cbc-4305-8da4-bc8ae8604d47", name: "Butter", quantity: 100, unit: "grams" },
+      { id: "6829c0ef-ec1d-4584-a3bd-85c1cba76e95", name: "Baking powder", quantity: 1, unit: "tsp" },
+      { id: "f2e7ffe1-01cd-4221-816b-1a165a9437f3", name: "Milk", quantity: 100, unit: "ml" }
     ],
     instructions: [
       "Slice peaches and mix with sugar",
@@ -2006,13 +2006,13 @@ export const mealPlan = [
     servings: 6,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Bomba rice", quantity: 300, unit: "grams" },
-      { id: null, name: "Saffron", quantity: 1, unit: "pinch" },
-      { id: null, name: "Bell peppers", quantity: 2, unit: "count" },
-      { id: null, name: "Green beans", quantity: 150, unit: "grams" },
-      { id: null, name: "Tomatoes", quantity: 2, unit: "count" },
-      { id: null, name: "Vegetable broth", quantity: 1, unit: "liter" },
-      { id: null, name: "Olive oil", quantity: 2, unit: "tbsp" }
+      { id: "43c6fe77-0017-435d-af13-e58a3c5ca3dc", name: "Bomba rice", quantity: 300, unit: "grams" },
+      { id: "8e96e84f-6e00-4228-9d6a-e15c0ad75383", name: "Saffron", quantity: 1, unit: "pinch" },
+      { id: "3fe13572-198e-43bc-804e-335287b053f8", name: "Bell peppers", quantity: 2, unit: "count" },
+      { id: "52c23764-6b51-4a3b-b235-e990b705ca1c", name: "Green beans", quantity: 150, unit: "grams" },
+      { id: "bb0a7d22-a791-40ce-be10-67d5afeb062d", name: "Tomatoes", quantity: 2, unit: "count" },
+      { id: "bf29b666-5da9-42ef-989f-f7ad2dea96ce", name: "Vegetable broth", quantity: 1, unit: "liter" },
+      { id: "a4aca1c2-2ff2-4936-a77a-4b8d2ef18a39", name: "Olive oil", quantity: 2, unit: "tbsp" }
     ],
     instructions: [
       "Heat olive oil in a large pan",
@@ -2045,12 +2045,12 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Green curry paste", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Coconut milk", quantity: 400, unit: "ml" },
-      { id: null, name: "Mixed vegetables", quantity: 300, unit: "grams" },
-      { id: null, name: "Tofu", quantity: 200, unit: "grams" },
-      { id: null, name: "Basil leaves", quantity: 10, unit: "count" },
-      { id: null, name: "Lime", quantity: 1, unit: "count" }
+      { id: "1b8b1a0c-da3f-46fe-82d9-7715f60e9295", name: "Green curry paste", quantity: 2, unit: "tbsp" },
+      { id: "f5416653-afbb-40e5-ba4c-b1e841033cf4", name: "Coconut milk", quantity: 400, unit: "ml" },
+      { id: "fa15195a-6a37-43c1-b289-7d1d7289cd1d", name: "Mixed vegetables", quantity: 300, unit: "grams" },
+      { id: "7ae9656a-fee0-4900-a012-f2085b9afe24", name: "Tofu", quantity: 200, unit: "grams" },
+      { id: "b78ac7ab-5997-402c-aad8-dfb22577f83d", name: "Basil leaves", quantity: 10, unit: "count" },
+      { id: "d6c2e6e2-0d08-4206-ba79-f113dd09266f", name: "Lime", quantity: 1, unit: "count" }
     ],
     instructions: [
       "Sauté curry paste in a pan",
@@ -2083,10 +2083,10 @@ export const mealPlan = [
     servings: 6,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Pork shoulder", quantity: 1, unit: "kg" },
-      { id: null, name: "BBQ sauce", quantity: 200, unit: "ml" },
-      { id: null, name: "Burger buns", quantity: 6, unit: "count" },
-      { id: null, name: "Coleslaw", quantity: 200, unit: "grams" }
+      { id: "9cf1e051-291a-49bb-9fac-e501ab19dcbf", name: "Pork shoulder", quantity: 1, unit: "kg" },
+      { id: "583f0df3-7b0f-418e-834a-d7399c33d2fa", name: "BBQ sauce", quantity: 200, unit: "ml" },
+      { id: "6db459d9-f135-4ca3-a3e1-effd947a9bdc", name: "Burger buns", quantity: 6, unit: "count" },
+      { id: "f9ab0403-a09f-4624-9192-f689d9006501", name: "Coleslaw", quantity: 200, unit: "grams" }
     ],
     instructions: [
       "Season pork and slow-cook for 8 hours",
@@ -2118,13 +2118,13 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Zucchini", quantity: 2, unit: "count" },
-      { id: null, name: "Eggplant", quantity: 1, unit: "count" },
-      { id: null, name: "Tomatoes", quantity: 3, unit: "count" },
-      { id: null, name: "Bell peppers", quantity: 2, unit: "count" },
-      { id: null, name: "Onion", quantity: 1, unit: "count" },
-      { id: null, name: "Garlic", quantity: 3, unit: "cloves" },
-      { id: null, name: "Olive oil", quantity: 2, unit: "tbsp" }
+      { id: "1bcde3d9-1380-45e3-ad5b-8eae1b230011", name: "Zucchini", quantity: 2, unit: "count" },
+      { id: "7c89311d-691d-475a-a21d-8c2da94bd927", name: "Eggplant", quantity: 1, unit: "count" },
+      { id: "bb0a7d22-a791-40ce-be10-67d5afeb062d", name: "Tomatoes", quantity: 3, unit: "count" },
+      { id: "3fe13572-198e-43bc-804e-335287b053f8", name: "Bell peppers", quantity: 2, unit: "count" },
+      { id: "651968b7-1b7b-4725-808f-414084c4b679", name: "Onion", quantity: 1, unit: "count" },
+      { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 3, unit: "cloves" },
+      { id: "a4aca1c2-2ff2-4936-a77a-4b8d2ef18a39", name: "Olive oil", quantity: 2, unit: "tbsp" }
     ],
     instructions: [
       "Sauté onion and garlic in olive oil",
@@ -2156,12 +2156,12 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Shrimp", quantity: 400, unit: "grams" },
-      { id: null, name: "Linguine", quantity: 300, unit: "grams" },
-      { id: null, name: "Garlic", quantity: 4, unit: "cloves" },
-      { id: null, name: "Butter", quantity: 50, unit: "grams" },
-      { id: null, name: "Lemon juice", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Parsley", quantity: 1, unit: "tbsp" }
+      { id: "109ca87c-fa15-49e7-ae76-f9c840286704", name: "Shrimp", quantity: 400, unit: "grams" },
+      { id: "39b93311-48a3-408f-b1ae-c3e90f0e0b7c", name: "Linguine", quantity: 300, unit: "grams" },
+      { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 4, unit: "cloves" },
+      { id: "78592daa-1cbc-4305-8da4-bc8ae8604d47", name: "Butter", quantity: 50, unit: "grams" },
+      { id: "1cddbcd4-27d4-4ce3-8408-d24c0efe2490", name: "Lemon juice", quantity: 2, unit: "tbsp" },
+      { id: "9ed9004d-4775-4215-8c30-90478c00d072", name: "Parsley", quantity: 1, unit: "tbsp" }
     ],
     instructions: [
       "Cook linguine according to package instructions",
@@ -2193,12 +2193,12 @@ export const mealPlan = [
     servings: 6,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Cabbage leaves", quantity: 12, unit: "count" },
-      { id: null, name: "Ground beef", quantity: 500, unit: "grams" },
-      { id: null, name: "Cooked rice", quantity: 200, unit: "grams" },
-      { id: null, name: "Tomato sauce", quantity: 400, unit: "ml" },
-      { id: null, name: "Onion", quantity: 1, unit: "count" },
-      { id: null, name: "Garlic", quantity: 2, unit: "cloves" }
+      { id: "6448f288-49e8-4e99-b60f-01d289137ae9", name: "Cabbage leaves", quantity: 12, unit: "count" },
+      { id: "b632358c-fad2-4d67-8d08-90477a21a7ac", name: "Ground beef", quantity: 500, unit: "grams" },
+      { id: "3d98739b-62b2-42c6-b982-a220e913ea3b", name: "Cooked rice", quantity: 200, unit: "grams" },
+      { id: "2a2c84c5-38fd-4243-b5af-cd898eff6cb3", name: "Tomato sauce", quantity: 400, unit: "ml" },
+      { id: "651968b7-1b7b-4725-808f-414084c4b679", name: "Onion", quantity: 1, unit: "count" },
+      { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 2, unit: "cloves" }
     ],
     instructions: [
       "Blanch cabbage leaves until pliable",
@@ -2230,12 +2230,12 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Chicken breast", quantity: 400, unit: "grams" },
-      { id: null, name: "Flour", quantity: 50, unit: "grams" },
-      { id: null, name: "Butter", quantity: 50, unit: "grams" },
-      { id: null, name: "Lemon juice", quantity: 3, unit: "tbsp" },
-      { id: null, name: "Capers", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Chicken broth", quantity: 200, unit: "ml" }
+      { id: "d0a1f3b4-8f8e-47a4-953b-e1006228ddef", name: "Chicken breast", quantity: 400, unit: "grams" },
+      { id: "b524b6b9-b3ca-40b1-b0d7-03b3f9948796", name: "Flour", quantity: 50, unit: "grams" },
+      { id: "78592daa-1cbc-4305-8da4-bc8ae8604d47", name: "Butter", quantity: 50, unit: "grams" },
+      { id: "1cddbcd4-27d4-4ce3-8408-d24c0efe2490", name: "Lemon juice", quantity: 3, unit: "tbsp" },
+      { id: "dd7038ce-9cc3-4fa5-a117-618ecd2ea4ed", name: "Capers", quantity: 2, unit: "tbsp" },
+      { id: "e982b9c5-e451-4e79-b103-d97ec01d91e3", name: "Chicken broth", quantity: 200, unit: "ml" }
     ],
     instructions: [
       "Dredge chicken in flour and pan-sear in butter",
@@ -2267,11 +2267,11 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Eggs", quantity: 6, unit: "count" },
-      { id: null, name: "Milk", quantity: 100, unit: "ml" },
-      { id: null, name: "Mixed vegetables", quantity: 200, unit: "grams" },
-      { id: null, name: "Cheddar cheese", quantity: 100, unit: "grams" },
-      { id: null, name: "Olive oil", quantity: 1, unit: "tbsp" }
+      { id: "4df6eae6-94b5-4a28-9f6f-7d0aca7f0822", name: "Eggs", quantity: 6, unit: "count" },
+      { id: "f2e7ffe1-01cd-4221-816b-1a165a9437f3", name: "Milk", quantity: 100, unit: "ml" },
+      { id: "fa15195a-6a37-43c1-b289-7d1d7289cd1d", name: "Mixed vegetables", quantity: 200, unit: "grams" },
+      { id: "12fa449a-54e9-41bf-b4cc-8aa52ab7730d", name: "Cheddar cheese", quantity: 100, unit: "grams" },
+      { id: "a4aca1c2-2ff2-4936-a77a-4b8d2ef18a39", name: "Olive oil", quantity: 1, unit: "tbsp" }
     ],
     instructions: [
       "Whisk eggs and milk together",
@@ -2303,12 +2303,12 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Beef strips", quantity: 400, unit: "grams" },
-      { id: null, name: "Broccoli florets", quantity: 300, unit: "grams" },
-      { id: null, name: "Soy sauce", quantity: 3, unit: "tbsp" },
-      { id: null, name: "Garlic", quantity: 2, unit: "cloves" },
-      { id: null, name: "Ginger", quantity: 1, unit: "tbsp" },
-      { id: null, name: "Cornstarch", quantity: 1, unit: "tbsp" }
+      { id: "402fc880-fa97-4225-8f99-0ad9ba6d8315", name: "Beef strips", quantity: 400, unit: "grams" },
+      { id: "f26e12ea-d74b-4b7f-bb85-66a65dc91dc9", name: "Broccoli florets", quantity: 300, unit: "grams" },
+      { id: "c39e09b8-f2bc-41ad-9749-ceada71be810", name: "Soy sauce", quantity: 3, unit: "tbsp" },
+      { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 2, unit: "cloves" },
+      { id: "c05d376b-a6f3-458d-8985-777fc689911c", name: "Ginger", quantity: 1, unit: "tbsp" },
+      { id: "7e3ff0b3-eadd-467b-84cd-a3af07013307", name: "Cornstarch", quantity: 1, unit: "tbsp" }
     ],
     instructions: [
       "Marinate beef in soy sauce and cornstarch",
@@ -2341,11 +2341,11 @@ export const mealPlan = [
     servings: 6,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Apples", quantity: 500, unit: "grams" },
-      { id: null, name: "Sugar", quantity: 100, unit: "grams" },
-      { id: null, name: "Flour", quantity: 150, unit: "grams" },
-      { id: null, name: "Butter", quantity: 100, unit: "grams" },
-      { id: null, name: "Cinnamon", quantity: 1, unit: "tsp" }
+      { id: "b2220165-187b-4305-ae6b-902aeb5313db", name: "Apples", quantity: 500, unit: "grams" },
+      { id: "bc511659-bcb6-4975-bc41-7f4a40e06da4", name: "Sugar", quantity: 100, unit: "grams" },
+      { id: "b524b6b9-b3ca-40b1-b0d7-03b3f9948796", name: "Flour", quantity: 150, unit: "grams" },
+      { id: "78592daa-1cbc-4305-8da4-bc8ae8604d47", name: "Butter", quantity: 100, unit: "grams" },
+      { id: "d57f8289-785c-449d-b289-9de12d06f49d", name: "Cinnamon", quantity: 1, unit: "tsp" }
     ],
     instructions: [
       "Slice apples and mix with sugar and cinnamon",
@@ -2377,13 +2377,13 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Chicken breasts", quantity: 4, unit: "count" },
-      { id: null, name: "Breadcrumbs", quantity: 200, unit: "grams" },
-      { id: null, name: "Parmesan cheese", quantity: 50, unit: "grams" },
-      { id: null, name: "Mozzarella cheese", quantity: 200, unit: "grams" },
-      { id: null, name: "Marinara sauce", quantity: 400, unit: "ml" },
-      { id: null, name: "Eggs", quantity: 2, unit: "count" },
-      { id: null, name: "Flour", quantity: 100, unit: "grams" }
+      { id: "2e263717-133d-4e0f-9e06-45967865103a", name: "Chicken breasts", quantity: 4, unit: "count" },
+      { id: "56eeca66-5978-4630-8b5c-9bdc62a07490", name: "Breadcrumbs", quantity: 200, unit: "grams" },
+      { id: "7b0dfa70-cf94-41a6-b1b9-653b2398c4f2", name: "Parmesan cheese", quantity: 50, unit: "grams" },
+      { id: "270cb6c8-8a75-47b0-acda-9d09ff8bceb1", name: "Mozzarella cheese", quantity: 200, unit: "grams" },
+      { id: "8549671f-6b7c-48a2-9967-e5065df0bc6e", name: "Marinara sauce", quantity: 400, unit: "ml" },
+      { id: "4df6eae6-94b5-4a28-9f6f-7d0aca7f0822", name: "Eggs", quantity: 2, unit: "count" },
+      { id: "b524b6b9-b3ca-40b1-b0d7-03b3f9948796", name: "Flour", quantity: 100, unit: "grams" }
     ],
     instructions: [
       "Pound chicken breasts to even thickness",
@@ -2416,12 +2416,12 @@ export const mealPlan = [
     servings: 6,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Potatoes", quantity: 300, unit: "grams" },
-      { id: null, name: "Peas", quantity: 100, unit: "grams" },
-      { id: null, name: "Cumin", quantity: 1, unit: "tsp" },
-      { id: null, name: "Coriander", quantity: 1, unit: "tsp" },
-      { id: null, name: "Pastry sheets", quantity: 6, unit: "count" },
-      { id: null, name: "Oil", quantity: 500, unit: "ml" }
+      { id: "8192e8d8-a441-4a5d-aa24-975e7840c988", name: "Potatoes", quantity: 300, unit: "grams" },
+      { id: "c150332c-94e4-4417-a89e-ef44b749c05a", name: "Peas", quantity: 100, unit: "grams" },
+      { id: "5639cec6-3e98-4c66-a200-7ee43f934349", name: "Cumin", quantity: 1, unit: "tsp" },
+      { id: "b558d0d8-eeca-47df-91e2-d550b9134d84", name: "Coriander", quantity: 1, unit: "tsp" },
+      { id: "742a298b-403f-4e60-b00a-6f1b9aa8e837", name: "Pastry sheets", quantity: 6, unit: "count" },
+      { id: "249a4110-dbce-41ca-af72-9888c94fd05d", name: "Oil", quantity: 500, unit: "ml" }
     ],
     instructions: [
       "Boil and mash potatoes",
@@ -2454,13 +2454,13 @@ export const mealPlan = [
     servings: 6,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Clams", quantity: 500, unit: "grams" },
-      { id: null, name: "Potatoes", quantity: 300, unit: "grams" },
-      { id: null, name: "Onion", quantity: 1, unit: "count" },
-      { id: null, name: "Heavy cream", quantity: 200, unit: "ml" },
-      { id: null, name: "Butter", quantity: 50, unit: "grams" },
-      { id: null, name: "Flour", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Celery", quantity: 2, unit: "stalks" }
+      { id: "429afd86-5a2c-4670-be5d-faa2a3042eb5", name: "Clams", quantity: 500, unit: "grams" },
+      { id: "8192e8d8-a441-4a5d-aa24-975e7840c988", name: "Potatoes", quantity: 300, unit: "grams" },
+      { id: "651968b7-1b7b-4725-808f-414084c4b679", name: "Onion", quantity: 1, unit: "count" },
+      { id: "04f3e213-d544-41e5-a161-baaf21d19689", name: "Heavy cream", quantity: 200, unit: "ml" },
+      { id: "78592daa-1cbc-4305-8da4-bc8ae8604d47", name: "Butter", quantity: 50, unit: "grams" },
+      { id: "b524b6b9-b3ca-40b1-b0d7-03b3f9948796", name: "Flour", quantity: 2, unit: "tbsp" },
+      { id: "458a5691-33c5-41bd-8ccb-cd57798064b7", name: "Celery", quantity: 2, unit: "stalks" }
     ],
     instructions: [
       "Sauté onion and celery in butter",
@@ -2493,12 +2493,12 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Portobello mushrooms", quantity: 4, unit: "count" },
-      { id: null, name: "Spinach", quantity: 200, unit: "grams" },
-      { id: null, name: "Breadcrumbs", quantity: 100, unit: "grams" },
-      { id: null, name: "Parmesan cheese", quantity: 50, unit: "grams" },
-      { id: null, name: "Garlic", quantity: 2, unit: "cloves" },
-      { id: null, name: "Olive oil", quantity: 2, unit: "tbsp" }
+      { id: "5f09f483-1a3f-414e-ae82-1451e46a78cf", name: "Portobello mushrooms", quantity: 4, unit: "count" },
+      { id: "7d8ed43d-5272-4eea-b8ca-c2ac533ee23b", name: "Spinach", quantity: 200, unit: "grams" },
+      { id: "56eeca66-5978-4630-8b5c-9bdc62a07490", name: "Breadcrumbs", quantity: 100, unit: "grams" },
+      { id: "7b0dfa70-cf94-41a6-b1b9-653b2398c4f2", name: "Parmesan cheese", quantity: 50, unit: "grams" },
+      { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 2, unit: "cloves" },
+      { id: "a4aca1c2-2ff2-4936-a77a-4b8d2ef18a39", name: "Olive oil", quantity: 2, unit: "tbsp" }
     ],
     instructions: [
       "Remove mushroom stems and chop finely",
@@ -2531,12 +2531,12 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Ground beef", quantity: 400, unit: "grams" },
-      { id: null, name: "Taco shells", quantity: 8, unit: "count" },
-      { id: null, name: "Lettuce", quantity: 100, unit: "grams" },
-      { id: null, name: "Tomatoes", quantity: 2, unit: "count" },
-      { id: null, name: "Cheddar cheese", quantity: 100, unit: "grams" },
-      { id: null, name: "Taco seasoning", quantity: 2, unit: "tbsp" }
+      { id: "b632358c-fad2-4d67-8d08-90477a21a7ac", name: "Ground beef", quantity: 400, unit: "grams" },
+      { id: "acc91d4f-7744-416c-ae08-8cdf95b2252e", name: "Taco shells", quantity: 8, unit: "count" },
+      { id: "9cdcee95-602f-44ef-a130-258176e29037", name: "Lettuce", quantity: 100, unit: "grams" },
+      { id: "bb0a7d22-a791-40ce-be10-67d5afeb062d", name: "Tomatoes", quantity: 2, unit: "count" },
+      { id: "12fa449a-54e9-41bf-b4cc-8aa52ab7730d", name: "Cheddar cheese", quantity: 100, unit: "grams" },
+      { id: "5d2d123f-8aba-4482-b9df-5cd4a600f054", name: "Taco seasoning", quantity: 2, unit: "tbsp" }
     ],
     instructions: [
       "Cook ground beef with taco seasoning",
@@ -2568,11 +2568,11 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Chicken broth", quantity: 1, unit: "liter" },
-      { id: null, name: "Eggs", quantity: 2, unit: "count" },
-      { id: null, name: "Cornstarch", quantity: 1, unit: "tbsp" },
-      { id: null, name: "Green onions", quantity: 2, unit: "stalks" },
-      { id: null, name: "Soy sauce", quantity: 1, unit: "tbsp" }
+      { id: "e982b9c5-e451-4e79-b103-d97ec01d91e3", name: "Chicken broth", quantity: 1, unit: "liter" },
+      { id: "4df6eae6-94b5-4a28-9f6f-7d0aca7f0822", name: "Eggs", quantity: 2, unit: "count" },
+      { id: "7e3ff0b3-eadd-467b-84cd-a3af07013307", name: "Cornstarch", quantity: 1, unit: "tbsp" },
+      { id: "d1239781-62c9-4db4-abea-48c7697b0c25", name: "Green onions", quantity: 2, unit: "stalks" },
+      { id: "c39e09b8-f2bc-41ad-9749-ceada71be810", name: "Soy sauce", quantity: 1, unit: "tbsp" }
     ],
     instructions: [
       "Bring chicken broth to a boil",
@@ -2605,12 +2605,12 @@ export const mealPlan = [
     servings: 6,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Phyllo dough", quantity: 250, unit: "grams" },
-      { id: null, name: "Spinach", quantity: 300, unit: "grams" },
-      { id: null, name: "Feta cheese", quantity: 200, unit: "grams" },
-      { id: null, name: "Eggs", quantity: 2, unit: "count" },
-      { id: null, name: "Olive oil", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Onion", quantity: 1, unit: "count" }
+      { id: "a4508338-dbbd-41ac-b682-67dd2c4851aa", name: "Phyllo dough", quantity: 250, unit: "grams" },
+      { id: "7d8ed43d-5272-4eea-b8ca-c2ac533ee23b", name: "Spinach", quantity: 300, unit: "grams" },
+      { id: "86703ee7-8e5c-4257-92bf-adbb6fc3152f", name: "Feta cheese", quantity: 200, unit: "grams" },
+      { id: "4df6eae6-94b5-4a28-9f6f-7d0aca7f0822", name: "Eggs", quantity: 2, unit: "count" },
+      { id: "a4aca1c2-2ff2-4936-a77a-4b8d2ef18a39", name: "Olive oil", quantity: 2, unit: "tbsp" },
+      { id: "651968b7-1b7b-4725-808f-414084c4b679", name: "Onion", quantity: 1, unit: "count" }
     ],
     instructions: [
       "Sauté onion and spinach in olive oil",
@@ -2643,12 +2643,12 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Cooked rice", quantity: 400, unit: "grams" },
-      { id: null, name: "Chicken breast", quantity: 200, unit: "grams" },
-      { id: null, name: "Mixed vegetables", quantity: 200, unit: "grams" },
-      { id: null, name: "Soy sauce", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Eggs", quantity: 2, unit: "count" },
-      { id: null, name: "Sesame oil", quantity: 1, unit: "tbsp" }
+      { id: "3d98739b-62b2-42c6-b982-a220e913ea3b", name: "Cooked rice", quantity: 400, unit: "grams" },
+      { id: "d0a1f3b4-8f8e-47a4-953b-e1006228ddef", name: "Chicken breast", quantity: 200, unit: "grams" },
+      { id: "fa15195a-6a37-43c1-b289-7d1d7289cd1d", name: "Mixed vegetables", quantity: 200, unit: "grams" },
+      { id: "c39e09b8-f2bc-41ad-9749-ceada71be810", name: "Soy sauce", quantity: 2, unit: "tbsp" },
+      { id: "4df6eae6-94b5-4a28-9f6f-7d0aca7f0822", name: "Eggs", quantity: 2, unit: "count" },
+      { id: "37380d82-a816-44f2-9b4e-4779355bbc2f", name: "Sesame oil", quantity: 1, unit: "tbsp" }
     ],
     instructions: [
       "Cook chicken and set aside",
@@ -2681,11 +2681,11 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Dark chocolate", quantity: 200, unit: "grams" },
-      { id: null, name: "Heavy cream", quantity: 100, unit: "ml" },
-      { id: null, name: "Strawberries", quantity: 200, unit: "grams" },
-      { id: null, name: "Bananas", quantity: 2, unit: "count" },
-      { id: null, name: "Marshmallows", quantity: 100, unit: "grams" }
+      { id: "f47f2ffe-d168-48a9-857a-d9c583b15f8b", name: "Dark chocolate", quantity: 200, unit: "grams" },
+      { id: "04f3e213-d544-41e5-a161-baaf21d19689", name: "Heavy cream", quantity: 100, unit: "ml" },
+      { id: "653e7e0e-d89c-4b8a-b9ea-e1aa24bcb148", name: "Strawberries", quantity: 200, unit: "grams" },
+      { id: "00be88f3-908f-445f-b14b-d7489e36b0e7", name: "Bananas", quantity: 2, unit: "count" },
+      { id: "47445f58-5147-4c3b-8dd2-71c07626f802", name: "Marshmallows", quantity: 100, unit: "grams" }
     ],
     instructions: [
       "Melt chocolate with cream in a double boiler",
@@ -2716,12 +2716,12 @@ export const mealPlan = [
     servings: 6,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Mixed vegetables", quantity: 300, unit: "grams" },
-      { id: null, name: "Cannellini beans", quantity: 200, unit: "grams" },
-      { id: null, name: "Pasta", quantity: 100, unit: "grams" },
-      { id: null, name: "Tomato paste", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Vegetable broth", quantity: 1, unit: "liter" },
-      { id: null, name: "Olive oil", quantity: 2, unit: "tbsp" }
+      { id: "fa15195a-6a37-43c1-b289-7d1d7289cd1d", name: "Mixed vegetables", quantity: 300, unit: "grams" },
+      { id: "99399ba3-234a-4ca0-89c0-4319d01b486f", name: "Cannellini beans", quantity: 200, unit: "grams" },
+      { id: "bb7eb90a-e8a5-4974-9be7-812cde7e9fab", name: "Pasta", quantity: 100, unit: "grams" },
+      { id: "d98d65d4-5862-423f-a96d-aa334bfa35e9", name: "Tomato paste", quantity: 2, unit: "tbsp" },
+      { id: "bf29b666-5da9-42ef-989f-f7ad2dea96ce", name: "Vegetable broth", quantity: 1, unit: "liter" },
+      { id: "a4aca1c2-2ff2-4936-a77a-4b8d2ef18a39", name: "Olive oil", quantity: 2, unit: "tbsp" }
     ],
     instructions: [
       "Sauté vegetables in olive oil",
@@ -2753,13 +2753,13 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Ground lamb", quantity: 500, unit: "grams" },
-      { id: null, name: "Onion", quantity: 1, unit: "count" },
-      { id: null, name: "Garlic", quantity: 3, unit: "cloves" },
-      { id: null, name: "Parsley", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Cumin", quantity: 1, unit: "tsp" },
-      { id: null, name: "Coriander", quantity: 1, unit: "tsp" },
-      { id: null, name: "Salt", quantity: 1, unit: "tsp" }
+      { id: "5b8761a9-67e0-4b0d-a6d6-4f6fda0d6afa", name: "Ground lamb", quantity: 500, unit: "grams" },
+      { id: "651968b7-1b7b-4725-808f-414084c4b679", name: "Onion", quantity: 1, unit: "count" },
+      { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 3, unit: "cloves" },
+      { id: "9ed9004d-4775-4215-8c30-90478c00d072", name: "Parsley", quantity: 2, unit: "tbsp" },
+      { id: "5639cec6-3e98-4c66-a200-7ee43f934349", name: "Cumin", quantity: 1, unit: "tsp" },
+      { id: "b558d0d8-eeca-47df-91e2-d550b9134d84", name: "Coriander", quantity: 1, unit: "tsp" },
+      { id: "1008613b-a1cf-4d6b-959a-594b064a8864", name: "Salt", quantity: 1, unit: "tsp" }
     ],
     instructions: [
       "Mix lamb with spices, onion, garlic, and parsley",
@@ -2791,11 +2791,11 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Sticky rice", quantity: 200, unit: "grams" },
-      { id: null, name: "Coconut milk", quantity: 200, unit: "ml" },
-      { id: null, name: "Sugar", quantity: 50, unit: "grams" },
-      { id: null, name: "Salt", quantity: 0.5, unit: "tsp" },
-      { id: null, name: "Mango", quantity: 2, unit: "count" }
+      { id: "5242e125-6329-4319-b041-5134ffd73d43", name: "Sticky rice", quantity: 200, unit: "grams" },
+      { id: "f5416653-afbb-40e5-ba4c-b1e841033cf4", name: "Coconut milk", quantity: 200, unit: "ml" },
+      { id: "bc511659-bcb6-4975-bc41-7f4a40e06da4", name: "Sugar", quantity: 50, unit: "grams" },
+      { id: "1008613b-a1cf-4d6b-959a-594b064a8864", name: "Salt", quantity: 0.5, unit: "tsp" },
+      { id: "73afc8a1-112b-4b87-881e-09031cde3328", name: "Mango", quantity: 2, unit: "count" }
     ],
     instructions: [
       "Cook sticky rice",
@@ -2827,13 +2827,13 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Eggs", quantity: 4, unit: "count" },
-      { id: null, name: "Tomatoes", quantity: 400, unit: "grams" },
-      { id: null, name: "Bell peppers", quantity: 2, unit: "count" },
-      { id: null, name: "Onion", quantity: 1, unit: "count" },
-      { id: null, name: "Garlic", quantity: 2, unit: "cloves" },
-      { id: null, name: "Cumin", quantity: 1, unit: "tsp" },
-      { id: null, name: "Paprika", quantity: 1, unit: "tsp" }
+      { id: "4df6eae6-94b5-4a28-9f6f-7d0aca7f0822", name: "Eggs", quantity: 4, unit: "count" },
+      { id: "bb0a7d22-a791-40ce-be10-67d5afeb062d", name: "Tomatoes", quantity: 400, unit: "grams" },
+      { id: "3fe13572-198e-43bc-804e-335287b053f8", name: "Bell peppers", quantity: 2, unit: "count" },
+      { id: "651968b7-1b7b-4725-808f-414084c4b679", name: "Onion", quantity: 1, unit: "count" },
+      { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 2, unit: "cloves" },
+      { id: "5639cec6-3e98-4c66-a200-7ee43f934349", name: "Cumin", quantity: 1, unit: "tsp" },
+      { id: "7a4485b8-c675-4d72-8684-a3cfb2585ce8", name: "Paprika", quantity: 1, unit: "tsp" }
     ],
     instructions: [
       "Sauté onion, garlic, and bell peppers",
@@ -2866,12 +2866,12 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "White fish fillets", quantity: 400, unit: "grams" },
-      { id: null, name: "Corn tortillas", quantity: 8, unit: "count" },
-      { id: null, name: "Cabbage", quantity: 100, unit: "grams" },
-      { id: null, name: "Lime", quantity: 2, unit: "count" },
-      { id: null, name: "Sour cream", quantity: 100, unit: "grams" },
-      { id: null, name: "Chili powder", quantity: 1, unit: "tsp" }
+      { id: "9e86d5c6-141a-43a8-ac85-526ecbd46434", name: "White fish fillets", quantity: 400, unit: "grams" },
+      { id: "98acc5c7-c3ff-4862-94da-c7f61eb82af7", name: "Corn tortillas", quantity: 8, unit: "count" },
+      { id: "25b5c96d-799c-46b5-8ecf-21b8aa15faca", name: "Cabbage", quantity: 100, unit: "grams" },
+      { id: "d6c2e6e2-0d08-4206-ba79-f113dd09266f", name: "Lime", quantity: 2, unit: "count" },
+      { id: "cfc33400-f753-4443-8820-eed852be92a6", name: "Sour cream", quantity: 100, unit: "grams" },
+      { id: "232c7918-f8cb-487c-8980-ff1e35b63c23", name: "Chili powder", quantity: 1, unit: "tsp" }
     ],
     instructions: [
       "Season fish with chili powder and lime juice",
@@ -2904,13 +2904,13 @@ export const mealPlan = [
     servings: 8,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Pumpkin puree", quantity: 400, unit: "grams" },
-      { id: null, name: "Pie crust", quantity: 1, unit: "count" },
-      { id: null, name: "Sugar", quantity: 150, unit: "grams" },
-      { id: null, name: "Eggs", quantity: 2, unit: "count" },
-      { id: null, name: "Heavy cream", quantity: 200, unit: "ml" },
-      { id: null, name: "Cinnamon", quantity: 1, unit: "tsp" },
-      { id: null, name: "Nutmeg", quantity: 0.5, unit: "tsp" }
+      { id: "9a527885-75bd-471c-a5d0-ffd5462e907e", name: "Pumpkin puree", quantity: 400, unit: "grams" },
+      { id: "6f30dcc4-9bc9-4401-b213-c793c78e2c89", name: "Pie crust", quantity: 1, unit: "count" },
+      { id: "bc511659-bcb6-4975-bc41-7f4a40e06da4", name: "Sugar", quantity: 150, unit: "grams" },
+      { id: "4df6eae6-94b5-4a28-9f6f-7d0aca7f0822", name: "Eggs", quantity: 2, unit: "count" },
+      { id: "04f3e213-d544-41e5-a161-baaf21d19689", name: "Heavy cream", quantity: 200, unit: "ml" },
+      { id: "d57f8289-785c-449d-b289-9de12d06f49d", name: "Cinnamon", quantity: 1, unit: "tsp" },
+      { id: "83d52014-6f01-448f-917c-d2d3967507a2", name: "Nutmeg", quantity: 0.5, unit: "tsp" }
     ],
     instructions: [
       "Preheat oven to 375°F (190°C)",
@@ -2943,13 +2943,13 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Rice noodles", quantity: 200, unit: "grams" },
-      { id: null, name: "Tofu", quantity: 150, unit: "grams" },
-      { id: null, name: "Bean sprouts", quantity: 100, unit: "grams" },
-      { id: null, name: "Peanuts", quantity: 50, unit: "grams" },
-      { id: null, name: "Tamarind paste", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Soy sauce", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Palm sugar", quantity: 1, unit: "tbsp" }
+      { id: "a103ddc9-d2a7-48f1-ac98-a8663cfd7a9e", name: "Rice noodles", quantity: 200, unit: "grams" },
+      { id: "7ae9656a-fee0-4900-a012-f2085b9afe24", name: "Tofu", quantity: 150, unit: "grams" },
+      { id: "fd7b1921-c196-4a43-9264-f950ecb98482", name: "Bean sprouts", quantity: 100, unit: "grams" },
+      { id: "000cac87-0327-4f88-8eab-553500bff133", name: "Peanuts", quantity: 50, unit: "grams" },
+      { id: "236c86fe-f8a2-43b4-83f2-8e865a44de18", name: "Tamarind paste", quantity: 2, unit: "tbsp" },
+      { id: "c39e09b8-f2bc-41ad-9749-ceada71be810", name: "Soy sauce", quantity: 2, unit: "tbsp" },
+      { id: "9816c9cd-7366-4fe5-8bff-4f0e28123922", name: "Palm sugar", quantity: 1, unit: "tbsp" }
     ],
     instructions: [
       "Soak noodles",
@@ -2982,12 +2982,12 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Onions", quantity: 4, unit: "count" },
-      { id: null, name: "Beef broth", quantity: 1, unit: "liter" },
-      { id: null, name: "Butter", quantity: 50, unit: "grams" },
-      { id: null, name: "Flour", quantity: 1, unit: "tbsp" },
-      { id: null, name: "Gruyere cheese", quantity: 100, unit: "grams" },
-      { id: null, name: "Baguette slices", quantity: 8, unit: "count" }
+      { id: "f848fc07-a599-40af-aa98-82580a19b4de", name: "Onions", quantity: 4, unit: "count" },
+      { id: "26d528a7-6027-4726-8932-b4d8a698ba4c", name: "Beef broth", quantity: 1, unit: "liter" },
+      { id: "78592daa-1cbc-4305-8da4-bc8ae8604d47", name: "Butter", quantity: 50, unit: "grams" },
+      { id: "b524b6b9-b3ca-40b1-b0d7-03b3f9948796", name: "Flour", quantity: 1, unit: "tbsp" },
+      { id: "4ea9baac-c330-4483-abd0-9a0fc40843c7", name: "Gruyere cheese", quantity: 100, unit: "grams" },
+      { id: "b37a8151-9a3f-4030-9f19-bd21c9943b81", name: "Baguette slices", quantity: 8, unit: "count" }
     ],
     instructions: [
       "Caramelize onions in butter",
@@ -3020,12 +3020,12 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Gyoza wrappers", quantity: 24, unit: "count" },
-      { id: null, name: "Cabbage", quantity: 200, unit: "grams" },
-      { id: null, name: "Carrots", quantity: 2, unit: "count" },
-      { id: null, name: "Garlic", quantity: 2, unit: "cloves" },
-      { id: null, name: "Soy sauce", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Sesame oil", quantity: 1, unit: "tbsp" }
+      { id: "f7e1c2f6-59f3-4bcf-8e2a-c6f0f504caf6", name: "Gyoza wrappers", quantity: 24, unit: "count" },
+      { id: "25b5c96d-799c-46b5-8ecf-21b8aa15faca", name: "Cabbage", quantity: 200, unit: "grams" },
+      { id: "c388aa5b-2387-4a2a-8da3-2f7010e1e873", name: "Carrots", quantity: 2, unit: "count" },
+      { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 2, unit: "cloves" },
+      { id: "c39e09b8-f2bc-41ad-9749-ceada71be810", name: "Soy sauce", quantity: 2, unit: "tbsp" },
+      { id: "37380d82-a816-44f2-9b4e-4779355bbc2f", name: "Sesame oil", quantity: 1, unit: "tbsp" }
     ],
     instructions: [
       "Chop vegetables and mix with soy sauce and sesame oil",
@@ -3057,11 +3057,11 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Shrimp", quantity: 400, unit: "grams" },
-      { id: null, name: "Flour", quantity: 100, unit: "grams" },
-      { id: null, name: "Eggs", quantity: 2, unit: "count" },
-      { id: null, name: "Coconut flakes", quantity: 100, unit: "grams" },
-      { id: null, name: "Breadcrumbs", quantity: 100, unit: "grams" }
+      { id: "109ca87c-fa15-49e7-ae76-f9c840286704", name: "Shrimp", quantity: 400, unit: "grams" },
+      { id: "b524b6b9-b3ca-40b1-b0d7-03b3f9948796", name: "Flour", quantity: 100, unit: "grams" },
+      { id: "4df6eae6-94b5-4a28-9f6f-7d0aca7f0822", name: "Eggs", quantity: 2, unit: "count" },
+      { id: "ebaa5832-b2ec-496d-94da-d22bd40657f5", name: "Coconut flakes", quantity: 100, unit: "grams" },
+      { id: "56eeca66-5978-4630-8b5c-9bdc62a07490", name: "Breadcrumbs", quantity: 100, unit: "grams" }
     ],
     instructions: [
       "Coat shrimp in flour, egg, and coconut mixture",
@@ -3092,10 +3092,10 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Raspberries", quantity: 300, unit: "grams" },
-      { id: null, name: "Sugar", quantity: 100, unit: "grams" },
-      { id: null, name: "Water", quantity: 100, unit: "ml" },
-      { id: null, name: "Lemon juice", quantity: 1, unit: "tbsp" }
+      { id: "90e2b290-636e-4f59-afea-75832ed7d4b9", name: "Raspberries", quantity: 300, unit: "grams" },
+      { id: "bc511659-bcb6-4975-bc41-7f4a40e06da4", name: "Sugar", quantity: 100, unit: "grams" },
+      { id: "205ed587-4203-4e54-8f71-4545aff84610", name: "Water", quantity: 100, unit: "ml" },
+      { id: "1cddbcd4-27d4-4ce3-8408-d24c0efe2490", name: "Lemon juice", quantity: 1, unit: "tbsp" }
     ],
     instructions: [
       "Blend raspberries, sugar, water, and lemon juice",
@@ -3128,13 +3128,13 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Rice noodles", quantity: 200, unit: "grams" },
-      { id: null, name: "Vegetable broth", quantity: 1, unit: "liter" },
-      { id: null, name: "Star anise", quantity: 2, unit: "count" },
-      { id: null, name: "Cinnamon stick", quantity: 1, unit: "count" },
-      { id: null, name: "Ginger", quantity: 50, unit: "grams" },
-      { id: null, name: "Bean sprouts", quantity: 150, unit: "grams" },
-      { id: null, name: "Thai basil", quantity: 10, unit: "leaves" }
+      { id: "a103ddc9-d2a7-48f1-ac98-a8663cfd7a9e", name: "Rice noodles", quantity: 200, unit: "grams" },
+      { id: "bf29b666-5da9-42ef-989f-f7ad2dea96ce", name: "Vegetable broth", quantity: 1, unit: "liter" },
+      { id: "8a252a21-0481-4d5a-86d4-2945dc1ce1ee", name: "Star anise", quantity: 2, unit: "count" },
+      { id: "284ede95-1f0d-4ccf-9593-5352400d2237", name: "Cinnamon stick", quantity: 1, unit: "count" },
+      { id: "c05d376b-a6f3-458d-8985-777fc689911c", name: "Ginger", quantity: 50, unit: "grams" },
+      { id: "fd7b1921-c196-4a43-9264-f950ecb98482", name: "Bean sprouts", quantity: 150, unit: "grams" },
+      { id: "24fde084-1614-463a-971b-ce9af28a1c55", name: "Thai basil", quantity: 10, unit: "leaves" }
     ],
     instructions: [
       "Simmer vegetable broth with spices for 1 hour",
@@ -3167,11 +3167,11 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Sweet potatoes", quantity: 4, unit: "count" },
-      { id: null, name: "Black beans", quantity: 200, unit: "grams" },
-      { id: null, name: "Corn", quantity: 150, unit: "grams" },
-      { id: null, name: "Avocado", quantity: 1, unit: "count" },
-      { id: null, name: "Lime", quantity: 1, unit: "count" }
+      { id: "a52150dd-59d3-47c2-95ea-6c3064e026fa", name: "Sweet potatoes", quantity: 4, unit: "count" },
+      { id: "6f916675-fbf6-4d90-b1f0-3f5fa3c4f6d3", name: "Black beans", quantity: 200, unit: "grams" },
+      { id: "92beb769-6680-4922-b7e5-3c6227f6ab70", name: "Corn", quantity: 150, unit: "grams" },
+      { id: "de6302b8-7732-491e-b4e0-4e56a9a004f4", name: "Avocado", quantity: 1, unit: "count" },
+      { id: "d6c2e6e2-0d08-4206-ba79-f113dd09266f", name: "Lime", quantity: 1, unit: "count" }
     ],
     instructions: [
       "Bake sweet potatoes until tender",
@@ -3204,11 +3204,11 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Chicken breast", quantity: 300, unit: "grams" },
-      { id: null, name: "Tomatoes", quantity: 400, unit: "grams" },
-      { id: null, name: "Chicken broth", quantity: 1, unit: "liter" },
-      { id: null, name: "Corn", quantity: 150, unit: "grams" },
-      { id: null, name: "Tortilla strips", quantity: 100, unit: "grams" }
+      { id: "d0a1f3b4-8f8e-47a4-953b-e1006228ddef", name: "Chicken breast", quantity: 300, unit: "grams" },
+      { id: "bb0a7d22-a791-40ce-be10-67d5afeb062d", name: "Tomatoes", quantity: 400, unit: "grams" },
+      { id: "e982b9c5-e451-4e79-b103-d97ec01d91e3", name: "Chicken broth", quantity: 1, unit: "liter" },
+      { id: "92beb769-6680-4922-b7e5-3c6227f6ab70", name: "Corn", quantity: 150, unit: "grams" },
+      { id: "ae935df7-a4b1-43da-b9f0-3b9c89b7c615", name: "Tortilla strips", quantity: 100, unit: "grams" }
     ],
     instructions: [
       "Cook chicken and shred",
@@ -3240,11 +3240,11 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Cannelloni tubes", quantity: 12, unit: "count" },
-      { id: null, name: "Spinach", quantity: 300, unit: "grams" },
-      { id: null, name: "Ricotta cheese", quantity: 200, unit: "grams" },
-      { id: null, name: "Marinara sauce", quantity: 500, unit: "ml" },
-      { id: null, name: "Parmesan cheese", quantity: 50, unit: "grams" }
+      { id: "49ba6cae-57e1-45ad-873a-83966ba8bcc4", name: "Cannelloni tubes", quantity: 12, unit: "count" },
+      { id: "7d8ed43d-5272-4eea-b8ca-c2ac533ee23b", name: "Spinach", quantity: 300, unit: "grams" },
+      { id: "6ce96213-f1f9-428c-9699-5831436d16a2", name: "Ricotta cheese", quantity: 200, unit: "grams" },
+      { id: "8549671f-6b7c-48a2-9967-e5065df0bc6e", name: "Marinara sauce", quantity: 500, unit: "ml" },
+      { id: "7b0dfa70-cf94-41a6-b1b9-653b2398c4f2", name: "Parmesan cheese", quantity: 50, unit: "grams" }
     ],
     instructions: [
       "Cook spinach and mix with ricotta",
@@ -3276,11 +3276,11 @@ export const mealPlan = [
     servings: 12,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Flour", quantity: 200, unit: "grams" },
-      { id: null, name: "Butter", quantity: 100, unit: "grams" },
-      { id: null, name: "Sugar", quantity: 150, unit: "grams" },
-      { id: null, name: "Lemon juice", quantity: 100, unit: "ml" },
-      { id: null, name: "Eggs", quantity: 3, unit: "count" }
+      { id: "b524b6b9-b3ca-40b1-b0d7-03b3f9948796", name: "Flour", quantity: 200, unit: "grams" },
+      { id: "78592daa-1cbc-4305-8da4-bc8ae8604d47", name: "Butter", quantity: 100, unit: "grams" },
+      { id: "bc511659-bcb6-4975-bc41-7f4a40e06da4", name: "Sugar", quantity: 150, unit: "grams" },
+      { id: "1cddbcd4-27d4-4ce3-8408-d24c0efe2490", name: "Lemon juice", quantity: 100, unit: "ml" },
+      { id: "4df6eae6-94b5-4a28-9f6f-7d0aca7f0822", name: "Eggs", quantity: 3, unit: "count" }
     ],
     instructions: [
       "Prepare shortbread crust and bake until golden",
@@ -3312,11 +3312,11 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Sushi rice", quantity: 300, unit: "grams" },
-      { id: null, name: "Nori sheets", quantity: 6, unit: "count" },
-      { id: null, name: "Cucumber", quantity: 1, unit: "count" },
-      { id: null, name: "Carrots", quantity: 2, unit: "count" },
-      { id: null, name: "Avocado", quantity: 1, unit: "count" }
+      { id: "8ead63d7-61c7-4cb7-b056-718615f68d7f", name: "Sushi rice", quantity: 300, unit: "grams" },
+      { id: "b9475132-0749-4485-849c-174d67bfe01f", name: "Nori sheets", quantity: 6, unit: "count" },
+      { id: "df0943cc-c901-4522-bd9f-0e1d1b727f56", name: "Cucumber", quantity: 1, unit: "count" },
+      { id: "c388aa5b-2387-4a2a-8da3-2f7010e1e873", name: "Carrots", quantity: 2, unit: "count" },
+      { id: "de6302b8-7732-491e-b4e0-4e56a9a004f4", name: "Avocado", quantity: 1, unit: "count" }
     ],
     instructions: [
       "Prepare sushi rice",
@@ -3348,11 +3348,11 @@ export const mealPlan = [
     servings: 6,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Ground beef", quantity: 500, unit: "grams" },
-      { id: null, name: "Kidney beans", quantity: 400, unit: "grams" },
-      { id: null, name: "Tomatoes", quantity: 400, unit: "grams" },
-      { id: null, name: "Onion", quantity: 1, unit: "count" },
-      { id: null, name: "Chili powder", quantity: 2, unit: "tbsp" }
+      { id: "b632358c-fad2-4d67-8d08-90477a21a7ac", name: "Ground beef", quantity: 500, unit: "grams" },
+      { id: "639b38a2-3b8f-4f2e-8cc5-1394f090164a", name: "Kidney beans", quantity: 400, unit: "grams" },
+      { id: "bb0a7d22-a791-40ce-be10-67d5afeb062d", name: "Tomatoes", quantity: 400, unit: "grams" },
+      { id: "651968b7-1b7b-4725-808f-414084c4b679", name: "Onion", quantity: 1, unit: "count" },
+      { id: "232c7918-f8cb-487c-8980-ff1e35b63c23", name: "Chili powder", quantity: 2, unit: "tbsp" }
     ],
     instructions: [
       "Brown ground beef and onions",
@@ -3384,11 +3384,11 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Mixed vegetables", quantity: 300, unit: "grams" },
-      { id: null, name: "Cashews", quantity: 50, unit: "grams" },
-      { id: null, name: "Soy sauce", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Garlic", quantity: 2, unit: "cloves" },
-      { id: null, name: "Sesame oil", quantity: 1, unit: "tbsp" }
+      { id: "fa15195a-6a37-43c1-b289-7d1d7289cd1d", name: "Mixed vegetables", quantity: 300, unit: "grams" },
+      { id: "e3b88882-9f00-4924-bb15-15a61c89ba06", name: "Cashews", quantity: 50, unit: "grams" },
+      { id: "c39e09b8-f2bc-41ad-9749-ceada71be810", name: "Soy sauce", quantity: 2, unit: "tbsp" },
+      { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 2, unit: "cloves" },
+      { id: "37380d82-a816-44f2-9b4e-4779355bbc2f", name: "Sesame oil", quantity: 1, unit: "tbsp" }
     ],
     instructions: [
       "Sauté garlic in sesame oil",
@@ -3420,11 +3420,11 @@ export const mealPlan = [
     servings: 8,
     difficulty: "Hard",
     ingredients: [
-      { id: null, name: "Flour", quantity: 150, unit: "grams" },
-      { id: null, name: "Butter", quantity: 100, unit: "grams" },
-      { id: null, name: "Eggs", quantity: 4, unit: "count" },
-      { id: null, name: "Heavy cream", quantity: 200, unit: "ml" },
-      { id: null, name: "Dark chocolate", quantity: 100, unit: "grams" }
+      { id: "b524b6b9-b3ca-40b1-b0d7-03b3f9948796", name: "Flour", quantity: 150, unit: "grams" },
+      { id: "78592daa-1cbc-4305-8da4-bc8ae8604d47", name: "Butter", quantity: 100, unit: "grams" },
+      { id: "4df6eae6-94b5-4a28-9f6f-7d0aca7f0822", name: "Eggs", quantity: 4, unit: "count" },
+      { id: "04f3e213-d544-41e5-a161-baaf21d19689", name: "Heavy cream", quantity: 200, unit: "ml" },
+      { id: "f47f2ffe-d168-48a9-857a-d9c583b15f8b", name: "Dark chocolate", quantity: 100, unit: "grams" }
     ],
     instructions: [
       "Prepare choux pastry and bake until golden",
@@ -3456,11 +3456,11 @@ export const mealPlan = [
     servings: 6,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Lasagna noodles", quantity: 12, unit: "count" },
-      { id: null, name: "Ricotta cheese", quantity: 400, unit: "grams" },
-      { id: null, name: "Mozzarella cheese", quantity: 300, unit: "grams" },
-      { id: null, name: "Marinara sauce", quantity: 800, unit: "ml" },
-      { id: null, name: "Zucchini", quantity: 2, unit: "count" }
+      { id: "3775ac13-a584-43fe-9c96-0f7a5b5d697f", name: "Lasagna noodles", quantity: 12, unit: "count" },
+      { id: "6ce96213-f1f9-428c-9699-5831436d16a2", name: "Ricotta cheese", quantity: 400, unit: "grams" },
+      { id: "270cb6c8-8a75-47b0-acda-9d09ff8bceb1", name: "Mozzarella cheese", quantity: 300, unit: "grams" },
+      { id: "8549671f-6b7c-48a2-9967-e5065df0bc6e", name: "Marinara sauce", quantity: 800, unit: "ml" },
+      { id: "1bcde3d9-1380-45e3-ad5b-8eae1b230011", name: "Zucchini", quantity: 2, unit: "count" }
     ],
     instructions: [
       "Cook lasagna noodles",
@@ -3493,12 +3493,12 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Chicken breast", quantity: 500, unit: "grams" },
-      { id: null, name: "Soy sauce", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Peanut butter", quantity: 100, unit: "grams" },
-      { id: null, name: "Coconut milk", quantity: 100, unit: "ml" },
-      { id: null, name: "Garlic", quantity: 2, unit: "cloves" },
-      { id: null, name: "Lime juice", quantity: 1, unit: "tbsp" }
+      { id: "d0a1f3b4-8f8e-47a4-953b-e1006228ddef", name: "Chicken breast", quantity: 500, unit: "grams" },
+      { id: "c39e09b8-f2bc-41ad-9749-ceada71be810", name: "Soy sauce", quantity: 2, unit: "tbsp" },
+      { id: "a71a3f48-12a2-4519-8344-23992ec1f3f4", name: "Peanut butter", quantity: 100, unit: "grams" },
+      { id: "f5416653-afbb-40e5-ba4c-b1e841033cf4", name: "Coconut milk", quantity: 100, unit: "ml" },
+      { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 2, unit: "cloves" },
+      { id: "709941f7-ad85-4f06-a2d8-2a01113ec35a", name: "Lime juice", quantity: 1, unit: "tbsp" }
     ],
     instructions: [
       "Marinate chicken in soy sauce and garlic",
@@ -3530,11 +3530,11 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Mixed vegetables", quantity: 300, unit: "grams" },
-      { id: null, name: "Flour", quantity: 100, unit: "grams" },
-      { id: null, name: "Cornstarch", quantity: 50, unit: "grams" },
-      { id: null, name: "Sparkling water", quantity: 200, unit: "ml" },
-      { id: null, name: "Soy sauce", quantity: 2, unit: "tbsp" }
+      { id: "fa15195a-6a37-43c1-b289-7d1d7289cd1d", name: "Mixed vegetables", quantity: 300, unit: "grams" },
+      { id: "b524b6b9-b3ca-40b1-b0d7-03b3f9948796", name: "Flour", quantity: 100, unit: "grams" },
+      { id: "7e3ff0b3-eadd-467b-84cd-a3af07013307", name: "Cornstarch", quantity: 50, unit: "grams" },
+      { id: "4dd65113-1557-4064-90fb-7e2d1bc79a99", name: "Sparkling water", quantity: 200, unit: "ml" },
+      { id: "c39e09b8-f2bc-41ad-9749-ceada71be810", name: "Soy sauce", quantity: 2, unit: "tbsp" }
     ],
     instructions: [
       "Prepare tempura batter with flour, cornstarch, and sparkling water",
@@ -3565,12 +3565,12 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Eggplant", quantity: 2, unit: "count" },
-      { id: null, name: "Quinoa", quantity: 150, unit: "grams" },
-      { id: null, name: "Tomatoes", quantity: 2, unit: "count" },
-      { id: null, name: "Onion", quantity: 1, unit: "count" },
-      { id: null, name: "Garlic", quantity: 2, unit: "cloves" },
-      { id: null, name: "Olive oil", quantity: 2, unit: "tbsp" }
+      { id: "7c89311d-691d-475a-a21d-8c2da94bd927", name: "Eggplant", quantity: 2, unit: "count" },
+      { id: "2cc270db-294d-462b-b226-85ab0194bd1b", name: "Quinoa", quantity: 150, unit: "grams" },
+      { id: "bb0a7d22-a791-40ce-be10-67d5afeb062d", name: "Tomatoes", quantity: 2, unit: "count" },
+      { id: "651968b7-1b7b-4725-808f-414084c4b679", name: "Onion", quantity: 1, unit: "count" },
+      { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 2, unit: "cloves" },
+      { id: "a4aca1c2-2ff2-4936-a77a-4b8d2ef18a39", name: "Olive oil", quantity: 2, unit: "tbsp" }
     ],
     instructions: [
       "Halve and hollow out eggplants",
@@ -3602,12 +3602,12 @@ export const mealPlan = [
     servings: 6,
     difficulty: "Hard",
     ingredients: [
-      { id: null, name: "Beef chunks", quantity: 1, unit: "kg" },
-      { id: null, name: "Red wine", quantity: 500, unit: "ml" },
-      { id: null, name: "Carrots", quantity: 3, unit: "count" },
-      { id: null, name: "Onion", quantity: 1, unit: "count" },
-      { id: null, name: "Garlic", quantity: 3, unit: "cloves" },
-      { id: null, name: "Beef broth", quantity: 500, unit: "ml" }
+      { id: "05b2c6c2-dad1-42a9-a553-f56479ec547d", name: "Beef chunks", quantity: 1, unit: "kg" },
+      { id: "adee9091-78a6-47d7-8992-171ff8487cfa", name: "Red wine", quantity: 500, unit: "ml" },
+      { id: "c388aa5b-2387-4a2a-8da3-2f7010e1e873", name: "Carrots", quantity: 3, unit: "count" },
+      { id: "651968b7-1b7b-4725-808f-414084c4b679", name: "Onion", quantity: 1, unit: "count" },
+      { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 3, unit: "cloves" },
+      { id: "26d528a7-6027-4726-8932-b4d8a698ba4c", name: "Beef broth", quantity: 500, unit: "ml" }
     ],
     instructions: [
       "Brown beef chunks in a pot",
@@ -3639,11 +3639,11 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Cooked rice", quantity: 400, unit: "grams" },
-      { id: null, name: "Pineapple chunks", quantity: 200, unit: "grams" },
-      { id: null, name: "Cashews", quantity: 50, unit: "grams" },
-      { id: null, name: "Soy sauce", quantity: 2, unit: "tbsp" },
-      { id: null, name: "Green onions", quantity: 2, unit: "stalks" }
+      { id: "3d98739b-62b2-42c6-b982-a220e913ea3b", name: "Cooked rice", quantity: 400, unit: "grams" },
+      { id: "9b17da42-cf81-4df7-b268-9222e08aa1be", name: "Pineapple chunks", quantity: 200, unit: "grams" },
+      { id: "e3b88882-9f00-4924-bb15-15a61c89ba06", name: "Cashews", quantity: 50, unit: "grams" },
+      { id: "c39e09b8-f2bc-41ad-9749-ceada71be810", name: "Soy sauce", quantity: 2, unit: "tbsp" },
+      { id: "d1239781-62c9-4db4-abea-48c7697b0c25", name: "Green onions", quantity: 2, unit: "stalks" }
     ],
     instructions: [
       "Stir-fry pineapple and cashews",
@@ -3674,12 +3674,12 @@ export const mealPlan = [
     servings: 6,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Lamb chunks", quantity: 1, unit: "kg" },
-      { id: null, name: "Yogurt", quantity: 200, unit: "grams" },
-      { id: null, name: "Tomatoes", quantity: 400, unit: "grams" },
-      { id: null, name: "Onion", quantity: 2, unit: "count" },
-      { id: null, name: "Garlic", quantity: 4, unit: "cloves" },
-      { id: null, name: "Garam masala", quantity: 2, unit: "tbsp" }
+      { id: "1310114e-65b4-4aea-9abd-7245a49b4a3e", name: "Lamb chunks", quantity: 1, unit: "kg" },
+      { id: "4ef82d61-4abf-40f1-a3f3-14d507c45849", name: "Yogurt", quantity: 200, unit: "grams" },
+      { id: "bb0a7d22-a791-40ce-be10-67d5afeb062d", name: "Tomatoes", quantity: 400, unit: "grams" },
+      { id: "651968b7-1b7b-4725-808f-414084c4b679", name: "Onion", quantity: 2, unit: "count" },
+      { id: "0cf84ac1-eb7b-4c2c-897a-f4dfc2fd406e", name: "Garlic", quantity: 4, unit: "cloves" },
+      { id: "d07a5636-e018-491c-b70c-34269eedb659", name: "Garam masala", quantity: 2, unit: "tbsp" }
     ],
     instructions: [
       "Brown lamb and set aside",
@@ -3711,10 +3711,10 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Cherry tomatoes", quantity: 200, unit: "grams" },
-      { id: null, name: "Mozzarella balls", quantity: 200, unit: "grams" },
-      { id: null, name: "Fresh basil leaves", quantity: 20, unit: "count" },
-      { id: null, name: "Balsamic glaze", quantity: 2, unit: "tbsp" }
+      { id: "0a839bda-c855-4e89-ac08-cab8dbf3d3fa", name: "Cherry tomatoes", quantity: 200, unit: "grams" },
+      { id: "11ded9e9-9b6f-4b8a-bb72-6d57b0393038", name: "Mozzarella balls", quantity: 200, unit: "grams" },
+      { id: "a302fd19-4bd5-4d7a-940b-8437c6919b94", name: "Fresh basil leaves", quantity: 20, unit: "count" },
+      { id: "8ec48350-735e-4456-8d4b-a2bdf6ba7a5b", name: "Balsamic glaze", quantity: 2, unit: "tbsp" }
     ],
     instructions: [
       "Thread tomatoes, mozzarella, and basil onto skewers",
@@ -3745,11 +3745,11 @@ export const mealPlan = [
     servings: 4,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Pumpkin puree", quantity: 400, unit: "grams" },
-      { id: null, name: "Vegetable broth", quantity: 1, unit: "liter" },
-      { id: null, name: "Heavy cream", quantity: 100, unit: "ml" },
-      { id: null, name: "Onion", quantity: 1, unit: "count" },
-      { id: null, name: "Nutmeg", quantity: 0.5, unit: "tsp" }
+      { id: "9a527885-75bd-471c-a5d0-ffd5462e907e", name: "Pumpkin puree", quantity: 400, unit: "grams" },
+      { id: "bf29b666-5da9-42ef-989f-f7ad2dea96ce", name: "Vegetable broth", quantity: 1, unit: "liter" },
+      { id: "04f3e213-d544-41e5-a161-baaf21d19689", name: "Heavy cream", quantity: 100, unit: "ml" },
+      { id: "651968b7-1b7b-4725-808f-414084c4b679", name: "Onion", quantity: 1, unit: "count" },
+      { id: "83d52014-6f01-448f-917c-d2d3967507a2", name: "Nutmeg", quantity: 0.5, unit: "tsp" }
     ],
     instructions: [
       "Sauté onion in a pot",
@@ -3781,11 +3781,11 @@ export const mealPlan = [
     servings: 6,
     difficulty: "Medium",
     ingredients: [
-      { id: null, name: "Bomba rice", quantity: 300, unit: "grams" },
-      { id: null, name: "Shrimp", quantity: 200, unit: "grams" },
-      { id: null, name: "Mussels", quantity: 200, unit: "grams" },
-      { id: null, name: "Saffron", quantity: 1, unit: "pinch" },
-      { id: null, name: "Chicken broth", quantity: 1, unit: "liter" }
+      { id: "43c6fe77-0017-435d-af13-e58a3c5ca3dc", name: "Bomba rice", quantity: 300, unit: "grams" },
+      { id: "109ca87c-fa15-49e7-ae76-f9c840286704", name: "Shrimp", quantity: 200, unit: "grams" },
+      { id: "0739fbb0-bb55-4b38-8af7-b96462c0e004", name: "Mussels", quantity: 200, unit: "grams" },
+      { id: "8e96e84f-6e00-4228-9d6a-e15c0ad75383", name: "Saffron", quantity: 1, unit: "pinch" },
+      { id: "e982b9c5-e451-4e79-b103-d97ec01d91e3", name: "Chicken broth", quantity: 1, unit: "liter" }
     ],
     instructions: [
       "Sauté rice with saffron",
@@ -3817,9 +3817,9 @@ export const mealPlan = [
     servings: 12,
     difficulty: "Easy",
     ingredients: [
-      { id: null, name: "Dark chocolate", quantity: 200, unit: "grams" },
-      { id: null, name: "Heavy cream", quantity: 100, unit: "ml" },
-      { id: null, name: "Cocoa powder", quantity: 50, unit: "grams" }
+      { id: "f47f2ffe-d168-48a9-857a-d9c583b15f8b", name: "Dark chocolate", quantity: 200, unit: "grams" },
+      { id: "04f3e213-d544-41e5-a161-baaf21d19689", name: "Heavy cream", quantity: 100, unit: "ml" },
+      { id: "7c287b6e-71d7-4a20-8b3c-cce2f2cb0928", name: "Cocoa powder", quantity: 50, unit: "grams" }
     ],
     instructions: [
       "Melt chocolate with cream",
