@@ -27,7 +27,6 @@ export const getAllTags = async (req: Request, res: Response) => {
         if (error) {
             return res.status(400).json({ error: error.message });
         }
-
         return res.status(200).json(data);
     } catch (err) {
         return res.status(500).json({ error: "Internal server error. Tags not retrieved." });
