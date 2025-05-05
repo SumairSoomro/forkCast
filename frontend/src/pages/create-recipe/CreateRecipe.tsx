@@ -16,7 +16,6 @@ const CreateRecipe: React.FC = () => {
   const [recipe, setRecipe] = useState({
     title: "",
     description: "",
-    cuisine: "",
     prepTime: "",
     cookTime: "",
     servings: "",
@@ -72,12 +71,6 @@ const CreateRecipe: React.FC = () => {
           prepTime: Number(recipe.prepTime),
           cookTime: Number(recipe.cookTime),
           servings: Number(recipe.servings),
-          nutritionalInfo: {
-            calories: Number(recipe.nutritionalInfo.calories),
-            protein: Number(recipe.nutritionalInfo.protein),
-            carbs: Number(recipe.nutritionalInfo.carbs),
-            fats: Number(recipe.nutritionalInfo.fats),
-          },
           ingredients: recipe.ingredients.split(",").map((ing) => ({
             name: ing.trim(),
             quantity: 1,
@@ -88,6 +81,12 @@ const CreateRecipe: React.FC = () => {
             index,
           })),
           tags: recipe.tags.split(",").map((tag) => tag.trim()),
+          nutritionalInfo: {
+            calories: Number(recipe.nutritionalInfo.calories),
+            protein: Number(recipe.nutritionalInfo.protein),
+            carbs: Number(recipe.nutritionalInfo.carbs),
+            fats: Number(recipe.nutritionalInfo.fats),
+          }
         },
         {
           headers: {
@@ -100,7 +99,6 @@ const CreateRecipe: React.FC = () => {
       setRecipe({
         title: "",
         description: "",
-        cuisine: "",
         prepTime: "",
         cookTime: "",
         servings: "",
@@ -145,7 +143,6 @@ const CreateRecipe: React.FC = () => {
 
             <Input placeholder="Title" name="title" value={recipe.title} onChange={handleInputChange} />
             <Textarea placeholder="Description" name="description" value={recipe.description} onChange={handleInputChange} />
-            <Input placeholder="Cuisine" name="cuisine" value={recipe.cuisine} onChange={handleInputChange} />
             <Input placeholder="Preparation Time (minutes)" name="prepTime" type="text" value={recipe.prepTime} onChange={handleInputChange} />
             <Input placeholder="Cooking Time (minutes)" name="cookTime" type="text" value={recipe.cookTime} onChange={handleInputChange} />
             <Input placeholder="Servings" name="servings" type="text" value={recipe.servings} onChange={handleInputChange} />
