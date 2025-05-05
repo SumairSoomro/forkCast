@@ -6,23 +6,23 @@ import { Ingredient, RecipeIngredient } from '../interfaces/ingredient.interface
 import { Tag } from '../interfaces/tag.interface';
 import { NutritionalInfo } from '../interfaces/nutritionalInfo.interface';
 import { Instruction } from '../interfaces/instruction.interface';
+import { error } from "console";
 
 // Function to add a recipe to the database
-export const addRecipe = async (req: Request, res: Response) => {
+export const createRecipe = async (req: Request, res: Response) => {
 
     const {
-        title, description, cuisine, prepTime,
+        title, description, prepTime,
         cookTime, servings, difficulty,
         ingredients, instructions, tags, nutritionalInfo
       } = req.body;
-    
+      console.log("Received recipe data:", req.body);
       // 1. Insert the main recipe
       const { data: recipeData, error: recipeError } = await supabase
         .from("recipes")
         .insert([{
           title,
           description,
-          cuisine,
           prep_time: prepTime,
           cook_time: cookTime,
           servings,
@@ -31,11 +31,12 @@ export const addRecipe = async (req: Request, res: Response) => {
         .select("id");
     
       if (recipeError || !recipeData) {
+
         return res.status(400).json({ error: recipeError?.message || "Failed to insert recipe" });
       }
     
       const recipeId = recipeData[0].id;
-    
+      
       try {
         // 2. Insert ingredients
         if (ingredients?.length) {
@@ -50,7 +51,7 @@ export const addRecipe = async (req: Request, res: Response) => {
           const { error: ingErr } = await supabase.from("recipe_ingredients").insert(ingredientInserts);
           if (ingErr) throw new Error("Ingredient insert failed: " + ingErr.message);
         }
-    
+        
         // 3. Insert instructions
         if (instructions?.length) {
           const instructionInserts = instructions.map((instruction: string, index: number) => ({   
@@ -60,25 +61,26 @@ export const addRecipe = async (req: Request, res: Response) => {
           }));
     
           const { error: instrErr } = await supabase.from("recipe_instructions").insert(instructionInserts);
+
           if (instrErr) throw new Error("Instruction insert failed: " + instrErr.message);
         }
-    
+        
         // 4. Insert tags
         if (tags?.length) {
             const tagInserts = tags.map((tag: Tag) => ({
+              
                 recipe_id: recipeId,
-                tag_id: tag.id
+                tag_id: tag
               }));
-    
+
           const { error: tagErr } = await supabase.from("recipe_tags").insert(tagInserts);
           if (tagErr) throw new Error("Tag insert failed: " + tagErr.message);
         }
-    
         // 5. Insert nutrition
         if (nutritionalInfo) {
           const a: NutritionalInfo =  nutritionalInfo;
           const { calories, protein, carbs, fats } = a;
-    
+
           const { error: nutriErr } = await supabase.from("nutritional_info").insert([{
             recipe_id: recipeId,
             calories,
@@ -88,9 +90,9 @@ export const addRecipe = async (req: Request, res: Response) => {
           }]);
           if (nutriErr) throw new Error("Nutrition insert failed: " + nutriErr.message);
         }
-    
+
         return res.status(201).json({ message: "Recipe inserted successfully", recipeId });
-    
+
       } catch (e) {
         // Rollback manually: delete the inserted recipe if any insert fails. Other tables have DELETE ON CASCADE
         await supabase.from("recipes").delete().eq("id", recipeId);

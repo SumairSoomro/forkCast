@@ -1,9 +1,9 @@
 import express from "express";
-import {addRecipe, getRecipesByIds} from "../controllers/recipe.controller";
+import {createRecipe, getRecipesByIds} from "../controllers/recipe.controller";
 
 const router = express.Router();
 
-router.post("/add", addRecipe);
+router.post("/create", createRecipe);
 router.post("/get", getRecipesByIds);
 
 export default router;
