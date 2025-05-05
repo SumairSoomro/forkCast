@@ -80,7 +80,7 @@ const CreateRecipe: React.FC = () => {
             step,
             instructionIndex,
           })),
-          tags: recipe.tags.split(",").map((tag) => tag.trim()), //TODO
+          tags: recipe.tags.split(",").map((tag) => tag.trim()),
           nutritionalInfo: {
             calories: Number(recipe.nutritionalInfo.calories),
             protein: Number(recipe.nutritionalInfo.protein),
