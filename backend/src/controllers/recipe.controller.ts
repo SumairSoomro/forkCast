@@ -8,10 +8,10 @@ import { NutritionalInfo } from '../interfaces/nutritionalInfo.interface';
 import { Instruction } from '../interfaces/instruction.interface';
 
 // Function to add a recipe to the database
-export const addRecipe = async (req: Request, res: Response) => {
+export const createRecipe = async (req: Request, res: Response) => {
 
     const {
-        title, description, cuisine, prepTime,
+        title, description, prepTime,
         cookTime, servings, difficulty,
         ingredients, instructions, tags, nutritionalInfo
       } = req.body;
@@ -22,7 +22,6 @@ export const addRecipe = async (req: Request, res: Response) => {
         .insert([{
           title,
           description,
-          cuisine,
           prep_time: prepTime,
           cook_time: cookTime,
           servings,
