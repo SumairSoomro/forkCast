@@ -91,9 +91,20 @@ const CreateRecipe: React.FC = () => {
   useEffect(() => {
     const fetchTags = async (): Promise<void> => {
       try {
-        const response = await fetch("http://localhost:4000/tags/getall");
+        console.log("Fetching tags..."); // Debugging line
+        const token = localStorage.getItem("access_token"); // Retrieve the token from localStorage
+        if (!token) {
+          throw new Error("No access token found. Please log in.");
+        }
+        const response = await fetch("http://localhost:4000/tags/getall", {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        });
+        console.log("Response from fetchTags:", response); // Debugging line
         if (!response.ok) throw new Error("Failed to fetch tags");
         const data: Tag[] = await response.json();
+        console.log("Fetched tags:", data); // Debugging line
         setAvailableTags(data);
         setFilteredTags(data);
       } catch (err) {
