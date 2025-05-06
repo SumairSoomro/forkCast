@@ -3,6 +3,18 @@
     "target": "es6",
     "module": "commonjs",
     "esModuleInterop": true,
-    "strict": true
-  }
+    "strict": true,
+    "typeRoots": ["./node_modules/@types", "./src/types"],
+    "declaration": true,
+    "types": ["express", "node"],
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*", "src/types/*"]
+    }
+  },
+  "include": ["./src/**/*"],
 }

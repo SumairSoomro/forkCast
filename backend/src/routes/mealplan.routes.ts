@@ -1,4 +1,6 @@
 import express from "express";
+import {authenticate} from "../middleware/authenticate";
+
 import {
   addMealPlanEntries,
   deleteMealPlanEntry,
@@ -8,12 +10,12 @@ import {
 
 const router = express.Router();
 
-router.post("/add", addMealPlanEntries);
+router.post("/add", authenticate, addMealPlanEntries);
 
-router.post("/delete", deleteMealPlanEntry);
+router.post("/delete",authenticate, deleteMealPlanEntry);
 
-router.put("/edit", editMealPlanEntry);
+router.put("/edit",authenticate, editMealPlanEntry);
 
-router.get("/:user_id", getUserMealPlan);
+router.get("/",authenticate, getUserMealPlan);
 
 export default router;

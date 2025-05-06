@@ -19,6 +19,7 @@ export const addTag = async (req: Request, res: Response) => {
 }
 
 export const getAllTags = async (req: Request, res: Response) => {
+    console.log(req)
     try {
         const { data, error } = await supabase
             .from("tags")
