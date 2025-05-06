@@ -112,11 +112,18 @@ export const Signup = ({ onSwitchToLogin }: { onSwitchToLogin: () => void }) => 
   
       if (!res.ok) throw new Error(data.error || "Signup failed");
   
-      const token = data.data.session.access_token;
-      localStorage.setItem("access_token", token);
-      setIsLoggedIn(true);
-  
-      navigate("/homepage");
+      const session = data.data.session;
+
+      if (session) {
+        const token = session.access_token;
+        localStorage.setItem("access_token", token);
+        setIsLoggedIn(true);
+        navigate("/homepage");
+      } else {
+        // No session means user must confirm their email first
+        alert("Signup successful! Please check your email to confirm your account.");
+      }
+      
     } catch (err: any) {
       setError(err.message);
     } finally {
@@ -154,28 +161,26 @@ export const Login = ({ onSwitchToSignup }: { onSwitchToSignup: () => void }) =>
   const navigate = useNavigate();
   const { setIsLoggedIn } = useAuth();
 
-
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
     setError("");
-  
+
     try {
       const res = await fetch("http://localhost:4000/auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, password })
+        body: JSON.stringify({ email, password }),
       });
-  
+
       const data = await res.json();
-  
+
       if (!res.ok) throw new Error(data.error || "Login failed");
-  
+
       const token = data.data.session.access_token;
       localStorage.setItem("access_token", token);
       setIsLoggedIn(true);
-      
-      alert("Login successful!");
+
       navigate("/homepage");
     } catch (err: any) {
       setError(err.message);
@@ -183,16 +188,26 @@ export const Login = ({ onSwitchToSignup }: { onSwitchToSignup: () => void }) =>
       setLoading(false);
     }
   };
-  
-  
 
   return (
     <AuthFormContainer>
       <AuthHeading>Welcome Back</AuthHeading>
       <AuthForm onSubmit={handleLogin}>
         <div style={{ display: 'grid', gap: '1rem' }}>
-          <AuthInput type="email" placeholder="Email address" value={email} onChange={(e) => setEmail(e.target.value)} required />
-          <AuthInput type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} required />
+          <AuthInput
+            type="email"
+            placeholder="Email address"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+          />
+          <AuthInput
+            type="password"
+            placeholder="Password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            required
+          />
         </div>
         {loading && <p>Logging in...</p>}
         {error && <p style={{ color: 'red' }}>{error}</p>}

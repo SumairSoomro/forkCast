@@ -4,28 +4,31 @@ import Navbar from './components/Navbar/Navbar';
 import RecipeList from './components/RecipeList/RecipeList';
 import { Recipe } from './mocks/mockTypes';
 import Footer from './components/Footer/Footer';
+import RedirectHandler from './pages/login/RedirectHandler';
 import './App.css';
 
 export const App = () => {
   const [recipes, setRecipes] = useState<Recipe[]>([]);
+
   useEffect(() => {
-      const getRecipes = async () => {
-        const data = await fetchRecipes();
-        setRecipes(data);
-      };
-  
-      getRecipes();
-    }, []);
-  
+    const getRecipes = async () => {
+      const data = await fetchRecipes();
+      setRecipes(data);
+    };
+
+    getRecipes();
+  }, []);
+
   const getPopularRecipes = () => {
     return recipes
       .sort((a, b) => b.views - a.views)
       .slice(0, 6);
   };
+
   const popularRecipes = getPopularRecipes();
-  
+
   const handleRecipeClick = (recipe: Recipe): void => {
-    console.log("Navigating to recipe:", recipe.title); // needs implementation
+    console.log("Navigating to recipe:", recipe.title);
   };
 
   const navItems = [
@@ -33,11 +36,12 @@ export const App = () => {
     { label: 'Calendar', path: '/signup' },
     { label: 'Contact Us', path: '/contact' }
   ];
-  
+
   return (
     <div className="flex flex-col min-h-screen">
+      <RedirectHandler />
       <Navbar brand="Forkcast" items={navItems} />
-      
+
       <main className="flex-grow">
         <section className="hero-section animate-fade-in">
           <div className="container">
