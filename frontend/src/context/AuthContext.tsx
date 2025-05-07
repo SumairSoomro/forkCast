@@ -7,7 +7,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
 
   useEffect(() => {
     const token = localStorage.getItem("access_token");
-    setIsLoggedIn(!!token);
+    setIsLoggedIn(token !== null);
   }, []);
 
   return (

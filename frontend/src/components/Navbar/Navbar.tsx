@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu } from 'lucide-react';
+//import { Menu } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
 import './Navbar.css';
@@ -36,7 +36,6 @@ const Navbar: React.FC<NavbarProps> = ({ brand, items }) => {
       <div className="navbar-container">
         <div className="navbar-brand">{brand}</div>
 
-        {/* Desktop Navigation */}
         <div className="navbar-links">
           {items.map((item) => (
             <button
@@ -59,13 +58,7 @@ const Navbar: React.FC<NavbarProps> = ({ brand, items }) => {
             </button>
           )}
         </div>
-
-        {/* Mobile Menu Button */}
-        <div className="navbar-mobile">
-          <button className="navbar-mobile-button">
-            <Menu size={28} />
-          </button>
-        </div>
+      
       </div>
     </nav>
   );
