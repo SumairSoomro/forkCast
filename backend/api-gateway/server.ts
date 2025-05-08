@@ -49,12 +49,12 @@ app.use(
 );
 
 // Top Recipes Service
+// Top Recipes Service
 app.use(
   "/topRec",
   createProxyMiddleware({
-    target: "http://localhost:4005",
+    target: "http://localhost:4005/topRec/top-favorited",
     changeOrigin: true,
-    pathRewrite: { "^/topRec": "" },
   })
 );
 
