@@ -19,38 +19,53 @@ app.use(
 );
 
 // Recipes Service
-app.use(
-  "/recipes",
+app.use( //post doesn't work
+  "/recipes-create",
   createProxyMiddleware({
-    target: "http://localhost:4002",
-    changeOrigin: true,
-    pathRewrite: { "^/recipes": "" },
+    target: "http://localhost:4002/recipes/create",
+    changeOrigin: true
   })
 );
 
-// Ingredients Service
-app.use(
-  "/ingredients",
+
+app.use( //post doesn't work
+  "/recipes-get",
   createProxyMiddleware({
-    target: "http://localhost:4003",
+    target: "http://localhost:4002/recipes/get",
+    changeOrigin: true
+  })
+)
+// Ingredients Service
+app.use( //works
+  "/ingredients-get",
+  createProxyMiddleware({
+    target: "http://localhost:4003/ingredients/getall",
     changeOrigin: true,
-    pathRewrite: { "^/ingredients": "" },
   })
 );
+
+app.post(//post doesn't work
+  "/ingredients-add",
+  createProxyMiddleware({
+    target: "http://localhost:4003/ingredients/add",    // Base URL only
+    changeOrigin: true,
+    // pathRewrite: {
+    //   "^/ingredients-add": "/ingredients/add"  // Explicit path rewriting
+    // }
+  })
+)
 
 // Tags Service
-app.use(
+app.use( //works
   "/tags",
   createProxyMiddleware({
-    target: "http://localhost:4004",
+    target: "http://localhost:4004/tags/getall",
     changeOrigin: true,
-    pathRewrite: { "^/tags": "" },
   })
 );
 
 // Top Recipes Service
-// Top Recipes Service
-app.use(
+app.use( //works
   "/topRec",
   createProxyMiddleware({
     target: "http://localhost:4005/topRec/top-favorited",

@@ -186,7 +186,7 @@ const CreateRecipe: React.FC = () => {
         unit,
       }));
 
-      const response = await fetch("http://localhost:4000/recipes/create", {
+      const response = await fetch("http://localhost:4002/recipes/create", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

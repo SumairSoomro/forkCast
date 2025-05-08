@@ -4,7 +4,7 @@ import {addIngredient, getAllIngredients} from "../controllers/ingredients.contr
 
 const router = express.Router();
 
-router.post("/add",authenticate,addIngredient);
+router.post("/add",addIngredient);
 router.get("/getall", getAllIngredients);
 
 export default router;
