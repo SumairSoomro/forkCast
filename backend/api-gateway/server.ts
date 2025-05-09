@@ -6,10 +6,10 @@ import axios, { AxiosError } from 'axios';
 dotenv.config();
 const app = express();
 const PORT = 4000;
-const AUTH_SERVICE_URL = 'http://localhost:4001/auth';
+const AUTH_SERVICE_URL = 'http://auth-service:4001/auth';
 const INGREDIENTS_SERVICE_URL = 'http://localhost:4003/ingredients';
 const RECIPES_SERVICE_URL = 'http://localhost:4002/recipes';
-const TAGS_SERVICE_URL = 'http://localhost:4004/tags';
+const TAGS_SERVICE_URL = 'http://tags-service:4004/tags';
 const TOP_RECIPES_SERVICE_URL = 'http://localhost:4005/topRec';
 
 // Middleware

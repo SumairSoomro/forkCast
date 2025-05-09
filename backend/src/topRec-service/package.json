@@ -2,8 +2,8 @@
   "name": "toprec-service",
   "version": "1.0.0",
   "scripts": {
-    "start": "ts-node server.ts",
-    "dev": "nodemon server.ts"
+    "build": "tsc",
+    "start": "node dist/server.js"
   },
   "dependencies": {
     "express": "^4.18.2",

@@ -1,5 +1,5 @@
 import express from "express";
-import {authenticate} from "../../middleware/authenticate";
+import {authenticate} from "../middleware/authenticate";
 import {addTag, getAllTags} from "../controllers/tags.controller";
 
 const router = express.Router();

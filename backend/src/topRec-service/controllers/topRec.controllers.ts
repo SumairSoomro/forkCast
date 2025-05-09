@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { supabase } from "../../config/supabaseClient";
+import { supabase } from "../../tags-service/config/supabaseClient";
 
 let cachedTen: { data: any; expires: number } | null = null;
 const TTL = 60 * 60 * 1000;                    

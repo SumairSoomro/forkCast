@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { supabase } from "../../config/supabaseClient";
+import { supabase } from "../config/supabaseClient";
 
 export const signup = async (req: Request, res: Response) => {
   const { email, password, username } = req.body;

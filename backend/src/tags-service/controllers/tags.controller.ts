@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { supabase } from "../../config/supabaseClient";
+import { supabase } from "../config/supabaseClient";
 
 export const addTag = async (req: Request, res: Response) => {
     const { name } = req.body;

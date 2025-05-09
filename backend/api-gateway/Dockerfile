@@ -7,8 +7,6 @@ RUN npm install
 
 COPY . .
 
-# Compile TypeScript
-RUN npm run build
+EXPOSE 4000
 
-EXPOSE 4004
-CMD ["npm", "start"]
+CMD ["npx", "ts-node", "server.ts"]
