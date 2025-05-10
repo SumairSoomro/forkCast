@@ -1,0 +1,66 @@
+version: "3.8"
+
+services:
+  auth-service:
+    build:
+      context: ./backend/src/auth-service
+    container_name: auth-service
+    ports:
+      - "4001:4001"
+    env_file:
+      - ./backend/src/auth-service/.env
+
+  recipes-service:
+    build:
+      context: ./backend/src/recipes-service
+    container_name: recipes-service
+    ports:
+      - "4002:4002"
+    env_file:
+      - ./backend/src/recipes-service/.env
+
+  ingredients-service:
+    build:
+      context: ./backend/src/ingredients-service
+    container_name: ingredients-service
+    ports:
+      - "4003:4003"
+    env_file:
+      - ./backend/src/ingredients-service/.env
+
+  tags-service:
+    build:
+      context: ./backend/src/tags-service
+    container_name: tags-service
+    ports:
+      - "4004:4004"
+    env_file:
+      - ./backend/src/tags-service/.env
+
+  toprec-service:
+    build:
+      context: ./backend/src/toprec-service
+    container_name: toprec-service
+    ports:
+      - "4005:4005"
+    env_file:
+      - ./backend/src/toprec-service/.env
+
+  api-gateway:
+    build:
+      context: ./backend/api-gateway
+    container_name: api-gateway
+    ports:
+      - "4000:4000"
+    env_file:
+      - ./backend/api-gateway/.env
+    depends_on:
+      - auth-service
+      - tags-service
+      - recipes-service
+      - toprec-service
+      - ingredients-service
+
+networks:
+  default:
+    driver: bridge
