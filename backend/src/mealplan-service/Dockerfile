@@ -10,5 +10,5 @@ COPY . .
 # Compile TypeScript
 RUN npm run build
 
-EXPOSE 4003
+EXPOSE 4006
 CMD ["npm", "start"]

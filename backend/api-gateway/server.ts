@@ -11,6 +11,7 @@ const INGREDIENTS_SERVICE_URL = 'http://localhost:4003/ingredients';
 const RECIPES_SERVICE_URL = 'http://localhost:4002/recipes';
 const TAGS_SERVICE_URL = 'http://tags-service:4004/tags';
 const TOP_RECIPES_SERVICE_URL = 'http://localhost:4005/topRec';
+const MEAL_PLAN_URL = 'http://mealplan-service:4006/mealplan';
 
 // Middleware
 app.use(cors());
@@ -134,6 +135,23 @@ app.get('/api/topRec/top-favorited', async (req: Request, res: Response) => {
 
 app.get('/topRec/top-favorited', async (req: Request, res: Response) => {
   await forwardRequest(req, res, TOP_RECIPES_SERVICE_URL, '/top-favorited');
+});
+
+// Meal Plan Routes
+app.get('/api/mealplan', async (req: Request, res: Response) => {
+  await forwardRequest(req, res, MEAL_PLAN_URL, '/');
+});
+
+app.post('/api/mealplan/add', validateRequest, async (req: Request, res: Response) => {
+  await forwardRequest(req, res, MEAL_PLAN_URL, '/add');
+});
+
+app.put('/api/mealplan/edit', validateRequest, async (req: Request, res: Response) => {
+  await forwardRequest(req, res, MEAL_PLAN_URL, '/edit');
+});
+
+app.post('/api/mealplan/delete', validateRequest, async (req: Request, res: Response) => {
+  await forwardRequest(req, res, MEAL_PLAN_URL, '/delete');
 });
 
 // Health check

@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Calendar from "../../components/Calendar/Calendar";
 import Footer from "../../components/Footer/Footer";
-import { fetchMealPlan } from "../../mocks/mockAPI";
 import { DaySchedule } from "../../mocks/mockTypes";
 import "./Calendar.css";
 
@@ -12,13 +11,31 @@ const CalendarPage: React.FC = () => {
   const [days, setDays] = useState<DaySchedule[]>([]);
 
   useEffect(() => {
-    const getMealPlan = async () => {
-      const data = await fetchMealPlan();
-      setDays(data);
+    const fetchMealPlan = async () => {
+      try {
+
+        // Make an API call to the backend
+        const response = await fetch("http://localhost:4000/mealplan", {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${localStorage.getItem("access_token")}`, // Include the access token
+          },
+        });
+
+        if (!response.ok) {
+          throw new Error(`Failed to fetch meal plan: ${response.statusText}`);
+        }
+
+        const data: DaySchedule[] = await response.json();
+        setDays(data);
+      } catch (err) {
+        console.error("Error fetching meal plan:", err);
+      }
     };
 
-    getMealPlan();
-  }, [])
+    fetchMealPlan();
+  }, []);
 
   const navItems = [
     { label: "Homepage", path: "/homepage" },
