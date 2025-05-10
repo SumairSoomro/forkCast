@@ -15,7 +15,7 @@ const CalendarPage: React.FC = () => {
       try {
 
         // Make an API call to the backend
-        const response = await fetch("http://localhost:4000/mealplan", {
+        const response = await fetch("http://localhost:4006/mealplan/get", {
           method: "GET",
           headers: {
             "Content-Type": "application/json",

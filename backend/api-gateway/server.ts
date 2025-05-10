@@ -138,8 +138,8 @@ app.get('/topRec/top-favorited', async (req: Request, res: Response) => {
 });
 
 // Meal Plan Routes
-app.get('/api/mealplan', async (req: Request, res: Response) => {
-  await forwardRequest(req, res, MEAL_PLAN_URL, '/');
+app.get('/api/mealplan/get', async (req: Request, res: Response) => {
+  await forwardRequest(req, res, MEAL_PLAN_URL, '/get');
 });
 
 app.post('/api/mealplan/add', validateRequest, async (req: Request, res: Response) => {
