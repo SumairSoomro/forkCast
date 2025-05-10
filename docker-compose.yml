@@ -46,6 +46,19 @@ services:
     env_file:
       - ./backend/src/toprec-service/.env
 
+  mealplan-service:
+    build:
+      context: ./backend/src/mealplan-service
+    container_name: mealplan-service
+    ports:
+      - "4006:4006"
+    env_file:
+      - ./backend/src/mealplan-service/.env
+    depends_on:
+      - auth-service
+      - recipes-service
+      - ingredients-service
+
   api-gateway:
     build:
       context: ./backend/api-gateway
@@ -60,6 +73,7 @@ services:
       - recipes-service
       - toprec-service
       - ingredients-service
+      - mealplan-service
 
 networks:
   default:
