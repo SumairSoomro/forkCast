@@ -1,5 +1,6 @@
 import { recipes } from "./mocks/mockData";
 import { Recipe } from "./mocks/mockTypes";
+import fs from "fs/promises";
 
 
 
@@ -48,5 +49,32 @@ const getRecipesByIds = async () => {
     }
 }
 
+const getAllRecipes = async () => {
+  try {
+    // Fetch all recipes from the backend
+    const response = await fetch("http://localhost:4000/recipes/getAll", {
+      method: "POST", // Matches the route in recipes.routes
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+
+    if (!response.ok) {
+      throw new Error(`Failed to fetch recipes: ${response.statusText}`);
+    }
+
+    const data = await response.json();
+
+    // Save the data to a JSON file
+    await fs.writeFile("recipes.json", JSON.stringify(data, null, 2), "utf-8");
+    console.log("Recipes data has been saved to recipes.json");
+  } catch (error) {
+    console.error("Error fetching or saving recipes:", error);
+  }
+};
+
+// Call the function
+
 // addRecipes();
-getRecipesByIds();
+// getRecipesByIds();
+getAllRecipes();

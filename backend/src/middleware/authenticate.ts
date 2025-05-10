@@ -13,23 +13,23 @@ declare global {
 
 export const authenticate = async (req: Request, res: Response, next: NextFunction) => {
     // Debug info - log headers to see what's being sent
-    console.log("Auth Headers:", req.headers.authorization);
+    // console.log("Auth Headers:", req.headers.authorization);
     
     const authHeader = req.headers.authorization;
     
     if (!authHeader) {
-      console.log("No authorization header found");
+      // console.log("No authorization header found");
       return res.status(401).json({ error: "Missing authorization header" });
     }
     
     const parts = authHeader.split(" ");
     if (parts.length !== 2 || parts[0] !== 'Bearer') {
-      console.log("Invalid authorization format:", authHeader);
+      // console.log("Invalid authorization format:", authHeader);
       return res.status(401).json({ error: "Invalid authorization format. Use 'Bearer TOKEN'" });
     }
     
     const token = parts[1];
-    console.log("Token extracted:", token.substring(0, 10) + "...");  // Log just the beginning for security
+    // console.log("Token extracted:", token.substring(0, 10) + "...");  // Log just the beginning for security
     
     try {
       const { data, error } = await supabase.auth.getUser(token);
@@ -48,7 +48,7 @@ export const authenticate = async (req: Request, res: Response, next: NextFuncti
       req.user = data.user;
       next();
     } catch (error) {
-      console.log("Exception during authentication:", error);
+      // console.log("Exception during authentication:", error);
       return res.status(500).json({ error: "Authentication error" });
     }
 };

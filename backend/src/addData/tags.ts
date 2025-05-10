@@ -63,3 +63,4 @@ const addTags = async () => {
   // Call the function
 //   addTags();
 getAllTags();
+export{}

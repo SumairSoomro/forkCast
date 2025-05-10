@@ -16,6 +16,6 @@ router.post("/delete",authenticate, deleteMealPlanEntry);
 
 router.put("/edit",authenticate, editMealPlanEntry);
 
-router.get("/",authenticate, getUserMealPlan);
+router.get("/get",authenticate, getUserMealPlan);
 
 export default router;

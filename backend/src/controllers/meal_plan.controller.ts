@@ -2,69 +2,78 @@ import { Request, Response } from "express";
 import { supabase } from "../config/supabaseClient";
 
 export const addMealPlanEntries = async (req: Request, res: Response) => {
-    const mealPlanEntries = req.body; // Expecting an array of meal plan objects
-  
-    if (!Array.isArray(mealPlanEntries) || mealPlanEntries.length === 0) {
-      return res.status(400).json({ error: "Invalid or empty meal plan data" });
+  const mealPlanEntries = req.body; // Expecting an array of meal plan objects
+  const user_id = req.user!.id; // Expecting user_id from the authenticated user
+
+  if (!Array.isArray(mealPlanEntries) || mealPlanEntries.length === 0) {
+    return res.status(400).json({ error: "Invalid or empty meal plan data" });
+  }
+
+  const entriesWithUserId = mealPlanEntries.map((entry: any) => ({
+    user_id, 
+    recipe_id: entry.recipe_id,
+    time: entry.time,
+  }));
+
+  try {
+    const { data, error } = await supabase
+      .from("meal_plan")
+      .insert(entriesWithUserId);
+    if (error) {
+      return res.status(400).json({ error: error.message });
     }
-  
-    try {
-      const { data, error } = await supabase
-        .from("meal_plan")
-        .insert(mealPlanEntries);
-  
-      if (error) {
-        return res.status(400).json({ error: error.message });
-      }
-  
-      return res.status(201).json({ message: "Meal plan entries added successfully", data });
-    } catch (err) {
-      console.error("Error adding meal plan entries:", err);
-      return res.status(500).json({ error: "Internal server error. Meal plan entries not added." });
-    }
+
+    return res.status(201).json({ message: "Meal plan entries added successfully", data });
+  } catch (err) {
+    console.error("Error adding meal plan entries:", err);
+    return res.status(500).json({ error: "Internal server error. Meal plan entries not added." });
+  }
 };
 
 export const deleteMealPlanEntry = async (req: Request, res: Response) => {
-    const { id } = req.body; // Expecting the unique id of the meal plan entry
+  const { meal_plan_id } = req.body; // Expecting the unique meal_plan_id of the meal plan entry
+  const user_id = req.user!.id;
+
+  if (!meal_plan_id) {
+    return res.status(400).json({ error: "Missing required field: meal_plan_id" });
+  }
+
+  try {
+    const { error } = await supabase
+      .from("meal_plan")
+      .delete()
+      .eq("meal_plan_id", meal_plan_id) 
+      .eq("user_id", user_id); 
+
+    if (error) {
+      return res.status(400).json({ error: error.message });
+    }
+
+    return res.status(200).json({ message: "Meal plan entry deleted successfully" });
+  } catch (err) {
+    console.error("Error deleting meal plan entry:", err);
+    return res.status(500).json({ error: "Internal server error. Meal plan entry not deleted." });
+  }
+};
+
+  export const editMealPlanEntry = async (req: Request, res: Response) => {
+    const { meal_plan_id, recipe_id, time } = req.body;
+    const user_id = req.user!.id; 
   
-    if (!id) {
-      return res.status(400).json({ error: "Missing required field: id" });
+    if (!meal_plan_id || (!recipe_id && !time)) {
+      return res.status(400).json({ error: "Missing required fields: meal_plan_id and at least one of recipe_id or time" });
     }
   
     try {
-      const { error } = await supabase
-        .from("meal_plan")
-        .delete()
-        .eq("id", id);
-  
-      if (error) {
-        return res.status(400).json({ error: error.message });
-      }
-  
-      return res.status(200).json({ message: "Meal plan entry deleted successfully" });
-    } catch (err) {
-      console.error("Error deleting meal plan entry:", err);
-      return res.status(500).json({ error: "Internal server error. Meal plan entry not deleted." });
-    }
-  };
-
-export const editMealPlanEntry = async (req: Request, res: Response) => {
-
-    const { id, recipe_id, timestamp } = req.body;
-  
-    if (!id || (!recipe_id && !timestamp)) {
-      return res.status(400).json({ error: "Missing required fields: id and at least one of recipe_id or timestamp" });
-    }
-  
-    try {
-      const updates: { recipe_id?: string; timestamp?: string } = {};
+      const updates: { recipe_id?: string; time?: string } = {};
       if (recipe_id) updates.recipe_id = recipe_id;
-      if (timestamp) updates.timestamp = timestamp;
+      if (time) updates.time = time;
   
       const { data, error } = await supabase
         .from("meal_plan")
         .update(updates)
-        .eq("id", id);
+        .eq("meal_plan_id", meal_plan_id)
+        .eq("user_id", user_id);
   
       if (error) {
         return res.status(400).json({ error: error.message });
@@ -78,7 +87,7 @@ export const editMealPlanEntry = async (req: Request, res: Response) => {
   };
 
   export const getUserMealPlan = async (req: Request, res: Response) => {
-    const { user_id } = req.params; // Expecting user_id as a URL parameter
+    const user_id  = req.user!.id; // Expecting user_id as a URL parameter
     const { start, end } = req.query; // Expecting start and end timestamps as query parameters
   
     if (!user_id) {
