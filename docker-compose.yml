@@ -1,80 +1,87 @@
-version: "3.8"
+version: "3.8" # Specifies the Docker Compose file format version. Version 3.8 is compatible with Docker Engine 19.03.0 and later.
 
 services:
+  # Authentication Service
   auth-service:
     build:
-      context: ./backend/src/auth-service
-    container_name: auth-service
+      context: ./backend/src/auth-service # Path to the Dockerfile for the auth-service.
+    container_name: auth-service # Name of the container for the auth-service.
     ports:
-      - "4001:4001"
+      - "4001:4001" # Maps port 4001 on the host to port 4001 in the container.
     env_file:
-      - ./backend/src/auth-service/.env
+      - ./backend/src/auth-service/.env # Loads environment variables from the specified .env file.
 
+  # Recipes Service
   recipes-service:
     build:
-      context: ./backend/src/recipes-service
-    container_name: recipes-service
+      context: ./backend/src/recipes-service # Path to the Dockerfile for the recipes-service.
+    container_name: recipes-service # Name of the container for the recipes-service.
     ports:
-      - "4002:4002"
+      - "4002:4002" # Maps port 4002 on the host to port 4002 in the container.
     env_file:
-      - ./backend/src/recipes-service/.env
+      - ./backend/src/recipes-service/.env # Loads environment variables from the specified .env file.
 
+  # Ingredients Service
   ingredients-service:
     build:
-      context: ./backend/src/ingredients-service
-    container_name: ingredients-service
+      context: ./backend/src/ingredients-service # Path to the Dockerfile for the ingredients-service.
+    container_name: ingredients-service # Name of the container for the ingredients-service.
     ports:
-      - "4003:4003"
+      - "4003:4003" # Maps port 4003 on the host to port 4003 in the container.
     env_file:
-      - ./backend/src/ingredients-service/.env
+      - ./backend/src/ingredients-service/.env # Loads environment variables from the specified .env file.
 
+  # Tags Service
   tags-service:
     build:
-      context: ./backend/src/tags-service
-    container_name: tags-service
+      context: ./backend/src/tags-service # Path to the Dockerfile for the tags-service.
+    container_name: tags-service # Name of the container for the tags-service.
     ports:
-      - "4004:4004"
+      - "4004:4004" # Maps port 4004 on the host to port 4004 in the container.
     env_file:
-      - ./backend/src/tags-service/.env
+      - ./backend/src/tags-service/.env # Loads environment variables from the specified .env file.
 
+  # Top Recipes Service
   toprec-service:
     build:
-      context: ./backend/src/toprec-service
-    container_name: toprec-service
+      context: ./backend/src/toprec-service # Path to the Dockerfile for the toprec-service.
+    container_name: toprec-service # Name of the container for the toprec-service.
     ports:
-      - "4005:4005"
+      - "4005:4005" # Maps port 4005 on the host to port 4005 in the container.
     env_file:
-      - ./backend/src/toprec-service/.env
+      - ./backend/src/toprec-service/.env # Loads environment variables from the specified .env file.
 
+  # Meal Plan Service
   mealplan-service:
     build:
-      context: ./backend/src/mealplan-service
-    container_name: mealplan-service
+      context: ./backend/src/mealplan-service # Path to the Dockerfile for the mealplan-service.
+    container_name: mealplan-service # Name of the container for the mealplan-service.
     ports:
-      - "4006:4006"
+      - "4006:4006" # Maps port 4006 on the host to port 4006 in the container.
     env_file:
-      - ./backend/src/mealplan-service/.env
+      - ./backend/src/mealplan-service/.env # Loads environment variables from the specified .env file.
     depends_on:
-      - auth-service
-      - recipes-service
-      - ingredients-service
+      - auth-service # Ensures the auth-service starts before the mealplan-service.
+      - recipes-service # Ensures the recipes-service starts before the mealplan-service.
+      - ingredients-service # Ensures the ingredients-service starts before the mealplan-service.
 
+  # API Gateway
   api-gateway:
     build:
-      context: ./backend/api-gateway
-    container_name: api-gateway
+      context: ./backend/api-gateway # Path to the Dockerfile for the API Gateway.
+    container_name: api-gateway # Name of the container for the API Gateway.
     ports:
-      - "4000:4000"
+      - "4000:4000" # Maps port 4000 on the host to port 4000 in the container.
     env_file:
-      - ./backend/api-gateway/.env
+      - ./backend/api-gateway/.env # Loads environment variables from the specified .env file.
     depends_on:
-      - auth-service
-      - tags-service
-      - recipes-service
-      - toprec-service
-      - ingredients-service
-      - mealplan-service
+      - auth-service # Ensures the auth-service starts before the API Gateway.
+      - tags-service # Ensures the tags-service starts before the API Gateway.
+      - recipes-service # Ensures the recipes-service starts before the API Gateway.
+      - toprec-service # Ensures the toprec-service starts before the API Gateway.
+      - ingredients-service # Ensures the ingredients-service starts before the API Gateway.
+      - mealplan-service # Ensures the mealplan-service starts before the API Gateway.
 
 networks:
   default:
-    driver: bridge
+    driver: bridge # Specifies the default network driver as "bridge".
